@@ -92,7 +92,8 @@ $('a#scrollToBottom').click(function(){
 $('html, body, .content').animate({scrollTop: $(document).height()}, 300);
 return false;
 });
-}) 
+})
+/*
 //幻灯
 var slider = new Swipe(document.getElementById('slider'), {
       callback: function(e, pos) {
@@ -103,8 +104,13 @@ var slider = new Swipe(document.getElementById('slider'), {
         bullets[pos].className = 'on';
 
       }
-    }),
+    })
+*/
+//lance: after change, jquery mobile can be added in
+if(document.getElementById('position')){
     bullets = document.getElementById('position').getElementsByTagName('em');
+}
+
 function view_a(a) {
     for(var i=1;i<=4;i++){
 		document.getElementById('box_a' + i).style.display = 'none';

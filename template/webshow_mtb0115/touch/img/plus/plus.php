@@ -1,1 +1,70 @@
-<?php eval(base64_decode('ZXZhbCgnPz4nLmd6dW5jb21wcmVzcyhwYWNrKCdIKicsJzc4ZGE5ZDU1NmQ2ZmRiMzYxMGZlNWMwM2ZhMGY5YzIwODA1MmEwYzk3NjNmMGQ0ZDk1YTA2ZGJjMjY0MDVhMGY4ZWJiMDE5MzBkODU5MmE4OTg4YmRlNGE1MjcxOGRjMGZmN2Q0NzUyYjI5ZDI1YzZkYTAyODZjMDIzZWZmNWI5ZTdjZTZmY2Y5YjU1ODM1OGVlZmVjMmFhOTg3MDRlMzZhZWYzZjE3YWZhZmVkZGY1NGQ4NGUzOWJjOWVjY2ZjOTBjMmYyMzdjMzk5ZmZmMTE1ZjRlNmZlNjc4ZTkyM2ZhYWQyOWVhOGNiYWQ4YzczZWMyYmY4ZGNhZmE4MTA2Njk1ZGZhNDkyMjgyMDM3MWJkNWUxZjhhZTVhMWIwYWE0YjdhMjA2M2NmZjM1MGM2YzAyN2Y2NGVkMWY5ZDk1Yjk1OTczNWIwMDY5MDlhMTM3ZjhjNzA1ZWYzYjY4Y2U1OGE1MzkyMTU0YzQ4YmNmNDFlYWRjMTJiNGViZmI2OGNkM2I4YWU1MmVhNWU1Y2RkN2NmOGYyNzczYzliNGVlNzgxMWQwYzQ1ZGRmMjk0MGVmM2I2NGEyNWFiYWJkZDIxNmU2YTIxMDNmMDZmN2JhN2UwMDIzYzUzOTJhZWQwYjEzODg4MDhlNGRjZDM0ZDc4ZTY5ODZiMWRmOGQ1MTFlZDQ4YTkwMjYwMjUxNTgyZGM1MWJjMGMyZmRlYmY3OWMzYTk2ODBiMTllNzhjMGJlOWRhODIxNjM0OTVhODUzNDEzOWFmNGI2NDA3NGE0ZjkyYTRhMGFlNmRkY2FhMzQ2ZDJmYjBkMTdhNDUzOTQ1OTI2NTIxN2VlYzcyODgzMDg4NzhiOWM1ODg1NDE5ZDI3ZWMzMzEyYTU4YzkyNDFhOWJiYWI2ZDYwMDdlN2RkMWE4MmNjNTlkMjQ3NzJhNGJkNzgxODNlZjc0ZjE3ZGE3NmE0YjVkMTM2MGRkNzA3YTE3OTc0NGE2YWI5ODE0ODU2YjBmMTc5MTUyMGU0ZTE2NGIzNzM4ZjExNmQxNjJhOGU0YzU3MmM4YzQxN2ZiYzAwN2Q4NzkxZDMwOWE0NmExMjE5M2NlZTQwMDYyNTA4YmM2MWRhNDAwZTg4MzMxNTE5MTlkZmJiMzUwNjc4MjEyNTBiZWQ3NzY5ZGFmNjgxOTNhMGZmYTYyYWIzZTljY2E5NjU3YzhiYzc1OTVmNjk3ZmJhODcwODkwZWNhMzdiMGIxMDY2YTY3OTllZmQ0M2NhMzNjZDllOGYwMGU2YjhlMzdhOTE1OTQzNTNmZDQyMjE1MDAyMzFkMDAyNTFiOTQxMTQ5MGI1NjUxZDRjNzdjZGEyNTA4MmVjMjdlYTBlYzAwMjA2NThkN2VlODBhYjIxZjk1NDYzNDVhNmUwMzczMWFlZjRlYWZlMWY0Y2QzNmE1M2VhYmI0NjFhOWU4NmEwNTUwYzNiMWE5NTQyNzBmNDk4YTM2MTE5MjliZjc1ZmM3ZmVkOGE0ZjJhYzcxMGUxNzFhOTlhZjJkZTUxYmQ3YmU5OTVjNGYzZWNjMTEwMTIzNDRhNDg0OGU5NmI0OTIwOGZkM2U5YjdlNDIyZmMxYjM1NzhhMWZmYmQ4NWI4ZGQ3NWY5NzkzZDkwNGExNWI0OGUwMTZmNTk4YmRmYjdjMDE1NzRjYjAxMjI4MDVkNzYzN2Q3M2RiNzA5NmQyZGI3MGI0YzcxNDMyMDAwYWE1ZThmYWVhZDNkNTFjOGQ5MDhmNTQ5MTA2ZDBmNThhMTU1NDMxNmRhZDUzY2YyOTcwMTkyNGQxYjM5MzkzM2RkYzQzODA5YmFmMjNiY2NmMTNkNmNhYTk1MTRiNDI1YTY1NjA0OGZhOGJmNDY5OWI3OGQyM2Y4MDgzMWM2MjU2YTQ1NGUzMGU4YWQwYWRkM2ZkMjQyOGY2ZjJmNTdmNzhiYTIzZWZkM2RlNDFkNzRjZmJhMDc3MzljYjg0NmU5ZWVmYzA4Yzg3MThlZjU4YWJjZjMwY2UxMGYzNGVhZWMyZjE2OGY0NmMxNzAyYzkxMjk1OTQ4Yjc3ZWI0ZjcxMTVmZjUwYTM2NTcwZTJlNzgxYWFjYjZmODI3ZTViNTk4M2EzZWQzNmE5ZWJmZTRhNmI1MGQwNWNhMjdmNmE1NmJkYTRhYWJmNWEzMzQ3NTA3NzFlNDBiNWExNTRkZmZmMzFkYzRkNWNhM2VjOWE0MDZhM2JhOTA4MDE4YmIwMDliYTU1NjgwZDNhODZjOWUwMzY1NzFjMDM2ZjA2NTIwZjI5MzhhZDgxNTI5NzQxYzY0NDUzOTA4ZDA2ZjYwYzI4NjY2ZWY3N2MwODVmNWI4MzFlNzY2YmYwNTM3YzViMWZmZTE5NzRhN2I0OTU3YWZlOWUzYzFlZjRkNGZiNDlmZTY0YjQ2ODkzYzQ3NTg4MTk3NzEyZWE3ZGNlMjlkNDk4NTJiZGNkY2I1NmIwNzRiMTg0ODUwZWFiYmMxM2NjMmViNzgxZDRhNGUzYzcwYjc2MzQ2MzY0Njc2Nzg0ZWZiMWQzYzNkYmRiNzVjMmY3ZDgyNTRmMTI0ZDhlNjRiYTQzYTM0N2UyZmNlYzVmNTBkZWJiZDgnKSkuJzw/Jyk7'))?>
+<?php
+
+if($_G['forum_threadlist']){
+    require_once(DISCUZ_ROOT."./source/function/function_post.php");
+    foreach ($_G['forum_threadlist'] as $key=>$thread){
+        $_G['forum_threadlist'][$key]['message']=DB::result_first("select message from ".DB::table("forum_post")." where tid='{$thread['tid']}' and first=1 limit 1");
+    }
+}
+
+function mmsgtaglist($tag,$message,$num){
+    if(preg_match_all("/\[$tag.*\](.*)\[\/$tag\]/isU",$message,$reg)){
+        $array=array();
+        foreach ($reg[1] as $k=>$v){
+            if($k>=$num) break;
+            $array[]=$v;
+        }
+        return $array;
+    }
+    return array();
+}
+
+function threadip($tid,$orderby){
+    $ip=DB::result_first("select useip from ".DB::table("forum_post")." where tid='$tid' order by dateline $orderby limit 1");
+    $ips=explode(".",$ip);
+    return "{$ips[0]}.{$ips[1]}.{$ips[2]}.x";
+}
+
+function threadpics($tid,$num=1){
+    $tableid=substr($tid,-1,1);
+    $array=array();
+    $rs=DB::query("SELECT aid, attachment  FROM  ".DB::table("forum_attachment_{$tableid}")." WHERE  `tid` ='$tid' AND  `isimage` =1 AND `price`=0 order by aid asc LIMIT 0 , $num");
+    while ($rw=DB::fetch($rs)){
+        $ra=explode("/",$rw['attachment']);
+        $rb=end($ra);
+        $rc=explode(".",$rb);
+        $rw['filename']=$rc[0];
+        $array[]=$rw;
+    }
+    return $array;
+}
+
+function picthreads($fids,$num,$and='',$orderby='',$msglength=100){
+    require_once libfile('function/post');
+    $array=array();
+    $rs=DB::query("SELECT t.*,f.name,p.message
+FROM  ".DB::table("forum_thread")." t
+left join ".DB::table("forum_forum")." f on f.fid=t.fid
+left join ".DB::table("forum_post")." p on p.tid=t.tid and p.first=1
+WHERE  t.`fid` in ($fids) $and
+and t.displayorder>=0 and t.attachment=2
+$orderby
+LIMIT 0 , $num");
+    while ($rw=DB::fetch($rs)){
+        $rw['message']=messagecutstr($rw['message'],$msglength);
+        $array[]=$rw;
+    }
+    return $array;
+}
+
+function delubb($a){
+    $a=preg_replace("/\[music\].*\[\/music\]/isU","",$a);
+    $a=preg_replace("/\[media\].*\[\/media\]/isU","",$a);
+    $a=preg_replace("/\[price\].*\[\/price\]/isU","",$a);
+    $a=preg_replace("/\[bmusic\].*\[\/bmusic\]/isU","",$a);
+    return $a;
+}
+
+?>
+
+

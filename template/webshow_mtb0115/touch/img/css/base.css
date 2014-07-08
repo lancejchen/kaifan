@@ -68,7 +68,11 @@ a:active {star:expression(this.onFocus=this.blur());}
 .mv_post_main .li_2 .a2 { width:17px; height:17px; background:url(../icon_smilie.png) 0 0 no-repeat;}
 
 
-/*底部全局工具条*/
+/*lance 底部全局工具条*/
+#btoolbar {
+    overflow:auto;
+}
+/*
 #btoolbar { position:fixed; bottom:0; left:0; z-index:9999; width:100%; height:50px;}
 *html #btoolbar { position:absolute;}
 .btool { height:42px; padding:8px 0 0 0; background:#1B1F28; overflow:hidden;}
@@ -83,8 +87,9 @@ a:active {star:expression(this.onFocus=this.blur());}
 	    .btoolft .li3.current3_pm { background:url(../p_icon_3_pm.png) center 0 no-repeat;}
 	.btoolft .li4 { background:url(../p_icon_4.png) center 0 no-repeat;}
 	.btoolft .li5 { background:url(../p_icon_5.png) center 0 no-repeat;}
-	    .btoolft .li1.current, .btoolft .li2.current, .btoolft .li3.current, .btoolft .li4.current, .btoolft .li5.current { background-position:center -80px;}
-
+	    .btoolft .li1_current, .btoolft .li2.current, .btoolft .li3.current, .btoolft .li4.current, .btoolft .li5.current { background-position:center -80px;}
+*/
+.btoolft .li1_current, .btoolft .li2.current, .btoolft .li3.current, .btoolft .li4.current, .btoolft .li5.current { background-position:center -80px;}
 /*顶部全局工具条*/
 #ttoolbar { position:fixed;top:0;left:0;z-index:9999;width:100%;}
 *html, *html body { background-image:url(about:blank);background-attachment:fixed;}  /* 修正IE6振动bug */
@@ -100,15 +105,17 @@ a:active {star:expression(this.onFocus=this.blur());}
 .ttool_r { position:absolute; top:0px; right:0px;}
     .ttool_r a { display:block; float:left; margin-left:8px!important;}
 	.ttool_r .float-open { float:left;}
-	
+	/*lance
 	.ttool_r .a_1 { display:block; width:20px; height:20px; padding:10px 0 0 0; background:url(../m_user.png) center 10px no-repeat; overflow:hidden;}
-    .ttool_r .open-btn { display:block; width:28px; height:31px; margin:0 5px 0 0; position:relative; background:url(../m_nav.png) 0 11px no-repeat; overflow:hidden;} 
+
+    .open-btn { display:block; width:28px; height:31px; margin:0 5px 0 0; position:relative; background:url(../m_nav.png) 0 11px no-repeat; overflow:hidden;}
+
 	    .ttool_r .open-btn em.new { position:absolute; top:9px; right:2px; display:block; width:14px; height:14px; line-height:14px; text-align:center; overflow:hidden; color:#FFF!important; font-size:10px; background:url(../new_tip.png) 0 0 no-repeat; }
     .ttool_r .a_2, .ttool_r .a_3 { display:block; width:21px; height:20px; margin:10px 0 0 0; background:url(../m_post.png) 0 0 no-repeat; overflow:hidden;} 
 	.ttool_r .a_4 { border:1px solid #BCC8DE; color:#BCC8DE; padding:0 3px; height:16px; line-height:16px; border-radius:3px; margin:12px 0 0 0;}
 	.ttool_r .a_5 { border:1px solid #1D78C6; background:#1D78C6; color:#FFF;}
 .ttool_t { position:absolute; top:0px; right:45px;}
-
+*/
     /*会员下拉菜单*/
     #signin_menu { display:none; position:absolute; top:41px; right:5px; padding:5px 0; background: #333;border-radius: 5px; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);}
     .signin_menuv { right:30px!important;}
@@ -251,3 +258,22 @@ a:active {star:expression(this.onFocus=this.blur());}
 .tx_main td { border-bottom:1px solid #EEE;}
 .tx_main .dd2 a { color:#FF5500;}
 .tx_main .dd2 .lit { color:#999;}
+.ui-bar{
+    padding:0px;
+    margin:0px;
+}
+
+.ui-bar #nearby,#createEvent{
+    width:35%;
+}
+
+.ui-bar #backBtn{
+    width:14.9%;
+}
+
+.ui-bar #etc{
+    width:15%;
+    height:100%;
+}
+
+
