@@ -9,35 +9,12 @@
 <!--{/if}-->
 
 <div id="mask" style="display:none;"></div>
-<!--{if !$nofooter}--><!--{/if}-->
 </div>
 
-<script>
-
-</script>
-
-
+</div>
 <div class="b_blank"></div>
-<div data-role="content" data-add-back-btn="true"></div>
-
-<!--{if $_GET['mod'] !== 'viewthread'}-->
-<!--底部导航-->
-<div data-role="footer" id="btoolbar" data-position="fixed" class="ui-bar" data-id="navBarFooter">
-    <div data-role="navbar" id="navgiBar" class="btoolft_update cl" data-iconpos="left">
-        <ul>
-            <li id="backBtn"><!--<a id="backBtnA" href="javascript: history.go(-1);" class="ui-icon-back" data-icon="back">-->
-                <a id="backBtnA" data-rel="back" data-direction="reverse" class="ui-icon-back" data-icon="back">
-
-                <span style="opacity:0;">.</span></a></li>
-            <li id='nearby' class="li1{if $_GET['mod'] == 'guide'}_current{/if}"><a class="ui-btn ui-icon-location {if $_GET['mod']=='forumdisplay'}ui-btn-active ui-state-persist{/if}" data-icon="location" data-inline="true" href="forum.php?mod=forumdisplay&fid=2&mobile=2" data-transition="slide" >附近</a></li>
-            <li id='createEvent' class="li3"><a  href="forum.php?mod=post&action=newthread&fid=2&special=4" class="ui-icon-plus {if $_GET['mod']=='post' && $_GET['special']=='4' }ui-btn-active ui-state-persist{/if} " data-icon="plus" data-transition="slide">发布</a></li>
-            <li id="etc" class="li5{if $_GET['mod'] == 'space'} current{/if} current5">
-                <div id="float-open" class="float-open"><a class="open-btn ui-icon-bars" data-icon="bars" href="javascript:void(0);"><span class="ui-li-count">6</span><span style="opacity:0;">.</span></a></div>
-            </li>
-        </ul>
-    </div>
 </div>
-<!--{/if}-->
+
 
 <div id="float-news" class="float-news">
     <div class="nv_c cl">
@@ -86,7 +63,32 @@
     </div>
 </div>
 
+
+
+<!--{if $_GET['mod'] !== 'viewthread'}-->
+<!--底部导航-->
+<div data-role="footer" id="btoolbar" data-position="fixed" class="ui-bar" data-id="navBarFooter">
+    <div data-role="navbar" id="navgiBar" class="btoolft_update cl" data-iconpos="left">
+        <ul>
+            <li id="backBtn"><!--<a id="backBtnA" href="javascript: history.go(-1);" class="ui-icon-back" data-icon="back">-->
+                <a id="backBtnA" data-rel="back" data-direction="reverse" class="ui-icon-back" data-icon="back">
+
+                <span style="opacity:0;">.</span></a></li>
+            <li id='nearby' class="li1{if $_GET['mod'] == 'guide'}_current{/if}"><a class="ui-btn ui-icon-location {if $_GET['mod']=='forumdisplay'}ui-btn-active ui-state-persist{/if}" data-icon="location" data-inline="true" href="forum.php?mod=forumdisplay&fid=2&mobile=2" data-transition="slide" >附近</a></li>
+            <li id='createEvent' class="li3"><a  href="forum.php?mod=post&action=newthread&fid=2&special=4" class="ui-icon-plus {if $_GET['mod']=='post' && $_GET['special']=='4' }ui-btn-active ui-state-persist{/if} " data-icon="plus" data-transition="slide">发布</a></li>
+            <li id="etc" class="li5{if $_GET['mod'] == 'space'} current{/if} current5">
+                <div id="float-open" class="float-open"><a class="open-btn ui-icon-bars" data-icon="bars" href="javascript:void(0);"><span class="ui-li-count">6</span><span style="opacity:0;">.</span></a></div>
+            </li>
+        </ul>
+    </div>
 </div>
+<!--{/if}-->
+
+
+
+
+
+
 
 <script src="template/webshow_mtb0115/touch/img/js/expand.js"></script>
 <script type="text/javascript">
@@ -96,7 +98,9 @@ window.onload=function(){
 	$('#fastsmilies').html('<table cellspacing="0" cellpadding="0"><tr>' + smilies_fastdata + '</tr></table>');},0);
 };
 <!--{/if}-->
+
 </script>
+</div>
 </body>
 </html>
 <!--{eval updatesession();}-->

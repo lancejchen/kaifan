@@ -816,6 +816,7 @@ function dimplode($array) {
 function libfile($libname, $folder = '') {
 	$libpath = '/source/'.$folder;
 	if(strstr($libname, '/')) {
+        //define $pre and $name
 		list($pre, $name) = explode('/', $libname);
 		$path = "{$libpath}/{$pre}/{$pre}_{$name}";
 	} else {

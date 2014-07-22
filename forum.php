@@ -53,6 +53,7 @@ if(C::app()->var['mod'] == 'group') {
 }
 
 C::app()->cachelist = $cachelist;
+//lance created discuz_application instance, it adds new variables like modcache etc into the application.
 C::app()->init();
 
 

@@ -11,10 +11,13 @@ if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
 define('NOROBOT', TRUE);
-
+//check whether the submit is by a new user.
 cknewuser();
 
+//introduce the credit system.
 require_once libfile('class/credit');
+
+//introduce post functions.
 require_once libfile('function/post');
 
 
@@ -23,6 +26,12 @@ $sortid = intval(getgpc('sortid'));
 $typeid = intval(getgpc('typeid'));
 $special = intval(getgpc('special'));
 
+
+
+//test zone.
+$testid = getgpc('house_info');
+
+
 parse_str($_GET['extra'], $_GET['extra']);
 $_GET['extra'] = http_build_query($_GET['extra']);
 
@@ -30,7 +39,6 @@ $postinfo = array('subject' => '');
 $thread = array('readperm' => '', 'pricedisplay' => '', 'hiddenreplies' => '');
 
 $_G['forum_dtype'] = $_G['forum_checkoption'] = $_G['forum_optionlist'] = $tagarray = $_G['forum_typetemplate'] = array();
-
 
 if($sortid) {
 	require_once libfile('post/threadsorts', 'include');
@@ -312,6 +320,7 @@ if(helper_access::check_module('album') && $_G['group']['allowupload'] && $_G['u
 	}
 }
 
+//lance for made the url.
 $posturl = "action=$_GET[action]&fid=$_G[fid]".
 	(!empty($_G['tid']) ? "&tid=$_G[tid]" : '').
 	(!empty($pid) ? "&pid=$pid" : '').
@@ -354,6 +363,7 @@ function check_allow_action($action = 'allowpost') {
 		showmessage('forum_access_disallow');
 	}
 }
+
 function recent_use_tag() {
 	$tagarray = $stringarray = array();
 	$string = '';
@@ -376,5 +386,9 @@ function recent_use_tag() {
 	}
 	return $tagarray;
 }
+
+
+
+
 
 ?>

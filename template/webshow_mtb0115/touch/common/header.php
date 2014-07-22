@@ -12,10 +12,17 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title><!--{if !empty($navtitle)}-->$navtitle - <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] - <!--{/if}--> {lang waptitle}</title>
     <link rel="stylesheet" href="{STATICURL}css/jquery.mobile-1.4.3.min.css" type="text/css" media="all">
+
+    <link rel="stylesheet" href="{STATICURL}css/jQueryUI/jquery-ui.min.css">
+
+
+
     <link rel="stylesheet" href="{STATICURL}css/icon.css" type="text/css" media="all">
     <link rel="stylesheet" href="{STATICURL}image/mobile/style.css" type="text/css" media="all">
+
 <script src="{STATICURL}js/mobile/jquery-1.8.3.min.js?{VERHASH}"></script>
 
+    <script src="{STATICURL}css/jQueryUI/jquery-ui.js"></script>
 <script src="{STATICURL}js/mobile/jquery.mobile-1.4.3.min.js?{VERHASH}"></script>
 <script type="text/javascript">var STYLEID = '{STYLEID}', STATICURL = '{STATICURL}', IMGDIR = '{IMGDIR}', VERHASH = '{VERHASH}', charset = '{CHARSET}', discuz_uid = '$_G[uid]', cookiepre = '{$_G[config][cookie][cookiepre]}', cookiedomain = '{$_G[config][cookie][cookiedomain]}', cookiepath = '{$_G[config][cookie][cookiepath]}', showusercard = '{$_G[setting][showusercard]}', attackevasive = '{$_G[config][security][attackevasive]}', disallowfloat = '{$_G[setting][disallowfloat]}', creditnotice = '<!--{if $_G['setting']['creditnotice']}-->$_G['setting']['creditnames']<!--{/if}-->', defaultstyle = '$_G[style][defaultextstyle]', REPORTURL = '$_G[currenturl_encode]', SITEURL = '$_G[siteurl]', JSPATH = '$_G[setting][jspath]';</script>
 
@@ -31,6 +38,7 @@
 <body class="bg">
 <!--{eval require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';}-->
 <div data-role="page">
+<div role="main" class="ui-content" style="padding:0px;">
 <div id="mwp">
     <div id="mcontent">
         <div class="t_blank cl"></div>

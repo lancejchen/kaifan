@@ -626,6 +626,7 @@ $lang = array (
   'activity_city' => '所在城市',
   'activity_need_member' => '需要人数',
   'activity_starttime_endtime' => '时间范围',
+  'continuous_event' => '开始之后长期有效',
   'activiy_sort' => '活动类别',
   'consumption_credit' => '消耗积分',
   'input_invalid' => '填写无效',

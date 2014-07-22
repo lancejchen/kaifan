@@ -1,46 +1,46 @@
-<?php exit;?>
+<?php if(!defined('IN_DISCUZ')) exit('Access Denied'); ?>
 
     <!--开饭日期-->
     <div class="spmf cl" id="certainstarttime" data-role="fieldcontainer">
-    <label for="starttimefrom_0">{lang kaifan_startday}<span class="rq">*</span></label>
-    <input type="text" name="starttimefrom" id="starttimefrom_0" class="px" value="$activity[starttimefrom]" tabindex="1" readonly/>
+    <label for="starttimefrom_0">开饭日期<span class="rq">*</span></label>
+    <input type="text" name="starttimefrom" id="starttimefrom_0" class="px" value="<?php echo $activity['starttimefrom'];?>" tabindex="1" readonly/>
     </div>
 
     <!--开饭时间-->
     <div id="kaifan_starttimeBlk" date-role="fieldcontainer">
-        <label for="kaifan_starttime">{lang kaifan_starttime}
-        <span class="rq">*{lang kaifan_timeformat}</span>
+        <label for="kaifan_starttime">开饭时间
+        <span class="rq">*（时间格式如 18:00)</span>
         </label>
         <input type="text" name="kaifan_starttime" id="kaifan_starttime"/>
     </div>
 
     <!--continuous? -->
     <div class="spmf cl" data-role="fieldcontainer">
-        <label for="activitytime">{lang continuous_event}</label>
+        <label for="activitytime">开始之后长期有效</label>
         <input type="checkbox" id="activitytime" name="activitytime" class="pc"  value="1"  />
     </div>
 
     <!--结束时间-->
 <div class="spmf cl" id="endtime" data-role="fieldcontainer" style="display: none" >
-    <label for="kaifan_endday">{lang kaifan_endday}</label>
+    <label for="kaifan_endday">从开饭日期到：</label>
     <input type="text" name="kaifan_endday" id="kaifan_endday" readonly/>
 </div>
 
 <!--
     <div data-role="fieldcontainer">
-    <div id="uncertainstarttime"  {if !$activity['starttimeto']}style="display: none"{/if}>
-    <label for="starttimefrom_1">{lang kaifan_endtime}</label>
-    <input type="date" name="starttimefrom[1]" id="starttimefrom_1" class="px" autocomplete="off" value="$activity[starttimefrom]" tabindex="1" />
+    <div id="uncertainstarttime"  <?php if(!$activity['starttimeto']) { ?>style="display: none"<?php } ?>>
+    <label for="starttimefrom_1">!kaifan_endtime!</label>
+    <input type="date" name="starttimefrom[1]" id="starttimefrom_1" class="px" autocomplete="off" value="<?php echo $activity['starttimefrom'];?>" tabindex="1" />
     <span> ~ </span>
-    <input type="date" autocomplete="off" id="starttimeto" name="starttimeto" class="px" value="{if $activity['starttimeto']}$activity[starttimeto]{/if}" tabindex="1" />
+    <input type="date" autocomplete="off" id="starttimeto" name="starttimeto" class="px" value="<?php if($activity['starttimeto']) { ?><?php echo $activity['starttimeto'];?><?php } ?>" tabindex="1" />
     </div>
     </div>
 -->
 <!--开饭地址-->
 <div data-role="fieldcontainer">
-    <label for="activityplace">{lang activity_space}
+    <label for="activityplace">活动地点
         <span class="rq">*(请放心填写您的详细地址确保参加者能找到您，详细地址只有在您同意对方加入这次约饭时才会显示给对方)</span></label>
-    <input type="text" name="activityplace" id="activityplace" class="px oinf" value="$activity[place]" tabindex="1" />
+    <input type="text" name="activityplace" id="activityplace" class="px oinf" value="<?php echo $activity['place'];?>" tabindex="1" />
 </div>
 
 <!--菜单-->
@@ -61,9 +61,9 @@
 -->
 <!--预计费用-->
 <div data-role="fieldcontainer">
-    <label for="cost">{lang activity_payment} <span class="rq">*</span>
+    <label for="cost">每人花销 <span class="rq">*</span>
        <span> (请填写数字。注意有的参加者可能饭量比较大，类似要求请在费用解释中申明)</span></label>
-    <input type="text" name="cost" id="cost" class="px" value="$activity[cost]" tabindex="1" />
+    <input type="text" name="cost" id="cost" class="px" value="<?php echo $activity['cost'];?>" tabindex="1" />
 </div>
 
 <!--费用解释-->
@@ -144,17 +144,16 @@
     </div>
 
 <!--参加者必填资料-->
-    <!--{if $_G['setting']['activityfield']}-->
+    <?php if($_G['setting']['activityfield']) { ?>
     <div data-role="fieldcontainer">
-    <legend>{lang optional_data} </legend>
+    <legend>必填资料项 </legend>
         <div data-role="controlgroup" data-type="horizontal">
-        <!--{loop $_G['setting']['activityfield'] $key $val}-->
-       <label for="userfield_$key">$val</label>
-        <input type="checkbox" name="userfield[]" id="userfield_$key" class="pc" value="$key" {if $activity['ufield']['userfield'] && in_array($key, $activity['ufield']['userfield'])} checked="checked"{/if} />
-    <!--{/loop}-->
+        <?php if(is_array($_G['setting']['activityfield'])) foreach($_G['setting']['activityfield'] as $key => $val) { ?>       <label for="userfield_<?php echo $key;?>"><?php echo $val;?></label>
+        <input type="checkbox" name="userfield[]" id="userfield_<?php echo $key;?>" class="pc" value="<?php echo $key;?>" <?php if($activity['ufield']['userfield'] && in_array($key, $activity['ufield']['userfield'])) { ?> checked="checked"<?php } ?> />
+    <?php } ?>
         </div>
     </div>
-    <!--{/if}-->
+    <?php } ?>
 
 <!--消耗饭团-->
 <div data-role="fieldcontainer">
@@ -168,7 +167,7 @@
 
     function activityaid_upload(aid, url) {
         $('activityaid_url').value = url;
-        updateactivityattach(aid, url, '{$_G['setting']['attachurl']}forum');
+        updateactivityattach(aid, url, '<?php echo $_G['setting']['attachurl'];?>forum');
     }
     function validator(){
 

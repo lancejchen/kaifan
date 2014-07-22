@@ -14,6 +14,7 @@
 {elseif $_GET[action] == 'reply'}action="forum.php?mod=post&action=reply&fid=$_G[fid]&tid=$_G[tid]&extra=$extra&replysubmit=yes&mobile=2"
 {elseif $_GET[action] == 'edit'}action="forum.php?mod=post&action=edit&extra=$extra&editsubmit=yes&mobile=2" $enctype
 {/if}>
+
 <input type="hidden" name="formhash" id="formhash" value="{FORMHASH}" />
 <input type="hidden" name="posttime" id="posttime" value="{TIMESTAMP}" />
 <!--{if !empty($_GET['modthreadkey'])}--><input type="hidden" name="modthreadkey" id="modthreadkey" value="$_GET['modthreadkey']" /><!--{/if}-->
@@ -49,9 +50,25 @@
 <div class="mv_post_dp mv_post_main">
     <h2><!--{if $_GET[action] == 'edit'}-->{lang edit}<!--{else}-->{lang kaifan_newthread}<!--{/if}--></h2>
     <div class="mv_post_c">
+        <span class="rq">*（带*表示必填）</span>
 
+        <!--activity type-->
+        <div data-role="fieldcontainer">
+            <label for="activityclass">{lang activiy_sort}:<span class="rq">*</span></label>
+            <select id="activityclass" name="activityclass">
+                <!--{if $activitytypelist}-->
+                <!--{loop $activitytypelist $key $val}-->
+                <option value="{$val}">{$val}</option>
+                <!--{/loop}-->
+                <!--{/if}-->
+            </select>
+        </div>
+
+
+        <!--开饭标题-->
         <div data-role="fieldcontainer">
             <!--{if $_GET['action'] != 'reply'}-->
+            <label for="needsubject">开饭标题</label>
             <input type="text" tabindex="1" class="px" id="needsubject" size="30" autocomplete="off" value="$postinfo[subject]" name="subject" placeholder="{lang thread_subject}" fwin="login">
             <!--{else}-->
             RE: $thread['subject']
@@ -59,27 +76,10 @@
             <!--{/if}-->
         </div>
 
-        <!--{if $showthreadsorts}-->
-        <!--分类信息发布-->
-        <!--{if $sortid}-->
-        <input type="hidden" name="sortid" value="$sortid" />
-        <!--{/if}-->
-        <!--{template forum/post_sortoption}-->
-        <!--{elseif $adveditor}-->
-        <div class="mv_post_s">
-            <!--{if $special == 1}--><!--{template forum/post_poll}-->
-            <!--{elseif $special == 3}--><!--{template forum/post_reward}-->
-
-            <!--通过这一行调用post_activity-->
-            <!--{elseif $special == 4}--><!--{template forum/post_activity}-->
-            <!--{elseif $special == 5}--><!--{template forum/post_debate}-->
-            <!--{elseif $specialextra}--><div>$threadplughtml</div>
-            <!--{/if}-->
-        </div>
-        <!--{/if}-->
 
         <div data-role="fieldcontainer" class="li_2 cl">
             <a class="a1" href="javascript:;"><input type="file" name="Filedata" id="filedata" style="width:30px;height:30px;font-size:30px;opacity:0;"/></a>
+            <!-- TODO: cannot upload pics and also smiling function is not functioning -->
             <!--{if $_G[setting][fastsmilies]}-->
             <a class="a2" onclick="$(this).hide(); $('#fastsmiliesdiv_data').fadeIn();"></a>
             <div class="cl"></div>
@@ -93,26 +93,54 @@
         </div>
         <!--{/if}-->
 
+        <!--活动描述-->
         <div data-role="fieldcontainer" class="li_5">
             <textarea class="pt" id="needmessage" tabindex="3" autocomplete="off" id="{$editorid}_textarea" name="$editor[textarea]" cols="80" rows="2"  placeholder="{lang thread_content}" fwin="reply">$postinfo[message]</textarea>
         </div>
 
 
+        <div id="imglist" class="post_imglist cl">
+        </div>
+
+        <!--{if $showthreadsorts}-->
+        <!--分类信息发布-->
+        <!--{if $sortid}-->
+        <input type="hidden" name="sortid" value="$sortid" />
+        <!--{/if}-->
+        <!--{elseif $adveditor}-->
+        <div class="mv_post_s">
+            <!--{if $special == 1}--><!--{template forum/post_poll}-->
+            <!--{elseif $special == 3}--><!--{template forum/post_reward}-->
+
+            <!--通过这一行调用post_activity-->
+
+            <!--{elseif $special == 4}--><!--{template forum/post_activity}-->
+
+            <!--{elseif $special == 5}--><!--{template forum/post_debate}-->
+            <!--{elseif $specialextra}--><div>$threadplughtml</div>
+            <!--{/if}-->
+        </div>
+        <!--{/if}-->
+
         <!--{if $_GET[action] != 'edit' && ($secqaacheck || $seccodecheck)}-->
         <!--{subtemplate common/seccheck}-->
         <!--{/if}-->
 
-        <div id="imglist" class="post_imglist cl">
+        <!--最下面的提交按钮-->
+        <div data-role="controlgroup" data-type="horizontal" >
+        <button id="cancelBtn" data-inline="true" data-icon="delete" style="width:100px !important;background-color:#f2f9fd">取消</button>
+         <!--<a href="./template/webshow_mtb0115/touch/delete.htm" date-rel="dialog" data-transition="pop" data-role="button">delete</a>-->
+        <button id="postsubmit" style="width:100px !important; background-color:#f2f9fd;" data-icon="check" data-inline="true" class="btn_pn <!--{if $_GET[action] == 'edit'}" <!--{else}-->" <!--{/if}-->><span><!--{if $_GET[action] == 'newthread'}-->{lang send_thread}<!--{elseif $_GET[action] == 'reply'}-->{lang join_thread}<!--{elseif $_GET[action] == 'edit'}-->{lang edit_save}<!--{/if}--></span></button>
         </div>
 
-        <button id="postsubmit" class="btn_pn <!--{if $_GET[action] == 'edit'}-->btn_pn_blue" disable="false"<!--{else}-->btn_pn_grey" disable="true"<!--{/if}-->><span><!--{if $_GET[action] == 'newthread'}-->{lang send_thread}<!--{elseif $_GET[action] == 'reply'}-->{lang join_thread}<!--{elseif $_GET[action] == 'edit'}-->{lang edit_save}<!--{/if}--></span></button>
+
         <input type="hidden" name="{if $_GET[action] == 'newthread'}topicsubmit{elseif $_GET[action] == 'reply'}replysubmit{elseif $_GET[action] == 'edit'}editsubmit{/if}" value="yes">
     </div>
 </div>
 </form>
 
-
 <!--{if $_G[setting][fastsmilies]}-->
+<!--js for showing emoction-->
 <script src="data/cache/common_smilies_var.js" type="text/javascript"></script>
 <script type="text/javascript">
     function seditor_insertunit(key, smilies) {
@@ -134,57 +162,13 @@
 </script>
 <!--{/if}-->
 
-<script type="text/javascript">
-    (function() {
-        var needsubject = needmessage = false;
 
-        <!--{if $_GET[action] == 'reply'}-->
-        needsubject = true;
-        <!--{elseif $_GET[action] == 'edit'}-->
-        needsubject = needmessage = true;
-        <!--{/if}-->
+<script type="text/javascript" src="{STATICURL}js/mobile/activityFormCheck.js?{VERHASH}"></script>
 
-        <!--{if $_GET[action] == 'newthread' || ($_GET[action] == 'edit' && $isfirstpost)}-->
-        $('#needsubject').on('keyup input', function() {
-            var obj = $(this);
-            if(obj.val()) {
-                needsubject = true;
-                if(needmessage == true) {
-                    $('.btn_pn').removeClass('btn_pn_grey').addClass('btn_pn_blue');
-                    $('.btn_pn').attr('disable', 'false');
-                }
-            } else {
-                needsubject = false;
-                $('.btn_pn').removeClass('btn_pn_blue').addClass('btn_pn_grey');
-                $('.btn_pn').attr('disable', 'true');
-            }
-        });
-        <!--{/if}-->
-        $('#needmessage').on('keyup input', function() {
-            var obj = $(this);
-            if(obj.val()) {
-                needmessage = true;
-                if(needsubject == true) {
-                    $('.btn_pn').removeClass('btn_pn_grey').addClass('btn_pn_blue');
-                    $('.btn_pn').attr('disable', 'false');
-                }
-            } else {
-                needmessage = false;
-                $('.btn_pn').removeClass('btn_pn_blue').addClass('btn_pn_grey');
-                $('.btn_pn').attr('disable', 'true');
-            }
-        });
-
-        $('#needmessage').on('scroll', function() {
-            var obj = $(this);
-            if(obj.scrollTop() > 0) {
-                obj.attr('rows', parseInt(obj.attr('rows'))+2);
-            }
-        }).scrollTop($(document).height());
-    })();
-</script>
 <script type="text/javascript" src="{STATICURL}js/mobile/ajaxfileupload.js?{VERHASH}"></script>
+
 <script type="text/javascript" src="{STATICURL}js/mobile/buildfileupload.js?{VERHASH}"></script>
+
 <script type="text/javascript">
     var imgexts = typeof imgexts == 'undefined' ? 'jpg, jpeg, gif, png' : imgexts;
     var STATUSMSG = {
@@ -202,10 +186,11 @@
         '10' : '{lang uploadstatusmsg10}',
         '11' : '{lang uploadstatusmsg11}'
     };
+
     var form = $('#postform');
+
     $(document).on('change', '#filedata', function() {
         popup.open('<img src="' + IMGDIR + '/imageloading.gif">');
-
         uploadsuccess = function(data) {
             if(data == '') {
                 popup.open('{lang uploadpicfailed}', 'alert');
@@ -255,38 +240,6 @@
     });
 
     }
-    });
-
-    <!--{if 0 && $_G['setting']['mobile']['geoposition']}-->
-    geo.getcurrentposition();
-    <!--{/if}-->
-    $('#postsubmit').on('click', function() {
-        var obj = $(this);
-        if(obj.attr('disable') == 'true') {
-            return false;
-        }
-
-        obj.attr('disable', 'true').removeClass('btn_pn_blue').addClass('btn_pn_grey');
-        popup.open('<img src="' + IMGDIR + '/imageloading.gif">');
-
-        var postlocation = '';
-        if(geo.errmsg === '' && geo.loc) {
-            postlocation = geo.longitude + '|' + geo.latitude + '|' + geo.loc;
-        }
-
-        $.ajax({
-            type:'POST',
-            url:form.attr('action') + '&geoloc=' + postlocation + '&handlekey='+form.attr('id')+'&inajax=1',
-            data:form.serialize(),
-            dataType:'xml'
-        })
-            .success(function(s) {
-                popup.open(s.lastChild.firstChild.nodeValue);
-            })
-            .error(function() {
-                popup.open('{lang networkerror}', 'alert');
-            });
-        return false;
     });
 
     $(document).on('click', '.del', function() {

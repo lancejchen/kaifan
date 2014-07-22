@@ -734,6 +734,7 @@ class discuz_application extends discuz_base{
 
 
 		$mobile = getgpc('mobile');
+
 		$mobileflag = isset($this->var['mobiletpl'][$mobile]);
 		if($mobile === 'no') {
 			dsetcookie('mobile', 'no', 3600);

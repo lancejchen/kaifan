@@ -72,8 +72,7 @@ class discuz_container extends discuz_base
 			throw new Exception('Class "'.get_class($this->_obj).'" does not have a method named "'.$name.'".');
 		}
 	}
-
-	protected function _call($name, $p, $type) {
+protected function _call($name, $p, $type) {
 		$ret = null;
 		if(isset($this->_obj->methods[$name][$type])) {
 			foreach($this->_obj->methods[$name][$type] as $extend) {
@@ -82,6 +81,7 @@ class discuz_container extends discuz_base
 					switch (count($p)) {
 						case 0:	$ret = $obj->{$extend['method']}();break;
 						case 1:	$ret = $obj->{$extend['method']}($p[0]);break;
+                        //lance: for executing the methods.
 						case 2:	$ret = $obj->{$extend['method']}($p[0], $p[1]);break;
 						case 3:	$ret = $obj->{$extend['method']}($p[0], $p[1], $p[2]);break;
 						case 4:	$ret = $obj->{$extend['method']}($p[0], $p[1], $p[2], $p[3]);break;

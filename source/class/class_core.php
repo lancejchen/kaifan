@@ -110,7 +110,7 @@ class core
 			}
 
 			if(is_file($path.'/'.$filename)) {
-				include $path.'/'.$filename;
+				include_once $path.'/'.$filename;
 				self::$_imports[$key] = true;
 
 				return true;

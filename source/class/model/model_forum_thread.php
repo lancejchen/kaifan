@@ -35,8 +35,8 @@ class model_forum_thread extends discuz_model
 		$this->forum = &$this->app->var['forum'];
 	}
 
+    //lance this is for adding the new threads
 	public function newthread($parameters) {
-
 		require_once libfile('function/post');
 		$this->tid = $this->pid = 0;
 		$this->_init_parameters($parameters);
@@ -59,11 +59,15 @@ class model_forum_thread extends discuz_model
 		} elseif(checkmaxperhour('tid')) {
 			return $this->showmessage('thread_flood_ctrl_threads_per_hour', '', array('threads_per_hour' => $this->group['maxthreadsperhour']));
 		}
+
 		$this->param['save'] = $this->member['uid'] ? $this->param['save'] : 0;
 
+        //type id
 		$this->param['typeid'] = isset($this->param['typeid']) && isset($this->forum['threadtypes']['types'][$this->param['typeid']]) && (!$this->forum['threadtypes']['moderators'][$this->param['typeid']] || $this->forum['ismoderator']) ? $this->param['typeid'] : 0;
 
 		$this->param['displayorder'] = $this->param['modnewthreads'] ? -2 : (($this->forum['ismoderator'] && $this->group['allowstickthread'] && !empty($this->param['sticktopic'])) ? 1 : (empty($this->param['save']) ? 0 : -4));
+
+        //lance: means edited?
 		if($this->param['displayorder'] == -2) {
 			C::t('forum_forum')->update($this->forum['fid'], array('modworks' => '1'));
 		}
@@ -136,17 +140,22 @@ class model_forum_thread extends discuz_model
 			'replycredit' => $this->param['replycredit'],
 			'closed' => $this->param['closed'] ? 1 : 0
 		);
-		$this->tid = C::t('forum_thread')->insert($newthread, true);
-		C::t('forum_newthread')->insert(array(
+
+        //insert into pre_forum_thread. all new threads are inserted.
+        $this->tid = C::t('forum_thread')->insert($newthread, true);
+
+        C::t('forum_newthread')->insert(array(
 		    'tid' => $this->tid,
 		    'fid' => $this->forum['fid'],
 		    'dateline' => $this->param['publishdate'],
 		));
 		useractionlog($this->member['uid'], 'tid');
 
+        //update table
 		if(!getuserprofile('threads') && $this->setting['newbie']) {
 			C::t('forum_thread')->update($this->tid, array('icon' => $this->setting['newbie']));
 		}
+
 		if ($this->param['publishdate'] != TIMESTAMP) {
 			$cron_publish_ids = dunserialize($this->cache('cronpublish'));
 			$cron_publish_ids[$this->tid] = $this->tid;
@@ -181,7 +190,8 @@ class model_forum_thread extends discuz_model
 		if($this->param['imgcontent']) {
 			stringtopic($this->param['message'], $this->tid, true, $this->param['imgcontentwidth']);
 		}
-		$this->pid = insertpost(array(
+
+        $this->pid = insertpost(array(
 			'fid' => $this->forum['fid'],
 			'tid' => $this->tid,
 			'first' => '1',
@@ -230,7 +240,6 @@ class model_forum_thread extends discuz_model
 			manage_addnotify('verifythread');
 			return 'post_newthread_mod_succeed';
 		} else {
-
 			if($this->param['displayorder'] != -4) {
 				if($this->param['digest']) {
 					updatepostcredits('+',  $this->member['uid'], 'digest', $this->forum['fid']);
@@ -256,9 +265,7 @@ class model_forum_thread extends discuz_model
 			}
 
 			C::t('forum_sofa')->insert(array('tid' => $this->tid,'fid' => $this->forum['fid']));
-
 			return 'post_newthread_succeed';
-
 		}
 
 	}

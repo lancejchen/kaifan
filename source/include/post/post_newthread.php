@@ -121,6 +121,7 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 		}
 	}
 
+    //kaifan
 	if($special == 4) {
 		$activity = array('starttimeto' => '', 'starttimefrom' => '', 'place' => '', 'class' => '', 'cost' => '', 'number' => '', 'gender' => '', 'expiration' => '');
 		$activitytypelist = $_G['setting']['activitytype'] ? explode("\n", trim($_G['setting']['activitytype'])) : '';
@@ -194,6 +195,8 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 			4 => 'extend_thread_activity',
 			5 => 'extend_thread_debate'
 		);
+
+        //indicate handle class and methods.
 		$bfmethods[] = array('class' => $specials[$special], 'method' => 'before_newthread');
 		$afmethods[] = array('class' => $specials[$special], 'method' => 'after_newthread');
 
@@ -206,15 +209,9 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 	}
 
 	if($special == 1) {
-
-
 	} elseif($special == 3) {
-
-
 	} elseif($special == 4) {
 	} elseif($special == 5) {
-
-
 	} elseif($specialextra) {
 
 		@include_once DISCUZ_ROOT.'./source/plugin/'.$_G['setting']['threadplugins'][$specialextra]['module'].'.class.php';
@@ -229,11 +226,6 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 	}
 
 	$params['typeexpiration'] = $_GET['typeexpiration'];
-
-
-
-
-
 
 	$params['ordertype'] = $_GET['ordertype'];
 
@@ -273,6 +265,7 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 		$afmethods[] = array('class' => 'extend_thread_follow', 'method' => 'after_newthread');
 	}
 
+    //lance add array in methods[][0] array.
 	$modthread->attach_before_methods('newthread', $bfmethods);
 	$modthread->attach_after_methods('newthread', $afmethods);
 
@@ -280,14 +273,7 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 	$tid = $modthread->tid;
 	$pid = $modthread->pid;
 
-
-
-
-
-
-
-
-
+    //do the clean-ups.
 	dsetcookie('clearUserdata', 'forum');
 	if($specialextra) {
 		$classname = 'threadplugin_'.$specialextra;
@@ -306,8 +292,6 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 	}
 	$values = array('fid' => $modthread->forum('fid'), 'tid' => $modthread->tid, 'pid' => $modthread->pid, 'coverimg' => '', 'sechash' => !empty($_GET['sechash']) ? $_GET['sechash'] : '');
 	showmessage($return, $returnurl, array_merge($values, (array)$modthread->param('values')), $modthread->param('param'));
-
-
 }
 
 

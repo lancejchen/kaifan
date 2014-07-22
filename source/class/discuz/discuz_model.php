@@ -146,6 +146,8 @@ abstract class discuz_model extends discuz_base
 
 	public function attach_before_method($name, $fn) {
 		$this->methods[$name][0][] = $fn;
+        //lance delete
+       //$this->methods['newthread'][0][] = $bfmethods;
 	}
 
 	public function attach_after_method($name, $fn) {
