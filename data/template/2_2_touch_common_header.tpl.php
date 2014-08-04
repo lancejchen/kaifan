@@ -33,6 +33,7 @@
 <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/group.css?<?php echo VERHASH;?>" type="text/css">
 <?php } ?>
     <script src="template/webshow_mtb0115/touch/img/js/jq.customized.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/jqm_fixes.css?<?php echo VERHASH;?>">
 </head>
 
 <body class="bg"><?php require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';?><div data-role="page">

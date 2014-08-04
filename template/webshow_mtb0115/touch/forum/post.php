@@ -76,7 +76,11 @@
             <!--{/if}-->
         </div>
 
+ <input type="file" />
+        <!--upload file by uridata-->
+        <!--{template forum/post_uploadFile}-->
 
+        <!--upload file-->
         <div data-role="fieldcontainer" class="li_2 cl">
             <a class="a1" href="javascript:;"><input type="file" name="Filedata" id="filedata" style="width:30px;height:30px;font-size:30px;opacity:0;"/></a>
             <!-- TODO: cannot upload pics and also smiling function is not functioning -->

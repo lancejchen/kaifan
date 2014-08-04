@@ -1592,3 +1592,9 @@
 <?PHP exit;?>	1405933690	lance	1	127.0.0.1	tools	GET={operation=updatecache; }; POST={};
 <?PHP exit;?>	1405933692	lance	1	127.0.0.1	tools	GET={operation=updatecache; step=2; type={0=data; 1=tpl; }; confirmed=确定; }; POST={type={0=data; 1=tpl; }; confirmed=确定; };
 <?PHP exit;?>	1405933693	lance	1	127.0.0.1	tools	GET={operation=updatecache; step=3; type=data_tpl; }; POST={};
+<?PHP exit;?>	1406258914	lance	1	127.0.0.1		GET={}; POST={};
+<?PHP exit;?>	1406258916	lance	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1406258918	lance	1	127.0.0.1	tools	GET={operation=updatecache; }; POST={};
+<?PHP exit;?>	1406258919	lance	1	127.0.0.1	tools	GET={operation=updatecache; }; POST={};
+<?PHP exit;?>	1406258921	lance	1	127.0.0.1	tools	GET={operation=updatecache; step=2; type={0=data; 1=tpl; }; confirmed=确定; }; POST={type={0=data; 1=tpl; }; confirmed=确定; };
+<?PHP exit;?>	1406258922	lance	1	127.0.0.1	tools	GET={operation=updatecache; step=3; type=data_tpl; }; POST={};

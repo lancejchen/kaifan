@@ -33,6 +33,7 @@
 <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/group.css?{VERHASH}" type="text/css">
 <!--{/if}-->
     <script src="template/webshow_mtb0115/touch/img/js/jq.customized.js"></script>
+    <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/jqm_fixes.css?{VERHASH}">
 </head>
 
 <body class="bg">
