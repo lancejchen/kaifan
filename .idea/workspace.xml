@@ -1,41 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4476e-e07d-4fbb-aa8b-5874eb9f3d45" name="Default" comment="after weixin upload pics">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/sprBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/sprNewBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload_uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/uploadImg/post.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/uploadImg/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php.bak" />
+    <list default="true" id="fea4476e-e07d-4fbb-aa8b-5874eb9f3d45" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_footer.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" afterPath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" afterPath="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/class_core.php" afterPath="$PROJECT_DIR$/source/class/class_core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" afterPath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" afterPath="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum.php" afterPath="$PROJECT_DIR$/forum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/forum/forum_post.php" afterPath="$PROJECT_DIR$/source/module/forum/forum_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/forum/forum_upload.php" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/function/function_post.php" afterPath="$PROJECT_DIR$/source/function/function_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/language/lang_message.php" afterPath="$PROJECT_DIR$/source/language/lang_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/language/mobile/lang_template.php" afterPath="$PROJECT_DIR$/source/language/mobile/lang_template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" afterPath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/model/model_forum_post.php" afterPath="$PROJECT_DIR$/source/class/model/model_forum_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" afterPath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/base.css" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/include/post/post_newthread.php" afterPath="$PROJECT_DIR$/source/include/post/post_newthread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/include/post/post_uploadImg.php" afterPath="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_common.css" afterPath="$PROJECT_DIR$/data/cache/style_1_common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_space.css" />
@@ -77,7 +52,7 @@
             <file leaf-file-name="misc.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/misc.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="49" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1575">
+                  <state line="49" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-9.416667" vertical-offset="434" max-vertical-offset="1500">
                     <folding />
                   </state>
                 </provider>
@@ -86,16 +61,16 @@
             <file leaf-file-name="extend_thread_activity.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="119" column="0" selection-start="4412" selection-end="4412" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="3645">
+                  <state line="114" column="5" selection-start="4321" selection-end="4321" vertical-scroll-proportion="-6.2916665" vertical-offset="1484" max-vertical-offset="3690">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="model_forum_thread.php" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="model_forum_thread.php" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="44" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5430">
+                  <state line="235" column="28" selection-start="9796" selection-end="9796" vertical-scroll-proportion="0.4660767" vertical-offset="3179" max-vertical-offset="5415">
                     <folding />
                   </state>
                 </provider>
@@ -113,16 +88,7 @@
             <file leaf-file-name="function_post.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/source/function/function_post.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="267" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="0.0" vertical-offset="4005" max-vertical-offset="12000">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/index.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.022123894" vertical-offset="45" max-vertical-offset="2355">
+                  <state line="165" column="0" selection-start="5722" selection-end="5722" vertical-scroll-proportion="-7.5416665" vertical-offset="2219" max-vertical-offset="12015">
                     <folding />
                   </state>
                 </provider>
@@ -146,90 +112,86 @@
       <file leaf-file-name="extend_thread_image.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="3255">
+            <state line="74" column="27" selection-start="3188" selection-end="3188" vertical-scroll-proportion="-26.333334" vertical-offset="403" max-vertical-offset="4185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_core.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/class/class_core.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="3270">
+            <state line="13" column="84" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-3.9" vertical-offset="0" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discuz_database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_database.php">
+      <file leaf-file-name="imgUpload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="7185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_uploadImg.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/include/post/post_uploadImg.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="5" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3345" max-vertical-offset="4095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newthread.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="556" column="16" selection-start="24556" selection-end="24556" vertical-scroll-proportion="0.0" vertical-offset="8340" max-vertical-offset="9015">
+            <state line="25" column="34" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="5010">
               <folding>
-                <marker date="1407580795239" expanded="false" signature="4492:4501" placeholder="..." />
+                <marker date="1407665023561" expanded="true" signature="6093:6330" placeholder="..." />
+                <marker date="1407665023561" expanded="true" signature="8826:8849" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.mobile-1.4.3.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/jquery.mobile-1.4.3.min.js">
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="198090" selection-end="198090" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+            <state line="132" column="145" selection-start="8057" selection-end="8057" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="6405">
+              <folding>
+                <marker date="1407665853602" expanded="true" signature="165:189" placeholder="{...}" />
+                <marker date="1407665853602" expanded="true" signature="5214:5254" placeholder="{...}" />
+                <marker date="1407665853602" expanded="true" signature="7874:7914" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table_forum_post_location.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_post_location.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="24" selection-start="510" selection-end="510" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.mobile-1.4.3.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.js">
+      <file leaf-file-name="forum_viewthread.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5310" selection-start="197893" selection-end="197893" vertical-scroll-proportion="0.0" vertical-offset="44603" max-vertical-offset="48090">
+            <state line="753" column="127" selection-start="32439" selection-end="32439" vertical-scroll-proportion="129.875" vertical-offset="14337" max-vertical-offset="33000">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php">
+      <file leaf-file-name="plugin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="113" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.68268013" vertical-offset="0" max-vertical-offset="2385">
+            <state line="34" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discuz_container.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_container.php">
+      <file leaf-file-name="discuz_plugin_wechat.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/plugin/wechat/discuz_plugin_wechat.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2385">
+            <state line="158" column="84" selection-start="7521" selection-end="7521" vertical-scroll-proportion="0.7981928" vertical-offset="2115" max-vertical-offset="6645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function_message.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/function/function_message.php">
+      <file leaf-file-name="expand.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/expand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="58" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3735">
+            <state line="11" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
@@ -258,14 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/include/post/post_newthread.php" />
-        <option value="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
-        <option value="$PROJECT_DIR$/source/class/forum/forum_upload.php" />
-        <option value="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" />
-        <option value="$PROJECT_DIR$/misc.php" />
-        <option value="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" />
-        <option value="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSOptions.php" />
         <option value="$PROJECT_DIR$/source/class/class_core.php" />
         <option value="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" />
         <option value="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" />
@@ -274,6 +228,14 @@
         <option value="$PROJECT_DIR$/source/function/function_post.php" />
         <option value="$PROJECT_DIR$/static/css/fonts/icomoon.svg" />
         <option value="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" />
+        <option value="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
+        <option value="$PROJECT_DIR$/data/template/2_2_touch_common_showmessage.tpl.php" />
+        <option value="$PROJECT_DIR$/source/include/post/post_newthread.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/base.css" />
       </list>
     </option>
   </component>
@@ -465,6 +427,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="touch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webshow_mtb0115" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="touch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1038,7 +1026,11 @@
       <created>1407125781051</created>
       <updated>1407125781051</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="weixin photo uploading successful">
+      <created>1407640856914</created>
+      <updated>1407640856914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1067,22 +1059,22 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37099236" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36563382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.70422536" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.70422536" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29577464" sideWeight="0.49948186" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.50051814" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37099236" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.70422536" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.6343662" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37070423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.89295775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1098,7 +1090,8 @@
     </option>
     <MESSAGE value="before delete header to other pages, like add event" />
     <MESSAGE value="after weixin upload pics" />
-    <option name="LAST_COMMIT_MESSAGE" value="after weixin upload pics" />
+    <MESSAGE value="weixin photo uploading successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="weixin photo uploading successful" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1239,11 +1232,6 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
-          <line>292</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/function/function_post.php</url>
           <line>371</line>
           <option name="timeStamp" value="48" />
@@ -1260,7 +1248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
-          <line>296</line>
+          <line>295</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1408,11 +1396,16 @@
           <line>259</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_message.php</url>
+          <line>204</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="108" />
+      <option name="time" value="111" />
     </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
@@ -1422,112 +1415,121 @@
     </find-history>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
+    <entry file="file://$PROJECT_DIR$/forum.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="3255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_container.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="58" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/fonts/icomoon.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="0" selection-start="65069" selection-end="65069" vertical-scroll-proportion="1.5288754" vertical-offset="14270" max-vertical-offset="16875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/include/post/post_uploadImg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="5" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3345" max-vertical-offset="4095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="556" column="16" selection-start="24556" selection-end="24556" vertical-scroll-proportion="0.0" vertical-offset="8300" max-vertical-offset="9945">
-          <folding>
-            <marker date="1407580795239" expanded="false" signature="4492:4501" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/jquery.mobile-1.4.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="198090" selection-end="198090" vertical-scroll-proportion="0.0" vertical-offset="46339" max-vertical-offset="47325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="51315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5310" selection-start="197893" selection-end="197893" vertical-scroll-proportion="0.0" vertical-offset="44603" max-vertical-offset="48090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="4412" selection-end="4412" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="3645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_forum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="787" column="57" selection-start="28590" selection-end="28590" vertical-scroll-proportion="0.0" vertical-offset="11805" max-vertical-offset="16980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="0.0" vertical-offset="4005" max-vertical-offset="12000">
+        <state line="14" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.11780105" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.022123894" vertical-offset="45" max-vertical-offset="2355">
+        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php">
+    <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="113" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.68268013" vertical-offset="0" max-vertical-offset="2385">
+        <state line="74" column="27" selection-start="3188" selection-end="3188" vertical-scroll-proportion="-26.333334" vertical-offset="403" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="84" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-3.9" vertical-offset="0" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="5010">
+          <folding>
+            <marker date="1407665023561" expanded="true" signature="6093:6330" placeholder="..." />
+            <marker date="1407665023561" expanded="true" signature="8826:8849" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/expand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="5" selection-start="4321" selection-end="4321" vertical-scroll-proportion="-6.2916665" vertical-offset="1484" max-vertical-offset="3690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="145" selection-start="8057" selection-end="8057" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="6405">
+          <folding>
+            <marker date="1407665853602" expanded="true" signature="165:189" placeholder="{...}" />
+            <marker date="1407665853602" expanded="true" signature="5214:5254" placeholder="{...}" />
+            <marker date="1407665853602" expanded="true" signature="7874:7914" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="329" selection-end="329" vertical-scroll-proportion="0.19098923" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="868" selection-end="868" vertical-scroll-proportion="0.5120482" vertical-offset="0" max-vertical-offset="4260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_post_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="510" selection-end="510" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="28" selection-start="9796" selection-end="9796" vertical-scroll-proportion="0.4660767" vertical-offset="3179" max-vertical-offset="5415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="753" column="127" selection-start="32439" selection-end="32439" vertical-scroll-proportion="129.875" vertical-offset="14337" max-vertical-offset="33000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/language/lang_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="350" column="49" selection-start="11293" selection-end="11293" vertical-scroll-proportion="0.3410771" vertical-offset="5122" max-vertical-offset="6930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/plugin/wechat/discuz_plugin_wechat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="84" selection-start="7521" selection-end="7521" vertical-scroll-proportion="0.7981928" vertical-offset="2115" max-vertical-offset="6645">
           <folding />
         </state>
       </provider>

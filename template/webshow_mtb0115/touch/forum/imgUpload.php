@@ -8,7 +8,7 @@
     <meta name="baidu-tc-cerfication" content="5f496895eb9bff9ec4db4512a7e4e95c" />
     <meta name="description" content="鸥翼汇开饭喽微信公众号致力于为用户提供一个约饭及讨论的社区。用户在这个社区中可以发现附近有相同口味的其它吃货，并可以在社区中讨论各种跟吃有关的话题。"/>
     <meta name="keywords" content="" />
-    <link rel="shortcut icon" href="http://dzqun.gtimg.cn/quan/images/favicon.ico"/>
+    <link rel="shortcut icon" href="http://kaifan.oss-cn-hangzhou.aliyuncs.com/cdn/k.ico"/>
     <title>上传照片</title>
     <!--<script src="http://202.189.99.83:8081/target/target-script-min.js#anonymous"></script>-->
     <script type="text/javascript">
@@ -26,6 +26,7 @@
         g_ts.css_start=new Date();
         var pageName = '';
     </script>
+    <link rel="stylesheet" href="{STATICURL}image/mobile/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="{STATICURL}css/uploadImg/style.css?"
           onload="g_ts.css_end = new Date();" onerror="g_ts.css_end = new Date();">
     <link rel="stylesheet" href="{STATICURL}css/uploadImg/post.css"  onload="g_ts.css_end = new
@@ -35,6 +36,7 @@
     <link rel="stylesheet" href="{STATICURL}css/jquery.mobile-1.4.3.min.css" type="text/css"
           media="all">
     <script src="{STATICURL}js/mobile/jquery.mobile-1.4.3.min.js?{VERHASH}"></script>
+    <script src="{STATICURL}js/mobile/common.js?{VERHASH}" charset="{CHARSET}"></script>
     <!--debug-->
     <script type="text/javascript">
         var sId = 253851172,
@@ -151,6 +153,118 @@
             });
         }, 2000);
     }
+</script>
+
+<script type="text/javascript">
+    var imgexts = typeof imgexts == 'undefined' ? 'jpg, jpeg, gif, png' : imgexts;
+    var STATUSMSG = {
+        '-1' : '{lang uploadstatusmsgnag1}',
+        '0' : '{lang uploadstatusmsg0}',
+        '1' : '{lang uploadstatusmsg1}',
+        '2' : '{lang uploadstatusmsg2}',
+        '3' : '{lang uploadstatusmsg3}',
+        '4' : '{lang uploadstatusmsg4}',
+        '5' : '{lang uploadstatusmsg5}',
+        '6' : '{lang uploadstatusmsg6}',
+        '7' : '{lang uploadstatusmsg7}(' + imgexts + ')',
+        '8' : '{lang uploadstatusmsg8}',
+        '9' : '{lang uploadstatusmsg9}',
+        '10' : '{lang uploadstatusmsg10}',
+        '11' : '{lang uploadstatusmsg11}'
+    };
+
+    var form = $('#newthread');
+
+    $(document).on('change', '#filedata', function() {
+        popup.open('<img src="' + IMGDIR + '/imageloading.gif">');
+        uploadsuccess = function(data) {
+            if(data == '') {
+                popup.open('{lang uploadpicfailed}', 'alert');
+            }
+            var dataarr = data.split('|');
+            if(dataarr[0] == 'DISCUZUPLOAD' && dataarr[2] == 0) {
+                popup.close();
+                $('#imglist').append('<li><span aid="'+dataarr[3]+'" class="del"><a href="javascript:;"><img src="{STATICURL}image/mobile/images/icon_del.png"></a></span><span class="p_img"><a href="javascript:;"><img style="height:54px;width:54px;" id="aimg_'+dataarr[3]+'" title="'+dataarr[6]+'" src="{$_G[setting][attachurl]}forum/'+dataarr[5]+'" /></a></span><input type="hidden" name="attachnew['+dataarr[3]+'][description]" /></li>');
+            } else {
+                var sizelimit = '';
+                if(dataarr[7] == 'ban') {
+                    sizelimit = '{lang uploadpicatttypeban}';
+                } else if(dataarr[7] == 'perday') {
+                    sizelimit = '{lang donotcross}'+Math.ceil(dataarr[8]/1024)+'K)';
+                } else if(dataarr[7] > 0) {
+                    sizelimit = '{lang donotcross}'+Math.ceil(dataarr[7]/1024)+'K)';
+                }
+                popup.open(STATUSMSG[dataarr[2]] + sizelimit, 'alert');
+            }
+        };
+
+        if(typeof FileReader != 'undefined' && this.files[0]) {//note 支持html5上传新特性
+
+            $.buildfileupload({
+                uploadurl:'misc.php?mod=swfupload&operation=upload&type=image&inajax=yes&infloat=yes&simple=2',
+                files:this.files,
+                uploadformdata:{uid:"$_G[uid]", hash:"<!--{eval echo md5(substr(md5($_G[config][security][authkey]), 8).$_G[uid])}-->"},
+                    uploadinputname:'Filedata',
+                maxfilesize:"$swfconfig[max]",
+                success:uploadsuccess,
+                error:function() {
+                popup.open('{lang uploadpicfailed}', 'alert');
+            }
+        });
+
+    } else {
+
+        $.ajaxfileupload({
+            url:'misc.php?mod=swfupload&operation=upload&type=image&inajax=yes&infloat=yes&simple=2',
+            data:{uid:"$_G[uid]", hash:"<!--{eval echo md5(substr(md5($_G[config][security][authkey]), 8).$_G[uid])}-->"},
+                dataType:'text',
+            fileElementId:'filedata',
+            success:uploadsuccess,
+            error: function() {
+            popup.open('{lang uploadpicfailed}', 'alert');
+        }
+    });
+
+    }
+    });
+
+    $(document).on('click', '.del', function() {
+        var obj = $(this);
+        $.ajax({
+            type:'GET',
+            url:'forum.php?mod=ajax&action=deleteattach&inajax=yes&aids[]=' + obj.attr('aid'),
+        })
+            .success(function(s) {
+                obj.parent().remove();
+            })
+            .error(function() {
+                popup.open('{lang networkerror}', 'alert');
+            });
+        return false;
+    });
+    $(document).ready(function(){
+        $('#submitPhotos').on('click',function(){
+
+            IMGDIR = '{IMGDIR}';
+            popup.open('<img src="' + IMGDIR + '/imageloading.gif">');
+
+
+            $.ajax({
+                type:'POST',
+                url:form.attr('action') +'&inajax=1',
+                data:form.serialize(),
+                dataType:'xml'
+            })
+                .success(function(s) {
+                    popup.open(s.lastChild.firstChild.nodeValue);
+                })
+                .error(function() {
+                    popup.open('{lang networkerror}', 'alert');
+                });
+            return false;
+        })
+    });
+
 </script>
 
 </body>

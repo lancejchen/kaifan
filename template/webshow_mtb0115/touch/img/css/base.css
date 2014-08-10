@@ -129,7 +129,7 @@ a:active {star:expression(this.onFocus=this.blur());}
 
 /*侧边展开*/
 #mcontent { }
-    .float-news{ width:270px; height:400px; overflow-y:scroll; right:-450px; z-index:99999; top:0; _margin-top:0; position:fixed; *zoom:1; _position:absolute; _top:expression(eval(document.documentElement.scrollTop));}
+    .float-news{ width:260px; height:400px; overflow-y:scroll; right:-450px; z-index:99999; top:0; _margin-top:0; position:fixed; *zoom:1; _position:absolute; _top:expression(eval(document.documentElement.scrollTop));}
 		.open { -webkit-transform:translateX(-270px);-moz-transform:translateX(-270px);-ms-transform:translateX(-270px);transform:translateX(-270px);}
     .nv_c { height:100%; padding:0 0 100px; background:#1D1F22; position:relative; display:none;}
 	    .nvm .nv_c { display:block;}

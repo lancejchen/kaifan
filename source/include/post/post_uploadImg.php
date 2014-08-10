@@ -257,7 +257,7 @@ if(!submitcheck('topicsubmit', 1, 0, 0)) {
     if(!empty($_G['setting']['rewriterule']['forum_viewthread']) && in_array('forum_viewthread', $_G['setting']['rewritestatus'])) {
         $returnurl = rewriteoutput('forum_viewthread', 1, '', $modthread->tid, 1, '', $extra);
     } else {
-        $returnurl = "forum.php?mod=viewthread&tid={$modthread->tid}&extra=$extra";
+        $returnurl = "forum.php?mod=viewthread&tid={$tid}&extra=$extra";
     }
 
     $values = array('fid' => $modthread->forum('fid'), 'tid' => $modthread->tid, 'pid' => $modthread->pid, 'coverimg' => '', 'sechash' => !empty($_GET['sechash']) ? $_GET['sechash'] : '');

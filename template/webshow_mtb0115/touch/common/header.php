@@ -11,6 +11,7 @@
 <meta http-equiv="Page-Exit" content="RevealTrans (Duration=3, Transition=23)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title><!--{if !empty($navtitle)}-->$navtitle - <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] - <!--{/if}--> {lang waptitle}</title>
+    <link rel="shortcut icon" href="http://kaifan.oss-cn-hangzhou.aliyuncs.com/cdn/k.ico"/>
     <link rel="stylesheet" href="{STATICURL}css/jquery.mobile-1.4.3.min.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="{STATICURL}css/jQueryUI/jquery-ui.min.css">
