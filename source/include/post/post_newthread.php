@@ -288,7 +288,10 @@ if(!submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck)) {
 	if(!empty($_G['setting']['rewriterule']['forum_viewthread']) && in_array('forum_viewthread', $_G['setting']['rewritestatus'])) {
 		$returnurl = rewriteoutput('forum_viewthread', 1, '', $modthread->tid, 1, '', $extra);
 	} else {
-		$returnurl = "forum.php?mod=viewthread&tid={$modthread->tid}&extra=$extra";
+        //lance modified: change url
+		//$returnurl = "forum.php?mod=viewthread&tid={$modthread->tid}&extra=$extra";
+        //$returnurl="http://202.189.96.147/template/webshow_mtb0115/touch/forum/imgUpload.php?fid=".
+          $returnurl="forum.php?mod=post&action=uploadImg&fid=2&special=4&mobile=2&imgpid={$pid}&imgtid={$tid}";
 	}
 	$values = array('fid' => $modthread->forum('fid'), 'tid' => $modthread->tid, 'pid' => $modthread->pid, 'coverimg' => '', 'sechash' => !empty($_GET['sechash']) ? $_GET['sechash'] : '');
 	showmessage($return, $returnurl, array_merge($values, (array)$modthread->param('values')), $modthread->param('param'));

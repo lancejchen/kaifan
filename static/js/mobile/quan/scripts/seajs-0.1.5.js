@@ -847,10 +847,10 @@ define("lib/store", function (b, a, c) {
     }
 });
 g_ts.js_start = new Date;
-var preJsDir = STATIC_DOMAIN + "/quan/scripts/";
+var preJsDir = "";
+//var preJsDir = STATIC_DOMAIN + "/quan/scripts/";
 seajs.use([preJsDir+"lib/jquery.min", preJsDir+"lib/template.min", preJsDir+"lib/fastclick", preJsDir+"lib/global", preJsDir+"lib/stat"].concat(g_module), function (a) {
     g_ts.js_end = new Date
 });
 seajs.use(preJsDir+"lib/jquery.min");
 seajs.use(preJsDir+"lib/fastclick");
-console.log("seajs loaded");

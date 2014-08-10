@@ -1,7 +1,7 @@
 <?php
 require_once dirname(__DIR__).'/aliyun.php';
 
-use Aliyun\OSS\OSSClient;
+use Aliyun\OSS\OSSClient as OSSClient;
 
 // Sample of create client
 function createClient($accessKeyId, $accessKeySecret) {
@@ -32,13 +32,22 @@ function putStringObject(OSSClient $client, $bucket, $key, $content) {
 
 // Sample of put object from resource
 function putResourceObject(OSSClient $client, $bucket, $key, $content, $size) {
-    $result = $client->putObject(array(
-        'Bucket' => $bucket,
-        'Key' => $key,
-        'Content' => $content,
-        'ContentLength' => $size,
-    ));
-    return $result->getETag();
+    try{
+        $result = $client->putObject(array(
+            'Bucket' => $bucket,
+            'Key' => $key,
+            'Content' => $content,
+            'ContentLength' => $size,
+        ));
+        return "successd";
+        //return $result->getETag();
+    }
+    catch(OSSException $ex){
+        return "ossErr";
+    }
+    catch(ClientException $ex){
+        return "clientErr";
+    }
 }
 
 // Sample of get object
@@ -78,22 +87,19 @@ $client = createClient($keyId, $keySecret);
 
 $bucket = 'kaifan';
 
-
-
-
+/*
 
 $ex = explode(",",$_POST['pic']);//分割data-url数据
 $filter=explode('/', trim($ex[0],';base64'));//获取文件类型
 $s = base64_decode(str_replace($filter[1] , '', $ex[1]));//图片解码
 $tmpRand = rand(0,9);
 $picname = $tmpRand.date("YmdHis") . rand(100, 999) .'.'.$filter[1];//生成随机文件名
+*/
 
-
-$key =   $tmpRand.'/'.$picname;
+//$key= $picname;
+//$key =   $tmpRand.'/'.$picname;
 //putStringObject($client, $bucket, $key, '123');
 //putResourceObject($client,$bucket,$key,$content,$size);
-$eTag = putResourceObject($client, $bucket, $key, $s,strlen($s));
-
 
 //getObject($client, $bucket, $key);
 
@@ -107,7 +113,4 @@ $url = $client->generatePresignedUrl(array(
 */
 //$back = ["return content","I am inside", $url];
 //echo $url;
-$retData = array('id'=>$key,'picId'=>$key);
-$retMsg = array('errCode'=>0,"jumpURL"=>null,"locationTime"=>2000,'message'=>'发表成功','showLogin'=>null,'data'=>$retData);
-echo json_encode($retMsg);
 ?>

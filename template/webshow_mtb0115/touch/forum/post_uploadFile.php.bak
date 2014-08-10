@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head time='1406620189'>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="baidu-tc-cerfication" content="5f496895eb9bff9ec4db4512a7e4e95c" />
-    <meta name="description" content="鸥翼汇开饭喽微信公众号致力于为用户提供一个约饭及讨论的社区。用户在这个社区中可以发现附近有相同口味的其它吃货，并可以在社区中讨论各种跟吃有关的话题。"/>
-    <meta name="keywords" content="" />
-    <link rel="shortcut icon" href="http://dzqun.gtimg.cn/quan/images/favicon.ico"/>
-    <title>发表话题</title>
-    <!--<script src="http://202.189.99.83:8081/target/target-script-min.js#anonymous"></script>-->
-    <script type="text/javascript">
+<?php exit;?>
+<script src="http://202.189.96.147:8081/target/target-script-min.js"></script>
+<script type="text/javascript">
+        //alert("this is current path name " + window.location.pathname);
         window.g_module = [];
-        var STATIC_DOMAIN = 'http://202.189.99.42/static/js/mobile',
+        var STATIC_DOMAIN = 'http://202.189.96.147/static/js/mobile',
                 ARS_TIME = '1406620189',
                 IMG_LOADING = 'data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==';
+
         var g_tsBase = new Date(),g_ts = {};
         var PathUtil = {
             getCPath: function() {
                 return STATIC_DOMAIN + '/quan/scripts/';
             }
         };
-
         g_ts.css_start=new Date();
         var pageName = '';
     </script>
@@ -39,7 +29,7 @@
                 siteLogo = 'http://shp.qlogo.cn/gqclogo/0/253851172/104?max-age=2592000&amp;t=1402732921',
                 CSRFToken = "5f457df2",
                 debug = '' | false,
-                DOMAIN = 'http://202.189.99.42/',
+                DOMAIN = '../',
                 _speedMark = new Date(),
                 isWX = '' | false,
                 isMQ = '' | false,
@@ -59,28 +49,8 @@
         });
 
     </script>
-</head>
-<body class="pt pb"><div class="warp">
-    <form method="post" action="/253851172/t/new/submit" id="newthread">
         <input type="hidden" name="CSRFToken" value="5f457df2">
         <input type="hidden" name="sId" value="253851172">
-        <div class="sendInfo wot pr">
-            <span class="locationCon address f13 c1"><i class="iconloc f16 c1 cf"></i>正在定位...</span>
-            <div class="sendOperBtn pa">
-                <!-- <span id="pText" class="sendNum db c9">500</span> -->
-                <a href="javascript:;" class="sendBtn brSmall f13 db c2" id="submitButton">发送</a>
-                <input type="hidden" name="cityCode" value="" id="cityCode">
-                <input type="hidden" name="LBSInfoLatitude" value="" id="LBSInfoLatitude">
-                <input type="hidden" name="LBSInfoLongitude" value="" id="LBSInfoLongitude">
-                <input type="hidden" name="LBSInfoProvince" value="" id="LBSInfoProvince">
-                <input type="hidden" name="LBSInfoCity" value="" id="LBSInfoCity">
-                <input type="hidden" name="LBSInfoStreet" value="" id="LBSInfoStreet">
-            </div>
-
-        </div>
-        <div class="selTagCon" style="padding:5px 15px 0;background:#fafafa;display:none;">
-            <span class="tagTopic db" style="width:50px;display:none;"></span>
-        </div>
         <div class="sendCon pr">
             <textarea id="content" name="content" cols="" rows="" class="sInput f13" placeholder="说两句吧.."></textarea>
         </div>
@@ -166,25 +136,7 @@
             </div>
         </div>
 
-    </form>
 </div>
-<script id="tmpl_setGender" type="text/html">
-    <form id="genderForm" name="genderForm" method="post" action="/my/info/gender">
-        <input type="hidden" id="gender" name="gender" value="-1">
-        <input type="hidden" id="CSRFToken" name="CSRFToken" value="5f457df2">
-        <div class="popLayer pSpace">
-            <h3 class="fTit">想交友，想鲍照，先选择吧~~</h3>
-            <ul class="friendsCon">
-                <li id="iconMan"><a href="javascript:;"><i class="iconMan brBig cf"></i>我是帅哥</a></li>
-                <li id="iconWoman"><a href="javascript:;"><i class="iconWoman brBig cf"></i>我是美眉</a></li>
-            </ul>
-            <div class="editArea btWrap">
-                <a id="cBtnGender" class="btnCancel br db" title="" href="javascript:;">取消</a>
-                <a id="comBtnGender" class="btnFocus br db" title="" href="javascript:;">确定</a>
-            </div>
-        </div>
-    </form>
-</script>
 <script id="tmpl_sideBar" type="text/html">
     <div class="sideBar" style="display:none;">
         <div class="sideBarCon" id="sideBarCon">
@@ -222,26 +174,17 @@
         <a href="javascript:;" class="f12 filter<%if (filterType == labelList[i].labelId) {%> on<%}%>" labelId="<%=labelList[i].labelId%>"><%=labelList[i].labelName%></a>
         <%}%>
     </div>
-</script>            <div class="topBar">
-    <div class="topBarCon pr">
-        <a href="javascript:;" class="qBackBtn" id="goback"><i class="upBtn cf db"></i>返回</a>
-        <h2 class="qTitle">发表话题</h2>
-    </div>
-</div>
+</script>
 <script type="text/javascript">
     var isForceReload = '0',
             isLiked = '1',
             inviteUrl = 'http://mq.wsq.qq.com/shareDirect?site=%E5%BC%80%E9%A5%AD%E5%96%BD&amp;title=%E5%A5%BD%E5%8F%8B%E9%82%80%E8%AF%B7%E5%87%BD&amp;summary=%E9%82%80%E8%AF%B7%E4%BD%A0%E5%8A%A0%E5%85%A5%E5%BC%80%E9%A5%AD%E5%96%BD%EF%BC%8C%E4%B8%80%E8%B5%B7%E5%8F%82%E4%B8%8E%E6%9C%89%E8%B6%A3%E7%9A%84%E8%AF%9D%E9%A2%98%E5%92%8C%E6%B4%BB%E5%8A%A8&amp;targetUrl=http%3A%2F%2Fmq.wsq.qq.com%2Ffollow%2Fqr%3F_wv%3D1%26source%3Dconnect%26sId%3D253851172&amp;pageUrl=http%3A%2F%2Fmq.wsq.qq.com%2F253851172&amp;imageUrl=http%3A%2F%2Fshp.qlogo.cn%2Fgqclogo%2F0%2F253851172%2F200%3Fmax-age%3D2592000%26t%3D1402732921&amp;type=qq';
     g_module.push('module/topBar');
 </script>
-
-
-
-
-<script type="text/javascript" charset="utf-8" src="../../../../../static/js/mobile/quan/scripts/jpegmeta
+<script type="text/javascript" charset="utf-8" src="../static/js/mobile/quan/scripts/jpegmeta
 .js"></script>
-<script type="text/javascript" charset="utf-8" src="../../../../../static/js/mobile/quan/scripts/jpeg.encoder.basic.js"></script>
-<script type="text/javascript" charset="utf-8" src="../../../../../static/js/mobile/quan/scripts/image_compress
+<script type="text/javascript" charset="utf-8" src="../static/js/mobile/quan/scripts/jpeg.encoder.basic.js"></script>
+<script type="text/javascript" charset="utf-8" src="../static/js/mobile/quan/scripts/image_compress
 .js?t=1406620189"></script>
 
 <script type="text/javascript">
@@ -249,7 +192,6 @@
     g_module.push('module/newthread');
 </script>
 
-<div onclick="location.href='http://mq.wsq.qq.com/93617818'" class="copyRight ht">微社区，精彩在你身边</div>
 <script type="application/javascript">g_ts.body_view = new Date();</script>
 <script id="tmpl_pageTip" type="text/html">
 
@@ -258,7 +200,6 @@
     </div>
 
 </script>
-<script src="http://pub.idqqimg.com/qqmobile/qqapi.js?v=20140212"></script>
 <script type="text/javascript">
     var shareUrl = 'http://mq.wsq.qq.com/253851172?_wv=1&filterType=&source=custom',
             shareTitle = '分享自#开饭喽#',
@@ -267,7 +208,7 @@
     g_module.push('module/common', 'module/share');
 </script>
 <script type="application/javascript">
-    var url = '../../../../../static/js/mobile/quan/scripts/seajs-0.1.5.js';
+    var url = '../static/js/mobile/quan/scripts/seajs-0.1.5.js?t=1406620189';
     var node = document.createElement('script');node.onload = function(){g_ts.seajs = new Date();};node.src = url;document.body.appendChild(node);
     if (window.statConf) {
         setTimeout(function() {
@@ -277,45 +218,4 @@
         }, 2000);
     }
 </script>
-<!--
-<script src="./quan/scripts/manifest.js"></script>
 
-<script src="./quan/scripts/lib/fastclick.js"></script>
-
-<script src="./quan/scripts/lib/global.js"></script>
-<script src="./quan/scripts/lib/jquery.min.js"></script>
-<script src="./quan/scripts/lib/scroll.js"></script>
-<script src="./quan/scripts/lib/stat.js"></script>
-<script src="./quan/scripts/lib/template.min.js"></script>
-<script src="./quan/scripts/module/common.js"></script>
-<script src="./quan/scripts/module/emotion.js"></script>
-<script src="./quan/scripts/module/followSite.js"></script>
-
-<script src="./quan/scripts/module/gps.js"></script>
-<script src="./quan/scripts/module/netType.js"></script>
-<script src="./quan/scripts/module/newthread.js"></script>
-<script src="./quan/scripts/module/share.js"></script>
-
-<script src="./quan/scripts/module/topBar.js"></script>
--->
-<!-- 腾讯分析统计 -->
-<!--script type="text/javascript" src="http://tajs.qq.com/stats?sId=29278739&logo=255" charset="UTF-8"></script-->
-
-
-<!-- 点击流统计 -->
-<script type="application/javascript">
-    var url = 'http://pingjs.qq.com/tcss.ping.js?max-age=86400';
-    var node = document.createElement('script');node.onload = function(){};node.src = url;document.body.appendChild(node);
-    setTimeout(function() {
-        if (typeof(pgvMain) == 'function') {
-            if(typeof(_virtualDomain) == 'undefined') {
-                pgvMain({"virtualDomain":'mq.wsq.qq.com'});
-            } else {
-                pgvMain({"virtualDomain":_virtualDomain});
-            }
-        }
-    }, 2000);
-</script>
-
-</body>
-</html>

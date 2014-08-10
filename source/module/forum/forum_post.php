@@ -88,7 +88,6 @@ if($_GET['action'] == 'reply') {
 	$addfeedcheck = !empty($space['privacy']['feed']['newthread']) ? 'checked="checked"': '';
 }
 
-
 $navigation = $navtitle = '';
 
 if(!empty($_GET['cedit'])) {
@@ -206,6 +205,7 @@ $extra = !empty($_GET['extra']) ? rawurlencode($_GET['extra']) : '';
 $notifycheck = empty($emailnotify) ? '' : 'checked="checked"';
 $stickcheck = empty($sticktopic) ? '' : 'checked="checked"';
 $digestcheck = empty($addtodigest) ? '' : 'checked="checked"';
+
 
 $subject = isset($_GET['subject']) ? dhtmlspecialchars(censor(trim($_GET['subject']))) : '';
 $subject = !empty($subject) ? str_replace("\t", ' ', $subject) : $subject;
@@ -355,6 +355,9 @@ if($_GET['action'] == 'newthread' || $_GET['action'] == 'newtrade') {
 	loadcache('groupreadaccess');
 	$navtitle .= ' - '.$thread['subject'].' - '.$_G['forum']['name'];
 	require_once libfile('post/editpost', 'include');
+} elseif($_GET['action']=='uploadImg'){
+    loadcache('groupreadaccess');
+    require_once libfile('post/uploadImg', 'include');
 }
 
 function check_allow_action($action = 'allowpost') {

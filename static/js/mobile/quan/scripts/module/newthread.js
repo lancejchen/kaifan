@@ -11,6 +11,14 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
             }
         });
         return num;
+    }, getParam: function (location) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == location){return pair[1];}
+        }
+        return(false);
     }, uploadPreview: function (id) {
         var reader = new FileReader();
         var uploadBase64;
@@ -75,9 +83,20 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
         if (!module.exports.uploadInfo[id]) {
             return false;
         }
+        var fid = function () {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == 'fid'){return pair[1];}
+            }
+            return(false);
+        };
+
         //lance
- //       var uploadUrl = DOMAIN + sId + '/pic/upload?isAjax=true&resType=json';
-        var uploadUrl = DOMAIN + 'source/aliOss/samples/ObjectSample.php?isAjax=true&resType=json';
+        //var uploadUrl = DOMAIN + sId + '/pic/upload?isAjax=true&resType=json';
+        var fid = module.exports.getParam('fid');
+        var uploadUrl = DOMAIN + 'misc.php?mod=swfupload&operation=uriUpload&type=image&inajax=yes&infloat=yes&simple=2&resType=json' + '&fid=' + fid;
         var progressHtml = '<div class="progress brSmall pr" id="progress' + id + '"><div class="proBar" style="width:0%;"></div></div>';
         jq('#li' + id).find('.maskLay').after(progressHtml);
         var formData = new FormData();
@@ -377,7 +396,7 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
                 }
             })
         }
-        module.exports.checkLBS();
+        //module.exports.checkLBS();
         jq(".locationCon").on('click', function () {
             if (module.exports.getgps == 1 || module.exports.getgps == 2) {
                 module.exports.getgps = 0;
@@ -391,7 +410,7 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
             } else if (module.exports.getgps == 0) {
                 module.exports.getgps = 1;
                 jq('.locationCon').html('<i class="iconloc f16 c1 cf">' + '正在定位...');
-                module.exports.checkLBS();
+                //module.exports.checkLBS();
             }
         });
         var aOperatIcon = jq('.operatIcon');
@@ -505,7 +524,7 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
                 });
             }});
         }
-    }, checkLBS: function () {
+    }, /*checkLBS: function () {
         gps.getLocation(function (latitude, longitude) {
             jq.DIC.ajax('/checkLBS', {'CSRFToken': CSRFToken, 'latitude': latitude, 'longitude': longitude}, {'noShowLoading': true, 'noMsg': true, 'success': function (result) {
                 var status = parseInt(result.errCode);
@@ -534,7 +553,7 @@ define('module/newthread', ['module/emotion', 'module/gps'], function (require, 
                 }
             }});
         });
-    }, initModal: function () {
+    },*/ initModal: function () {
         jq('#submitButton').bind('touchstart',function () {
             jq(this).addClass('sendOn');
         }).bind('touchend', function () {

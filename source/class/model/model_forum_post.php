@@ -18,12 +18,6 @@ class model_forum_post extends discuz_model {
 
 	public $post;
 
-
-
-
-
-
-
 	public $pid = 0;
 
 	public $feed = array();

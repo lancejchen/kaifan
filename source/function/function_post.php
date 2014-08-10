@@ -149,6 +149,126 @@ function ftpupload($aids, $uid = 0) {
 	}
 }
 
+function updateattachWeixin($modnewthreads, $tid, $pid, $attachnew, $attachupdate = array(), $uid = 0) {
+    global $_G;
+    $thread = C::t('forum_thread')->fetch($tid);
+    $uid = $uid ? $uid : $_G['uid'];
+    $newAttachNew = array();
+    $imgArray = array();
+    //$attachnew is upload img value. it could be an array.
+    foreach($attachnew as $num => $eachImgInfo){
+        $imgArray = explode('|',$eachImgInfo);
+        $imgContent = Array("dateline"=>$imgArray[1],"filename"=>$imgArray[2],"attachment"=>$imgArray[4]);
+        $newAttachNew[$imgArray[0]] = $imgContent;
+    }
+
+    //coresponding to class/forum/forum_upload_uri function upload msg around line 141
+    $attachnew = array();
+    $attachnew = $newAttachNew;
+
+    if($attachnew) {
+        $newaids = array_keys($attachnew);
+        $newattach = $newattachfile = $albumattach = array();
+
+        //$attach is get array from forum_attachment_unused.
+        foreach(C::t('forum_attachment_unused')->fetch_all($newaids) as $attach) {
+            if($attach['uid'] != $uid && !$_G['forum']['ismoderator']) {
+                continue;
+            }
+            $attach['uid'] = $uid;
+            $newattach[$attach['aid']] = daddslashes($attach);
+            if($attach['isimage']) {
+                $newattachfile[$attach['aid']] = $attach['attachment'];
+            }
+        }
+        if($_G['setting']['watermarkstatus'] && empty($_G['forum']['disablewatermark']) || !$_G['setting']['thumbdisabledmobile']) {
+            require_once libfile('class/image');
+            $image = new image;
+        }
+        if(!empty($_GET['albumaid'])) {
+            array_unshift($_GET['albumaid'], '');
+            $_GET['albumaid'] = array_unique($_GET['albumaid']);
+            unset($_GET['albumaid'][0]);
+            foreach($_GET['albumaid'] as $aid) {
+                if(isset($newattach[$aid])) {
+                    $albumattach[$aid] = $newattach[$aid];
+                }
+            }
+        }
+
+        foreach($attachnew as $aid => $attach) {
+            $update = array();
+
+            $update['tid'] = $tid;
+            $update['pid'] = $pid;
+            $update['uid'] = $uid;
+            $update['description'] = "weixin uploaded";
+            C::t('forum_attachment_n')->update('tid:'.$tid, $aid, $update);
+            if(!$newattach[$aid]) {
+                continue;
+            }
+            $update = array_merge($update, $newattach[$aid]);
+            if(!empty($newattachfile[$aid])) {
+                if($_G['setting']['thumbstatus'] && $_G['forum']['disablethumb']) {
+                    $update['thumb'] = 0;
+                    @unlink($_G['setting']['attachdir'].'/forum/'.getimgthumbname($newattachfile[$aid]));
+                    if(!empty($albumattach[$aid])) {
+                        $albumattach[$aid]['thumb'] = 0;
+                    }
+                } elseif(!$_G['setting']['thumbdisabledmobile']) {
+                    $_daid = sprintf("%09d", $aid);
+                    $dir1 = substr($_daid, 0, 3);
+                    $dir2 = substr($_daid, 3, 2);
+                    $dir3 = substr($_daid, 5, 2);
+                    $dw = 320;
+                    $dh = 320;
+                    $thumbfile = 'image/'.$dir1.'/'.$dir2.'/'.$dir3.'/'.substr($_daid, -2).'_'.$dw.'_'.$dh.'.jpg';
+                    $image->Thumb($_G['setting']['attachdir'].'/forum/'.$newattachfile[$aid], $thumbfile, $dw, $dh, 'fixwr');
+                    $dw = 720;
+                    $dh = 720;
+                    $thumbfile = 'image/'.$dir1.'/'.$dir2.'/'.$dir3.'/'.substr($_daid, -2).'_'.$dw.'_'.$dh.'.jpg';
+                    $image->Thumb($_G['setting']['attachdir'].'/forum/'.$newattachfile[$aid], $thumbfile, $dw, $dh, 'fixwr');
+                }
+                if($_G['setting']['watermarkstatus'] && empty($_G['forum']['disablewatermark'])) {
+                    $image->Watermark($_G['setting']['attachdir'].'/forum/'.$newattachfile[$aid], '', 'forum');
+                    $update['filesize'] = $image->imginfo['size'];
+                }
+            }
+
+            C::t('forum_attachment_n')->insert('tid:'.$tid, $update, false, true);
+            C::t('forum_attachment')->update($aid, array('tid' => $tid, 'pid' => $pid, 'tableid' => getattachtableid($tid)));
+            C::t('forum_attachment_unused')->delete($aid);
+        }
+
+    }
+
+    if(!$modnewthreads && $newattach && $uid == $_G['uid']) {
+        updatecreditbyaction('postattach', $uid, array(), '', count($newattach), 1, $_G['fid']);
+    }
+
+    $attachcount = C::t('forum_attachment_n')->count_by_id('tid:'.$tid, $pid ? 'pid' : 'tid', $pid ? $pid : $tid);
+    $attachment = 0;
+    if($attachcount) {
+        if(C::t('forum_attachment_n')->count_image_by_id('tid:'.$tid, $pid ? 'pid' : 'tid', $pid ? $pid : $tid)) {
+            $attachment = 2;
+        } else {
+            $attachment = 1;
+        }
+    } else {
+        $attachment = 0;
+    }
+    C::t('forum_thread')->update($tid, array('attachment'=>$attachment));
+    C::t('forum_post')->update('tid:'.$tid, $pid, array('attachment' => $attachment), true);
+
+    if(!$attachment) {
+        C::t('forum_threadimage')->delete_by_tid($tid);
+    }
+    $_G['forum_attachexist'] = $attachment;
+}
+
+
+
+//update attachment
 function updateattach($modnewthreads, $tid, $pid, $attachnew, $attachupdate = array(), $uid = 0) {
 	global $_G;
 	$thread = C::t('forum_thread')->fetch($tid);

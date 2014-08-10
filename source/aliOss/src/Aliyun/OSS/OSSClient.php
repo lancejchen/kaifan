@@ -7,6 +7,21 @@
  */
 
 namespace Aliyun\OSS;
+/*
+global $ossRoot;
+
+$ossRoot= getcwd() . '/source/aliOss/src/';
+
+require_once $ossRoot . 'Aliyun/Common/Utilities/AssertUtils.php';
+
+require_once $ossRoot.'Aliyun/Common/Resources/ResourceManager.php';
+
+require_once $ossRoot.'Aliyun/Common/Communication/ServiceClientFactory.php';
+
+require_once $ossRoot.'Aliyun/OSS/Commands/GeneratePresignedUrlCommand.php';
+
+require_once $ossRoot. 'Aliyun/OSS/Models/OSSOptions.php';
+*/
 
 use Aliyun\Common\Utilities\AssertUtils;
 

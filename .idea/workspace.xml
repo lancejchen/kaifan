@@ -1,490 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4476e-e07d-4fbb-aa8b-5874eb9f3d45" name="Default" comment="before new">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/class.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/collapse_all.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/constant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/expand_all.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/file-php.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/file.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/function.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/interface.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/method.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/property.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/variable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/view_source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/visibility_private.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/visibility_protected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/images/icons/visibility_public.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/A.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/ATrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/AbortMultipartUploadCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/AbstractEntityBodyDecorator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/AbstractHasDispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/AbstractMessage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Message/AbstractMessageParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/AccessControlPolicy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/ApcClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/ApcUniversalClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ApcUniversalClassLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Utilities/AssertUtils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Async/AsyncPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/B.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/BTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/BadMethodCallException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/BadResponseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/A/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/C/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Baz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/Bucket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/samples/BucketSample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/CInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/CTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/CacheControl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/CachePlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/CacheStorageInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/CachingEntityBody.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassCollectionLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassCollectionLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/ClassMapGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/ClassMapGeneratorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/ClientErrorResponseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Exceptions/ClientException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/ClientInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Collection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/QueryAggregator/CommaAggregator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/Common.Exceptions.ClientException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/Common.Exceptions.ServiceException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/Common.Models.ServiceOptions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/CompleteMultipartUploadCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/CompleteMultipartUploadResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ContainerAwareEventDispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/ContainerAwareEventDispatcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/Cookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Cookie/CookieParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Cookie/CookieParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookiePlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/CopyObjectCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/CopyObjectResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/CouldNotRewindStreamException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/CreateBucketCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/CurlException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/CurlHandle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/CurlMulti.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/CurlMultiInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/CurlVersion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/D.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Utilities/DateUtils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/DebugClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/DebugClassLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/DebugUniversalClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCacheStorage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/DefaultRevalidation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/DeleteBucketCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/DeleteObjectCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/DenyRevalidation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Dumper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/QueryAggregator/DuplicateAggregator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/E.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/EntityBody.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/EntityBodyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequestInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Escaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcherInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/EventDispatcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventSubscriberInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/EventTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/ExceptionCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/samples/ExceptionSample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/ExecutionContext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Pearlike/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike2/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/A/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision/C/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/includepath/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/fallback/Apc/Pearlike/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/fallback/Namespaced/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Namespaced/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Namespaced2/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Pearlike/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback/Pearlike2/FooBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/FromConfigInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/ClassesWithParents/GInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/GeneratePresignedUrlCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/GenericEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/GenericEventTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/GetBucketAclCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/GetObjectCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/GuzzleException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/HasDispatcherInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/HeaderCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/HeaderFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/HeaderFactoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/HeaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/History/HistoryPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Auth/HmacSHA1Signature.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/HttpException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Utilities/HttpHeaders.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/HttpMessage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Utilities/HttpMethods.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/HttpRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/HttpResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/HttpServiceClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ImmutableEventDispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Tests/ImmutableEventDispatcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/InitiateMultipartUploadCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/InitiateMultipartUploadResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Inline.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/InvalidArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/IoEmittingEntityBody.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Header/Link.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/ListBucketsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/ListMultipartUploadsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/ListObjectsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/ListPartsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Log/LogPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/MapClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/MessageInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Message/MessageParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Message/MessageParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Mimetypes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Mock/MockPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/MultiTransferException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/samples/MultipartSample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/MultipartUpload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/MultipartUploadsListing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Exceptions.OSSException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.AccessControlPolicy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.Bucket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.CompleteMultipartUploadResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.CopyObjectResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.InitiateMultipartUploadResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.MultipartUpload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.MultipartUploadsListing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.OSSError.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.OSSErrorCode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.OSSObject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.OSSObjectSummary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.OSSOptions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.ObjectListing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.Owner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.PartListing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.PartSummary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.PutObjectResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.Models.UploadPartResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/files/OSS.OSSClient.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/OSSCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSErrorCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/ResponseHandlers/OSSErrorResponseHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Exceptions/OSSException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSExceptionFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSHeaders.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSObject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSObjectSummary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSOptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSRequestBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Auth/OSSRequestSigner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSResponseParserFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSSXParserFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/OSSUtils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Oauth/OauthPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/ObjectListing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/OpenServiceClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/Owner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/ParserRegistry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/PartListing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/PartSummary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Message/PeclHttpMessageParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/UriTemplate/PeclUriTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/QueryAggregator/PhpAggregator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/stream/Guzzle/Stream/PhpStreamRequestFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/PostFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/PostFileInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/PutObjectCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/PutObjectResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/QueryString.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/ReadLimitEntityBody.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/RedirectPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/RequestException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/RequestFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/RequestFactoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/RequestInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Curl/RequestMediator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Resources/ResourceManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Message/Response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/ResponseHandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/ResponseHeaderOverrides.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/ResponseParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/RetryableServiceClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/RevalidationInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/RuntimeException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Exception/RuntimeException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/SVGPan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXCompleteMultipartUploadParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXCopyObjectParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXCreateBucketParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXEmptyParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXGetBucketAclParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXGetObjectParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXInitiateMultipartUploadParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXListBucketsParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXListMultipartUploadsParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXListObjectsParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXListPartsParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXOSSErrorParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXPutObjectParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Parsers/SXParser/SXUploadPartParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/ServerErrorResponseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/ServiceClientFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Communication/ServiceClientInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Utilities/ServiceConstants.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Exceptions/ServiceException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Models/ServiceOptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Auth/ServiceSignature.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/SetBucketAclCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Utilities/SignUtils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Auth/SignerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Cache/SkipRevalidation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/SomeParent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/StaticClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/stream/Guzzle/Stream/Stream.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/stream/Guzzle/Stream/StreamInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/stream/Guzzle/Stream/StreamRequestFactoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/ToArrayInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Exception/TooManyRedirectsException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcherInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/plugin/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Exception/UnexpectedValueException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/UniversalClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/UniversalClassLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Commands/UploadPartCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/UploadPartResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplateInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/http/Guzzle/Http/Url.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Url/UrlParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/parser/Guzzle/Parser/Url/UrlParserInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/guzzle/common/Guzzle/Common/Version.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/WinCacheClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced/WithComments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/WithComments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/XcacheClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Yaml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/css/abstract.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/aliyun.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/classes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Resources/default.options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Resources/default.options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/emotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/followSite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/gps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/graph.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/image_compress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/jpeg.encoder.basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/jpegmeta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery-1.4.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery-ui-1.8.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/jquery.mobile.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/jquery.mobile.custom.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/jquery.mobile.custom.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery.panzoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery.splitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/jquery.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/manifest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/multipleNs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/netType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/notAClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/report_deprecated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/report_markers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/report_parse_markers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/classmap/sameNsMultipleClasses.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/css/sen.full.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/share.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/stat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/Common/Resources/strings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/doc/js/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/template.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/topBar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/deps/traits.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/aliOss/libs/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/php5.4/traits.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_discuzcode.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_post.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_post_activity.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/block/11/1191f21e1a78096eda20b93287ef5bf2.jpg" afterPath="$PROJECT_DIR$/data/attachment/block/11/1191f21e1a78096eda20b93287ef5bf2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201407/05/190832gkkqro7k655r957z.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/05/190832gkkqro7k655r957z.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201407/05/190922bxnpyye6yewj31ac.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/05/190922bxnpyye6yewj31ac.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/2.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201407/05/212155zw4pvz424v4zu2uh.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/05/212155zw4pvz424v4zu2uh.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/3.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/block/5a/5a0cfa0b292b195b170d22bea93c0ff3.jpg" afterPath="$PROJECT_DIR$/data/attachment/block/5a/5a0cfa0b292b195b170d22bea93c0ff3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/block/c4/c47912ae96209ea0994505569a01f05e.jpg" afterPath="$PROJECT_DIR$/data/attachment/block/c4/c47912ae96209ea0994505569a01f05e.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/install.lock" afterPath="$PROJECT_DIR$/data/install.lock" />
+    <list default="true" id="fea4476e-e07d-4fbb-aa8b-5874eb9f3d45" name="Default" comment="after weixin upload pics">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/sprBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/sprNewBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload_uri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/uploadImg/post.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/uploadImg/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" afterPath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sendmail.lock" afterPath="$PROJECT_DIR$/data/sendmail.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/updatetime.lock" afterPath="$PROJECT_DIR$/data/updatetime.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/log/201407_cplog.php" afterPath="$PROJECT_DIR$/data/log/201407_cplog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/log/201407_errorlog.php" afterPath="$PROJECT_DIR$/data/log/201407_errorlog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" afterPath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sysdata/cache_adminextend.php" afterPath="$PROJECT_DIR$/data/sysdata/cache_adminextend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sysdata/cache_domain.php" afterPath="$PROJECT_DIR$/data/sysdata/cache_domain.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sysdata/cache_mobile.php" afterPath="$PROJECT_DIR$/data/sysdata/cache_mobile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sysdata/cache_pluginsetting.php" afterPath="$PROJECT_DIR$/data/sysdata/cache_pluginsetting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/common_postimg.js" afterPath="$PROJECT_DIR$/data/cache/common_postimg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/common_smilies_var.js" afterPath="$PROJECT_DIR$/data/cache/common_smilies_var.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/diy/template/default/group/index.htm.bak" afterPath="$PROJECT_DIR$/data/diy/template/default/group/index.htm.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/index.htm" afterPath="$PROJECT_DIR$/data/cache/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/index.htm" afterPath="$PROJECT_DIR$/data/template/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/threadcache/index.htm" afterPath="$PROJECT_DIR$/data/threadcache/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201407/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201407/05/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/05/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" afterPath="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" afterPath="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/class_core.php" afterPath="$PROJECT_DIR$/source/class/class_core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" afterPath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" afterPath="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum.php" afterPath="$PROJECT_DIR$/forum.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/forum/forum_post.php" afterPath="$PROJECT_DIR$/source/module/forum/forum_post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/forum/forum_upload.php" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/function/function_post.php" afterPath="$PROJECT_DIR$/source/function/function_post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/language/lang_message.php" afterPath="$PROJECT_DIR$/source/language/lang_message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/language/mobile/lang_template.php" afterPath="$PROJECT_DIR$/source/language/mobile/lang_template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" afterPath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/model/model_forum_post.php" afterPath="$PROJECT_DIR$/source/class/model/model_forum_post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" afterPath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/include/post/post_newthread.php" afterPath="$PROJECT_DIR$/source/include/post/post_newthread.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" afterPath="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_common.css" afterPath="$PROJECT_DIR$/data/cache/style_1_common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_space.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_1_editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_calendar.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_index.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_moderator.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_module.css" afterPath="$PROJECT_DIR$/data/cache/style_1_module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_rss.css" afterPath="$PROJECT_DIR$/data/cache/style_1_rss.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_1_widthauto.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_1_wysiwyg.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_common.css" afterPath="$PROJECT_DIR$/data/cache/style_2_common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_2_css_diy.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_2_css_space.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_2_editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_calendar.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_forumdisplay.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_forumdisplay.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_index.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_moderator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_post.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_viewthread.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_viewthread.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_module.css" afterPath="$PROJECT_DIR$/data/cache/style_2_module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_rss.css" afterPath="$PROJECT_DIR$/data/cache/style_2_rss.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_2_widthauto.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_2_wysiwyg.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -509,86 +74,56 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="post_uploadFile.php" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php">
+            <file leaf-file-name="misc.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/misc.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="5" column="8" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="3495">
-                    <folding>
-                      <marker date="1407123648926" expanded="true" signature="4353:4366" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="4381:6755" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="4436:5033" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="4436:5033" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="4493:4890" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="4984:4997" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5142:6302" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5311:5329" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5330:6236" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5330:6236" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5791:6123" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="5791:6123" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="6452:6465" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="6471:6697" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="6471:6697" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7233:7246" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7247:9208" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7296:9197" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7296:9197" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7373:7392" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7393:7996" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="7393:7996" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8054:8679" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8054:8679" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8093:8636" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8730:8749" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8785:9182" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="8945:8958" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="9082:9095" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="9274:9511" placeholder="..." />
-                      <marker date="1407123648926" expanded="true" signature="10904:10999" placeholder="..." />
-                    </folding>
+                  <state line="49" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1575">
+                    <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="imgUpload.html" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html">
+            <file leaf-file-name="extend_thread_activity.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="33" column="23" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.61946905" vertical-offset="90" max-vertical-offset="5025">
-                    <folding>
-                      <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#span#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#input#0;n#li#0;n#ul#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#input#0;n#li#1;n#ul#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#div#1;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#div#2;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <marker date="1407124574863" expanded="false" signature="6180:6193" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="6208:8582" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="6263:6860" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="6320:6717" placeholder="..." />
-                      <marker date="1407124574863" expanded="false" signature="6811:6824" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="6969:8129" placeholder="..." />
-                      <marker date="1407124574863" expanded="false" signature="7120:7156" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="7157:8063" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="7618:7950" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="9124:9898" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="9308:9886" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="9393:9619" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="9661:9871" placeholder="..." />
-                      <marker date="1407124574863" expanded="false" signature="9986:9999" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="10000:11961" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="10049:11950" placeholder="..." />
-                      <marker date="1407124574863" expanded="false" signature="10126:10145" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="10146:10749" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="10807:11432" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="10846:11389" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="11483:11502" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="11538:11935" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="12027:12264" placeholder="..." />
-                      <marker date="1407124574863" expanded="true" signature="14008:14103" placeholder="..." />
-                    </folding>
+                  <state line="119" column="0" selection-start="4412" selection-end="4412" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="3645">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="model_forum_thread.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="44" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5430">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="function_forum.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/function/function_forum.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="787" column="57" selection-start="28590" selection-end="28590" vertical-scroll-proportion="0.0" vertical-offset="11805" max-vertical-offset="16980">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="function_post.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/function/function_post.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="267" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="0.0" vertical-offset="4005" max-vertical-offset="12000">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/index.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.022123894" vertical-offset="45" max-vertical-offset="2355">
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -607,145 +142,100 @@
     <favorites_list name="kaifan" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.7340845">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="0" selection-start="2296" selection-end="2296" vertical-scroll-proportion="-11.25" vertical-offset="450" max-vertical-offset="5025">
-                  <folding>
-                    <marker date="1407117807669" expanded="false" signature="9679:9702" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="newthread.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="161" column="25" selection-start="7247" selection-end="7247" vertical-scroll-proportion="0.0" vertical-offset="2463" max-vertical-offset="9570">
-                  <folding>
-                    <marker date="1407116831593" expanded="false" signature="3753:3762" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="seajs-0.1.5.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="848" column="24" selection-start="29267" selection-end="29267" vertical-scroll-proportion="0.8158756" vertical-offset="12668" max-vertical-offset="13890">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="discuz_version.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/discuz_version.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/phpinfo.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="9" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ObjectSample.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="91" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="1785">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="631" selection-start="2254" selection-end="2254" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="765">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="extend_thread_replycredit.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_replycredit.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2280">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="extend_thread_activity.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="0" selection-start="5359" selection-end="5359" vertical-scroll-proportion="0.0" vertical-offset="1845" max-vertical-offset="3645">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.4611399">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="extend_thread_image.php" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="27" column="63" selection-start="721" selection-end="721" vertical-scroll-proportion="0.5276382" vertical-offset="375" max-vertical-offset="5970">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="discuz_model.php" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_model.php">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="106" column="8" selection-start="2141" selection-end="2141" vertical-scroll-proportion="1.476684" vertical-offset="1590" max-vertical-offset="4005">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="stat.js" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/stat.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="9" column="7" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="7485">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile.html" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/mobile.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="18" column="421" selection-start="1594" selection-end="1594" vertical-scroll-proportion="10.0" vertical-offset="510" max-vertical-offset="5340">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="extend_thread_image.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="0" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="3255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_core.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/class_core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="3270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discuz_database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="7185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_uploadImg.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/include/post/post_uploadImg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="223" column="5" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3345" max-vertical-offset="4095">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newthread.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="556" column="16" selection-start="24556" selection-end="24556" vertical-scroll-proportion="0.0" vertical-offset="8340" max-vertical-offset="9015">
+              <folding>
+                <marker date="1407580795239" expanded="false" signature="4492:4501" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.mobile-1.4.3.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/jquery.mobile-1.4.3.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="198090" selection-end="198090" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.mobile-1.4.3.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="5310" selection-start="197893" selection-end="197893" vertical-scroll-proportion="0.0" vertical-offset="44603" max-vertical-offset="48090">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="113" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.68268013" vertical-offset="0" max-vertical-offset="2385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discuz_container.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_container.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_message.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/function/function_message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="58" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -768,22 +258,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/module/forum/forum_post.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_activity.php" />
-        <option value="$PROJECT_DIR$/source/class/class_core.php" />
-        <option value="$PROJECT_DIR$/source/class/extend/extend_thread_activity.php" />
         <option value="$PROJECT_DIR$/source/include/post/post_newthread.php" />
-        <option value="$PROJECT_DIR$/source/class/discuz/discuz_container.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
-        <option value="$PROJECT_DIR$/source/phpinfo.php" />
+        <option value="$PROJECT_DIR$/source/include/post/post_uploadImg.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.php" />
+        <option value="$PROJECT_DIR$/source/class/forum/forum_upload.php" />
+        <option value="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" />
+        <option value="$PROJECT_DIR$/misc.php" />
+        <option value="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/OSSClient.php" />
+        <option value="$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSOptions.php" />
+        <option value="$PROJECT_DIR$/source/class/class_core.php" />
         <option value="$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php" />
-        <option value="$PROJECT_DIR$/data/template/2_2_touch_forum_post_uploadFile.tpl.php" />
+        <option value="$PROJECT_DIR$/source/class/extend/extend_thread_image.php" />
+        <option value="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" />
+        <option value="$PROJECT_DIR$/source/class/forum/forum_upload_uri.php" />
+        <option value="$PROJECT_DIR$/source/function/function_post.php" />
+        <option value="$PROJECT_DIR$/static/css/fonts/icomoon.svg" />
         <option value="$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js" />
-        <option value="$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html" />
       </list>
     </option>
   </component>
@@ -805,6 +295,79 @@
     <option name="y" value="24" />
     <option name="width" value="1015" />
     <option name="height" value="1896" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probably bugPHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedVariableInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -927,7 +490,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -941,7 +504,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -955,11 +518,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aliOss" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -973,15 +536,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aliOss" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaifan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -993,14 +682,14 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../server/php/bin" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/aliOss" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="kaifan" serverId="4c953605-ab45-4c29-a3af-4dfe586b1484">
     <servers>
@@ -1036,12 +725,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js/mobile" />
+      <recent name="$PROJECT_DIR$/static/css/images" />
+      <recent name="$PROJECT_DIR$/static/js/mobile/quan/images" />
       <recent name="$PROJECT_DIR$/static/js/mobile/quan" />
       <recent name="$PROJECT_DIR$/source/class/extend" />
-      <recent name="$PROJECT_DIR$/static/css/jQueryUI" />
-      <recent name="$PROJECT_DIR$/static/js/mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css/images" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum" />
     </key>
@@ -1343,7 +1034,11 @@
       <created>1404823857422</created>
       <updated>1404823857422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after weixin upload pics">
+      <created>1407125781051</created>
+      <updated>1407125781051</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1372,20 +1067,21 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37915492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8977099" sideWeight="0.49948186" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.50051814" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37099236" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.70422536" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38134715" sideWeight="0.6208451" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.70422536" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29577464" sideWeight="0.49948186" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.50051814" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37070423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.89295775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1401,7 +1097,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="before delete header to other pages, like add event" />
-    <option name="LAST_COMMIT_MESSAGE" value="before delete header to other pages, like add event" />
+    <MESSAGE value="after weixin upload pics" />
+    <option name="LAST_COMMIT_MESSAGE" value="after weixin upload pics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1478,23 +1175,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/forum.php</url>
-          <line>70</line>
+          <line>65</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/class/model/model_forum_thread.php</url>
-          <line>189</line>
+          <line>199</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_post.php</url>
           <line>31</line>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/source/module/forum/forum_post.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php</url>
@@ -1518,7 +1210,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_post.php</url>
-          <line>164</line>
+          <line>163</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1543,14 +1235,184 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php</url>
-          <line>20</line>
+          <line>75</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
+          <line>292</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_post.php</url>
+          <line>371</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php</url>
+          <line>115</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/forum.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
+          <line>296</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_message.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
+          <line>139</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_post.php</url>
+          <line>358</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_post.php</url>
+          <line>344</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_upload.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_uploadImg.php</url>
+          <line>147</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_uploadImg.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_uploadImg.php</url>
+          <line>239</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_model.php</url>
+          <line>167</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_extend.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_newthread.php</url>
+          <line>272</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/forum/forum_upload_uri.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_upload.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_upload.php</url>
+          <line>246</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_upload.php</url>
+          <line>98</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/forum/forum_upload_uri.php</url>
+          <line>82</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/misc.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/misc.php</url>
+          <line>97</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/misc/misc_swfupload.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/aliOss/src/Aliyun/OSS/Models/OSSOptions.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/discuz/discuz_upload.php</url>
+          <line>132</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/forum/forum_upload_uri.php</url>
+          <line>117</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_forum.php</url>
+          <line>787</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/forum/forum_upload_uri.php</url>
+          <line>155</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_post.php</url>
+          <line>165</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/function/function_post.php</url>
+          <line>155</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/include/post/post_uploadImg.php</url>
+          <line>259</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="47" />
+      <option name="time" value="108" />
     </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
@@ -1560,176 +1422,113 @@
     </find-history>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="0" selection-start="10952" selection-end="10952" vertical-scroll-proportion="16.35503" vertical-offset="4942" max-vertical-offset="13290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1416" column="0" selection-start="47612" selection-end="47612" vertical-scroll-proportion="0.041322313" vertical-offset="47790" max-vertical-offset="69420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/lib/stat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="13560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="421" selection-start="1594" selection-end="1594" vertical-scroll-proportion="10.0" vertical-offset="510" max-vertical-offset="5340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/aliOss/samples/ObjectSample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="8" selection-start="2141" selection-end="2141" vertical-scroll-proportion="1.476684" vertical-offset="1590" max-vertical-offset="4005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="721" selection-end="721" vertical-scroll-proportion="0.5276382" vertical-offset="375" max-vertical-offset="5970">
+        <state line="70" column="0" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/function/function_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="58" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/fonts/icomoon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="0" selection-start="65069" selection-end="65069" vertical-scroll-proportion="1.5288754" vertical-offset="14270" max-vertical-offset="16875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/include/post/post_uploadImg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="5" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3345" max-vertical-offset="4095">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/module/newthread.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="25" selection-start="7247" selection-end="7247" vertical-scroll-proportion="0.0" vertical-offset="2463" max-vertical-offset="9570">
+        <state line="556" column="16" selection-start="24556" selection-end="24556" vertical-scroll-proportion="0.0" vertical-offset="8300" max-vertical-offset="9945">
           <folding>
-            <marker date="1407116831593" expanded="false" signature="3753:3762" placeholder="..." />
+            <marker date="1407580795239" expanded="false" signature="4492:4501" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_activity.php">
+    <entry file="file://$PROJECT_DIR$/static/css/jquery.mobile-1.4.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="59" selection-start="6583" selection-end="6583" vertical-scroll-proportion="0.0" vertical-offset="2730" max-vertical-offset="3345">
+        <state line="9" column="21" selection-start="198090" selection-end="198090" vertical-scroll-proportion="0.0" vertical-offset="46339" max-vertical-offset="47325">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post.php">
+    <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="2296" selection-end="2296" vertical-scroll-proportion="-11.25" vertical-offset="450" max-vertical-offset="5025">
-          <folding>
-            <marker date="1407117807669" expanded="false" signature="9679:9702" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="51315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/mobile/quan/scripts/seajs-0.1.5.js">
+    <entry file="file://$PROJECT_DIR$/static/js/mobile/jquery.mobile-1.4.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="848" column="24" selection-start="29267" selection-end="29267" vertical-scroll-proportion="0.8158756" vertical-offset="12668" max-vertical-offset="13890">
+        <state line="8" column="5310" selection-start="197893" selection-end="197893" vertical-scroll-proportion="0.0" vertical-offset="44603" max-vertical-offset="48090">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_uploadFile.php">
+    <entry file="file://$PROJECT_DIR$/misc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="3495">
-          <folding>
-            <marker date="1407123648926" expanded="true" signature="4353:4366" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="4381:6755" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="4436:5033" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="4436:5033" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="4493:4890" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="4984:4997" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5142:6302" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5311:5329" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5330:6236" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5330:6236" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5791:6123" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="5791:6123" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="6452:6465" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="6471:6697" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="6471:6697" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7233:7246" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7247:9208" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7296:9197" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7296:9197" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7373:7392" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7393:7996" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="7393:7996" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8054:8679" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8054:8679" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8093:8636" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8730:8749" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8785:9182" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="8945:8958" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="9082:9095" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="9274:9511" placeholder="..." />
-            <marker date="1407123648926" expanded="true" signature="10904:10999" placeholder="..." />
-          </folding>
+        <state line="49" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1575">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/imgUpload.html">
+    <entry file="file://$PROJECT_DIR$/source/class/extend/extend_thread_activity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.61946905" vertical-offset="90" max-vertical-offset="5025">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#0;n#ul#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#1;n#ul#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1407124574863" expanded="false" signature="6180:6193" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="6208:8582" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="6263:6860" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="6320:6717" placeholder="..." />
-            <marker date="1407124574863" expanded="false" signature="6811:6824" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="6969:8129" placeholder="..." />
-            <marker date="1407124574863" expanded="false" signature="7120:7156" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="7157:8063" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="7618:7950" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="9124:9898" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="9308:9886" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="9393:9619" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="9661:9871" placeholder="..." />
-            <marker date="1407124574863" expanded="false" signature="9986:9999" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="10000:11961" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="10049:11950" placeholder="..." />
-            <marker date="1407124574863" expanded="false" signature="10126:10145" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="10146:10749" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="10807:11432" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="10846:11389" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="11483:11502" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="11538:11935" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="12027:12264" placeholder="..." />
-            <marker date="1407124574863" expanded="true" signature="14008:14103" placeholder="..." />
-          </folding>
+        <state line="119" column="0" selection-start="4412" selection-end="4412" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="3645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/function/function_forum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="787" column="57" selection-start="28590" selection-end="28590" vertical-scroll-proportion="0.0" vertical-offset="11805" max-vertical-offset="16980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/function/function_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="0.0" vertical-offset="4005" max-vertical-offset="12000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.022123894" vertical-offset="45" max-vertical-offset="2355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="113" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.68268013" vertical-offset="0" max-vertical-offset="2385">
+          <folding />
         </state>
       </provider>
     </entry>

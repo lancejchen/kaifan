@@ -56,16 +56,11 @@ C::app()->cachelist = $cachelist;
 //lance created discuz_application instance, it adds new variables like modcache etc into the application.
 C::app()->init();
 
-
 loadforum();
-
 
 set_rssauth();
 
-
 runhooks();
-
-
 
 $navtitle = str_replace('{bbname}', $_G['setting']['bbname'], $_G['setting']['seotitle']['forum']);
 $_G['setting']['threadhidethreshold'] = 1;
