@@ -11,8 +11,64 @@ if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
 
-
+//image related upload
 class extend_thread_image extends extend_thread_base {
+
+    //empty function, for pass __call() in discuz_container.
+    public function beforeUploadImg(){
+        $lance = "win";
+    }
+
+    public function uploadImgWeixin(){
+        global $_G;
+        $threadimageaid = 0;
+        $threadimage = array();
+        $tid = $_GET['imgtid'];
+        $pid = $_GET['imgpid'];
+        $fid = $_G['fid'];
+        if($this->param['special'] == 4 && $_GET['activityaid']) {
+            $threadimageaid = $_GET['activityaid'];
+            convertunusedattach($_GET['activityaid'], $tid, $pid);
+        }
+        $this->mobile_upload();
+        if(($this->group['allowpostattach'] || $this->group['allowpostimage']) && ($_GET['picIds'] ||
+                $this->param['sortid'] || !empty($_GET['activityaid']))) {
+            //updateattach is for storing
+            updateattachWeixin($this->param['displayorder'] == -4 || $this->param['modnewthreads'], $tid, $pid,
+                $_GET['picIds']);
+            if(!$threadimageaid) {
+                $threadimage = C::t('forum_attachment_n')->fetch_max_image('tid:'.$tid, 'tid', $tid);
+                $threadimageaid = $threadimage['aid'];
+            }
+        }
+
+        $values = array('fid' => $fid, 'tid' => $tid, 'pid' => $pid, 'coverimg' => '');
+        $param = array();
+        if($this->forum['picstyle']) {
+            if(!setthreadcover($pid, 0, $threadimageaid) && !defined('IN_MOBILE')) {
+                $imglist = array();
+                preg_match_all("/(\[img\]|\[img=\d{1,4}[x|\,]\d{1,4}\])\s*([^\[\<\r\n]+?)\s*\[\/img\]/is", $this->param['message'], $imglist, PREG_SET_ORDER);
+                $values['coverimg'] = "<p id=\"showsetcover\">".lang('message', 'post_newthread_set_cover')."<span id=\"setcoverwait\"></span></p><script>if($('forward_a')){\$('forward_a').style.display='none';setTimeout(\"$('forward_a').style.display=''\", 5000);};ajaxget('forum.php?mod=ajax&action=setthreadcover&tid=$tid&pid=$pid&fid=$fid&imgurl={$imglist[0][2]}&newthread=1', 'showsetcover', 'setcoverwait')</script>";
+                $param['clean_msgforward'] = 1;
+                $param['timeout'] = $param['refreshtime'] = 15;
+            }
+        }
+
+        if($threadimageaid) {
+            if(!$threadimage) {
+                $threadimage = C::t('forum_attachment_n')->fetch('tid:'.$tid, $threadimageaid);
+            }
+            $threadimage = daddslashes($threadimage);
+            C::t('forum_threadimage')->insert(array(
+                'tid' => $tid,
+                'attachment' => $threadimage['attachment'],
+                'remote' => $threadimage['remote'],
+            ));
+        }
+
+        $this->param['values'] = array_merge((array)$this->param['values'], $values);
+        $this->param['param'] = array_merge((array)$this->param['param'], $param);
+    }
 
 	public function after_newthread() {
 		$threadimageaid = 0;
@@ -26,6 +82,7 @@ class extend_thread_image extends extend_thread_base {
 		}
 		$this->mobile_upload();
 		if(($this->group['allowpostattach'] || $this->group['allowpostimage']) && ($_GET['attachnew'] || $this->param['sortid'] || !empty($_GET['activityaid']))) {
+            //updateattach is for storing
 			updateattach($this->param['displayorder'] == -4 || $this->param['modnewthreads'], $tid, $pid, $_GET['attachnew']);
 			if(!$threadimageaid) {
 				$threadimage = C::t('forum_attachment_n')->fetch_max_image('tid:'.$tid, 'tid', $tid);
@@ -60,7 +117,9 @@ class extend_thread_image extends extend_thread_base {
 		$this->param['values'] = array_merge((array)$this->param['values'], $values);
 		$this->param['param'] = array_merge((array)$this->param['param'], $param);
 	}
+
 	private function mobile_upload() {
+        global $_G;
 		if($_GET['mobile'] == 'yes' && !empty($_FILES['Filedata'])) {
 			$forumattachextensions = '';
 			if($_G['forum']) {

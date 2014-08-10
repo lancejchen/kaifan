@@ -11,9 +11,12 @@ if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }
 
-$_G['uid'] = intval($_POST['uid']);
+if($_GET['operation']=='uriUpload'){
+}else{
+    $_G['uid'] = intval($_POST['uid']);
+}
 
-if((empty($_G['uid']) && $_GET['operation'] != 'upload') || $_POST['hash'] != md5(substr(md5($_G['config']['security']['authkey']), 8).$_G['uid'])) {
+if($_GET['operation']!='uriUpload' && ((empty($_G['uid']) && $_GET['operation'] != 'upload') || $_POST['hash'] != md5(substr(md5($_G['config']['security']['authkey']), 8).$_G['uid']))) {
 	exit();
 } else {
 	if($_G['uid']) {
@@ -49,6 +52,28 @@ if($_GET['operation'] == 'upload') {
 	}
 	$upload = new forum_upload();
 
+} elseif($_GET['operation']=='uriUpload'){
+ /*
+  * lance: uri data upload image
+  */
+    $forumattachextensions = '';
+    $fid = intval($_GET['fid']);
+    if($fid) {
+        $forum = $fid != $_G['fid'] ? C::t('forum_forum')->fetch_info_by_fid($fid) : $_G['forum'];
+        if($forum['status'] == 3 && $forum['level']) {
+            $levelinfo = C::t('forum_grouplevel')->fetch($forum['level']);
+            if($postpolicy = $levelinfo['postpolicy']) {
+                $postpolicy = dunserialize($postpolicy);
+                $forumattachextensions = $postpolicy['attachextensions'];
+            }
+        } else {
+            $forumattachextensions = $forum['attachextensions'];
+        }
+        if($forumattachextensions) {
+            $_G['group']['attachextensions'] = $forumattachextensions;
+        }
+    }
+    $upload = new forum_upload_uri();
 } elseif($_GET['operation'] == 'poll') {
 
 	$upload = new discuz_upload();

@@ -35,6 +35,16 @@ class model_forum_thread extends discuz_model
 		$this->forum = &$this->app->var['forum'];
 	}
 
+    //lance insert image
+    public function newImage($parameters){
+        if(checkflood()) {
+            return $this->showmessage('post_flood_ctrl', '', array('floodctrl' => $this->setting['floodctrl']));
+        } elseif(checkmaxperhour('tid')) {
+            return $this->showmessage('thread_flood_ctrl_threads_per_hour', '', array('threads_per_hour' => $this->group['maxthreadsperhour']));
+        }
+        return 'post_newimage_succeed';
+    }
+
     //lance this is for adding the new threads
 	public function newthread($parameters) {
 		require_once libfile('function/post');

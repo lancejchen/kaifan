@@ -142,6 +142,9 @@ class core
 
 	public static function autoload($class) {
 		$class = strtolower($class);
+        if(strpos($class,'aliyun\\')!==false || strpos($class,'symfony\\')!==false || strpos($class,'guzzle\\')!==false){
+            return;
+        }
 		if(strpos($class, '_') !== false) {
 			list($folder) = explode('_', $class);
 			$file = 'class/'.$folder.'/'.substr($class, strlen($folder) + 1);

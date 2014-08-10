@@ -34,7 +34,6 @@ class forum_upload {
 			return $this->uploadmsg(10);
 		}
 
-
 		$upload = new discuz_upload();
 		$upload->init($_FILES['Filedata'], 'forum');
 		$this->attach = &$upload->attach;

@@ -77,16 +77,6 @@
         </div>
 
 
-        <div data-role="fieldcontainer" class="li_2 cl">
-            <a class="a1" href="javascript:;"><input type="file" name="Filedata" id="filedata" style="width:30px;height:30px;font-size:30px;opacity:0;"/></a>
-            <!-- TODO: cannot upload pics and also smiling function is not functioning -->
-            <!--{if $_G[setting][fastsmilies]}-->
-            <a class="a2" onclick="$(this).hide(); $('#fastsmiliesdiv_data').fadeIn();"></a>
-            <div class="cl"></div>
-            <div id="fastsmiliesdiv_data" style="display:none;"><div id="fastsmilies"></div></div>
-            <!--{/if}-->
-        </div>
-
         <!--{if $_GET[action] == 'edit' && $isorigauthor && ($isfirstpost && $thread['replies'] < 1 || !$isfirstpost) && !$rushreply && $_G['setting']['editperdel']}-->
         <div data-role="fieldcontainer" class="li_4">
             <input type="checkbox" name="delete" id="delete" class="pc" value="1" title="{lang post_delpost}{if $thread[special] == 3}{lang reward_price_back}{/if}"> {lang delete_check}
