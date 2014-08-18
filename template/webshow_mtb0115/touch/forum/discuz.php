@@ -1,6 +1,6 @@
 <?php exit;?>
 <!--{if $_G['setting']['mobile']['mobilehotthread'] && $_GET['forumlist'] != 1}-->
-	<!--{eval dheader('Location:forum.php?mod=guide&view=hot');exit;}-->
+	<!--{eval dheader('Location:forum.php?mod=forumdisplay&fid=2');exit;}-->
 <!--{/if}-->
 <!--{template common/header}-->
 <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/discuz.css?{VERHASH}" type="text/css">

@@ -1121,7 +1121,7 @@ function runhooks($scriptextra = '') {
 		hookscript(CURMODULE, $_G['basescript'], 'funcs', array(), '', $scriptextra);
 	}
 }
-
+//run hook script
 function hookscript($script, $hscript, $type = 'funcs', $param = array(), $func = '', $scriptextra = '') {
 	global $_G;
 	static $pluginclasses;
@@ -1139,7 +1139,7 @@ function hookscript($script, $hscript, $type = 'funcs', $param = array(), $func 
 	}
 	if(!isset($_G['cache']['plugin'])) {
 		loadcache('plugin');
-	}
+	}//for including modules inside
 	foreach((array)$_G['setting'][HOOKTYPE][$hscript][$script]['module'] as $identifier => $include) {
 		if($_G['pluginrunlist'] && !in_array($identifier, $_G['pluginrunlist'])) {
 			continue;

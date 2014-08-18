@@ -13,6 +13,21 @@ define('CURSCRIPT', 'plugin');
 
 require './source/class/class_core.php';
 
+
+require_once dir(__FILE__).'vendor/autoload.php';
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('test.log',Logger::WARNING));
+
+//$log->addWarning('location');
+//$log->addError('bar');
+$postdata = file_get_contents("php://input");
+$log->addError('from plugin.php  ' . $postdata);
+
+
+
 $discuz = C::app();
 
 $cachelist = array('plugin', 'diytemplatename');
@@ -43,7 +58,7 @@ if(empty($identifier) || !preg_match("/^[a-z0-9_\-]+$/i", $module) || !in_array(
 
 define('CURMODULE', $identifier);
 runhooks();
-
+$log->addError('before include');
 include DISCUZ_ROOT.$modfile;
-
+$log->addError('from plugin.php end ');
 ?>

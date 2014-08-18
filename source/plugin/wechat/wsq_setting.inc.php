@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: wsq_setting.inc.php 34592 2014-06-06 09:20:29Z nemohou $
+ *      $Id: wsq_setting.inc.php 34754 2014-07-29 03:16:20Z nemohou $
  */
 
 if(!defined('IN_DISCUZ') || !defined('IN_ADMINCP')) {
@@ -16,6 +16,8 @@ $setting = (array)unserialize($setting['mobilewechat']);
 
 require_once DISCUZ_ROOT.'./source/plugin/wechat/wechat.lib.class.php';
 require_once DISCUZ_ROOT.'./source/plugin/wechat/wsq.class.php';
+require_once DISCUZ_ROOT.'./source/plugin/wechat/setting.class.php';
+WeChatSetting::menu();
 
 if(!empty($_GET['recheck'])) {
 	wsq::recheck();
@@ -29,12 +31,14 @@ if(!empty($_GET['recheck'])) {
 if(!submitcheck('settingsubmit')) {
 
 	if($setting['wsq_siteid']) {
-			if(in_array('plugin', $_G['setting']['rewritestatus'])) {
+		if(in_array('plugin', $_G['setting']['rewritestatus'])) {
 			$url = $_G['siteurl'].rewriteoutput('plugin', 1, 'wechat', 'access');
 		} else {
 			$url = $_G['siteurl'].'plugin.php?id=wechat:access';
 		}
 	}
+
+	$apilisturl = ADMINSCRIPT.'?action=plugins&operation=config&do='.$pluginid.'&identifier=wechat&pmod=wsq_setting&viewapi=yes';
 
 	$setting['wsq_siteurl'] = $setting['wsq_siteurl'] ? $setting['wsq_siteurl'] : $_G['siteurl'];
 	$setting['wsq_sitename'] = $setting['wsq_sitename'] ? $setting['wsq_sitename'] : $_G['setting']['bbname'];
@@ -45,7 +49,7 @@ if(!submitcheck('settingsubmit')) {
 	$sitelogo = $setting['wsq_sitelogo'] ? '<img src="'.$setting['wsq_sitelogo'].'" width="150" />' : '';
 	$qrcode = $setting['wechat_qrcode'] ? '<img src="'.$_G['setting']['attachurl'].'common/'.$setting['wechat_qrcode'].'" width="150" />' : '';
 
-	showtips(lang('plugin/wechat', 'wsq_tips', array('ADMINSCRIPT' => ADMINSCRIPT.'?action=')));
+	showtips(lang('plugin/wechat', 'wsq_tips', array('ADMINSCRIPT' => ADMINSCRIPT.'?action=', 'apiurl' => $apilisturl)));
 	showformheader('plugins&operation=config&do='.$pluginid.'&identifier=wechat&pmod=wsq_setting', 'enctype');
 
 	showtableheader(lang('plugin/wechat', 'wechat_wsq_setting').' '.($setting['wsq_status'] ? ' ('.lang('plugin/wechat', 'wsq_status_open').')' : ($setting['wsq_siteid'] ? ' ('.lang('plugin/wechat', 'wsq_status_ing').(TIMESTAMP - $setting['wsq_lastrequest'] > 3600 ? ' <a href="'.ADMINSCRIPT.'?action=plugins&operation=config&do='.$pluginid.'&identifier=wechat&pmod=wsq_setting&recheck=yes">['.lang('plugin/wechat', 'wsq_status_try').']</a>)' : ')') : ' ('.lang('plugin/wechat', 'wsq_status_close').')')));
@@ -71,6 +75,7 @@ if(!submitcheck('settingsubmit')) {
 		showsetting(lang('plugin/wechat', 'wsq_domain'), 'setting[wsq_domain]', '', 'text', 1, 0, lang('plugin/wechat', 'wsq_domain_comment'));
 	}
 	showsetting(lang('plugin/wechat', 'wechat_float_qrcode'), 'setting[wechat_float_qrcode]', $setting['wechat_float_qrcode'], 'radio');
+	showsetting(lang('plugin/wechat', 'wsq_wapdefault'), 'setting[wsq_wapdefault]', $setting['wsq_wapdefault'], 'radio');
 	showsubmit('settingsubmit');
 	showtablefooter();
 
@@ -115,7 +120,6 @@ if(!submitcheck('settingsubmit')) {
 
 	$_GET['setting']['wsq_status'] = $siteinfo->res->status;
 	$_GET['setting']['wsq_lastrequest'] = $siteinfo->res->lasttime;
-
 	$settings = array('mobilewechat' => serialize($_GET['setting'] + $setting));
 	C::t('common_setting')->update_batch($settings);
 
@@ -129,6 +133,10 @@ if(!submitcheck('settingsubmit')) {
 			'receiveEvent::scan' => array('plugin' => 'wechat', 'include' => 'response.class.php', 'class' => 'WSQResponse', 'method' => 'scan'),
 		));
 		WeChatHook::updateRedirect(array('plugin' => 'wechat', 'include' => 'response.class.php', 'class' => 'WSQResponse', 'method' => 'redirect'));
+		WeChatHook::updateAPIHook(array(
+			array('forumdisplay_variables' => array('plugin' => 'wechat', 'include' => 'wsqapi.class.php', 'class' => 'WSQAPI', 'method' => 'forumdisplay_variables')),
+			array('viewthread_variables' => array('plugin' => 'wechat', 'include' => 'wsqapi.class.php', 'class' => 'WSQAPI', 'method' => 'viewthread_variables')),
+		));
 		WeChatHook::updateViewPluginId('wechat');
 		if(!in_array('mobile', $_G['setting']['plugins']['available'])) {
 			$plugin = C::t('common_plugin')->fetch_by_identifier('mobile');

@@ -6,7 +6,17 @@
  *
  *      $Id: index.php 33969 2013-09-10 08:32:14Z nemohou $
  */
+require_once dir(__FILE__).'../../vendor/autoload.php';
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler(dir(__FILE__).'../../test.log',Logger::WARNING));
+
+//$log->addWarning('location');
+//$log->addError('bar');
+$postdata = file_get_contents("php://input");
+$log->addError('from mobile index ' . $postdata);
 if(!empty($_SERVER['QUERY_STRING'])) {
 	$plugin = !empty($_GET['oem']) ? 'mobileoem' : 'mobile';
 	$dir = '../../source/plugin/'.$plugin.'/';

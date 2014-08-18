@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: viewthread.php 34494 2014-05-09 03:34:44Z nemohou $
+ *      $Id: viewthread.php 34743 2014-07-23 10:22:21Z nemohou $
  */
 
 if(!defined('IN_MOBILE_API')) {
@@ -36,7 +36,7 @@ class mobile_api {
 		$variable = array(
 			'thread' => $_G['thread'],
 			'fid' => $_G['fid'],
-			'postlist' => array_values(mobile_core::getvalues($GLOBALS['postlist'], array('/^\d+$/'), array('pid', 'tid', 'author', 'first', 'dbdateline', 'dateline', 'username', 'adminid', 'memberstatus', 'authorid', 'username', 'groupid', 'memberstatus', 'status', 'message', 'number', 'memberstatus', 'groupid', 'attachment', 'attachments', 'attachlist', 'imagelist', 'anonymous'))),
+			'postlist' => array_values(mobile_core::getvalues($GLOBALS['postlist'], array('/^\d+$/'), array('pid', 'tid', 'author', 'first', 'dbdateline', 'dateline', 'username', 'adminid', 'memberstatus', 'authorid', 'username', 'groupid', 'memberstatus', 'status', 'message', 'number', 'memberstatus', 'groupid', 'attachment', 'attachments', 'attachlist', 'imagelist', 'anonymous', 'position'))),
 			'ppp' => $_G['ppp'],
 			'setting_rewriterule' => $_G['setting']['rewriterule'],
 			'setting_rewritestatus' => $_G['setting']['rewritestatus'],
@@ -90,9 +90,14 @@ class mobile_api {
 			if($GLOBALS['aimgs'][$post['pid']]) {
 				$imagelist = array();
 				foreach($GLOBALS['aimgs'][$post['pid']] as $aid) {
+					$extra = '';
 					$url = mobile_api::_parseimg('', $GLOBALS['postlist'][$post['pid']]['attachments'][$aid]['url'].$GLOBALS['postlist'][$post['pid']]['attachments'][$aid]['attachment'], '');
-					if(strexists($variable['postlist'][$k]['message'], '[attach]'.$aid.'[/attach]')) {
-						$variable['postlist'][$k]['message'] = str_replace('[attach]'.$aid.'[/attach]', mobile_image($url), $variable['postlist'][$k]['message']);
+					if($GLOBALS['postlist'][$post['pid']]['attachments'][$aid]['thumb']) {
+						$extra = 'file="'.$url.'"';
+						$url .= '.thumb.jpg';
+					}
+					if(empty($_G['mobileimage_parse_in_post']) && strexists($variable['postlist'][$k]['message'], '[attach]'.$aid.'[/attach]')) {
+						$variable['postlist'][$k]['message'] = str_replace('[attach]'.$aid.'[/attach]', mobile_image($url, $extra), $variable['postlist'][$k]['message']);
 						unset($variable['postlist'][$k]['attachments'][$aid]);
 					} else {
 						$imagelist[] = $aid;
@@ -104,6 +109,7 @@ class mobile_api {
 			$variable['postlist'][$k]['message'] = preg_replace('/(&nbsp;){2,}/','',$variable['postlist'][$k]['message']);
 			$variable['postlist'][$k]['avatar'] = avatar($post['authorid'], 'small', true);
 			$variable['postlist'][$k]['dateline'] = strip_tags($post['dateline']);
+			$variable['postlist'][$k]['groupiconid'] = mobile_core::usergroupIconId($post['groupid']);
 		}
 
 		if(!empty($GLOBALS['polloptions'])) {
@@ -130,7 +136,7 @@ class mobile_api {
 			$variable['special_activity'] = $GLOBALS['activity'];
 		}
 
-        $variable['forum']['password'] = $variable['forum']['password'] ? '1' : '0';
+		$variable['forum']['password'] = $variable['forum']['password'] ? '1' : '0';
 		mobile_core::result(mobile_core::variable($variable));
 	}
 

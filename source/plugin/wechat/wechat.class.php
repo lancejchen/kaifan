@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: wechat.class.php 34659 2014-06-19 05:10:26Z nemohou $
+ *      $Id: wechat.class.php 34765 2014-07-30 04:45:43Z nemohou $
  */
 
 if (!defined('IN_DISCUZ')) {
@@ -97,10 +97,15 @@ class mobileplugin_wechat {
 
 	function common() {
 		global $_G;
+		if(!$_G['wechat']['setting']) {
+			$_G['wechat']['setting'] = unserialize($_G['setting']['mobilewechat']);
+		}
 		dsetcookie('mobile', '', -1);
-		$redirect = WeChat::redirect(1);
-		if($redirect) {
-			dheader('location: '.$redirect);
+		if(!isset($_GET['pluginid'])) {
+			$redirect = WeChat::redirect(1);
+			if($redirect) {
+				dheader('location: '.$redirect);
+			}
 		}
 	}
 
@@ -133,13 +138,80 @@ class plugin_wechat_member extends plugin_wechat {
 
 }
 
+class mobileplugin_wechat_forum extends mobileplugin_wechat {
+
+	function post_showactivity() {
+		if(!showActivity::init()) {
+			return false;
+		}
+		showActivity::post();
+	}
+
+	function viewthread_showactivity() {
+		showActivity::init();
+	}
+
+	function misc_showactivity() {
+		showActivity::init();
+	}
+
+}
+
 class plugin_wechat_forum extends plugin_wechat {
+
+	function viewthread_showactivity() {
+		showActivity::init();
+	}
+
+	function viewthread_postheader_output() {
+		if(!showActivity::init()) {
+			return array();
+		}
+		if($GLOBALS['activity']['starttimeto']) {
+			global $_G;
+			$starttimeto = strtotime($GLOBALS['activity']['starttimeto']);
+			if($starttimeto < TIMESTAMP && $_G['forum_thread']['displayorder'] > 0) {
+				C::t('forum_thread')->update($_G['tid'], array('displayorder' => 0));
+			}
+		}
+		return showActivity::returnvoters(1);
+	}
+
+	function viewthread_posttop_output() {
+		if(!showActivity::init()) {
+			return array();
+		}
+		return showActivity::returnvoters(2);
+	}
+
+	function misc_showactivity() {
+		if(!showActivity::init()) {
+			return false;
+		}
+		showActivity::misc();
+	}
+
+	function post_showactivity() {
+		if(!showActivity::init()) {
+			return false;
+		}
+		showActivity::post();
+	}
+
 	function viewthread_share_method_output() {
 		global $_G;
 		if($_G['wechat']['setting']['wsq_allow']) {
 			return wechat_tpl_share();
 		}
 	}
+
+	function viewthread_postaction() {
+		global $_G;
+		if($_G['wechat']['setting']['wsq_allow'] && $_G['adminid'] == 1 && empty($_GET['viewpid'])) {
+			return array(wechat_tpl_resourcepush());
+		}
+	}
+
 }
 
 class WeChat {
@@ -195,7 +267,7 @@ class WeChat {
 		}
 		return array($isqrapi, $qrcodeurl, $codeenc, $code);
 	}
-
+    //not really redirect. just return
 	static public function redirect($type) {
 		global $_G;
 		$hook = unserialize($_G['setting']['wechatredirect']);
@@ -255,7 +327,7 @@ class WeChat {
 				return;
 			}
 		}
-
+        //user registration disable regular rules, can be controlled in backend.
 		if(!$_G['wechat']['setting']['wechat_disableregrule']) {
 			loadcache('ipctrl');
 			if($_G['cache']['ipctrl']['ipregctrl']) {
@@ -341,7 +413,7 @@ class WeChat {
 				C::t('common_regip')->insert(array('ip' => $_G['clientip'], 'count' => -1, 'dateline' => $_G['timestamp']));
 			}
 		}
-
+        //moderate audit
 		if($_G['setting']['regverify'] == 2) {
 			C::t('common_member_validate')->insert(array(
 				'uid' => $uid,
@@ -363,6 +435,7 @@ class WeChat {
 			'groupid' => $groupid,
 		), 0);
 
+		//统计
 		include_once libfile('function/stat');
 		updatestat('register');
 
@@ -384,9 +457,99 @@ class WeChat {
 				$defaultusername = substr($defaultusername, 0, 9).'_'.random(5);
 			}
 		} else {
-			$defaultusername = $_G['wechat']['setting']['wechat_user'].random(5);
+			$defaultusername = 'wx_'.random(5);
 		}
 		return $defaultusername;
+	}
+
+}
+
+//not needed in kaifan case;
+class showActivity {
+
+	public static $init = false;
+
+	function init() {
+		global $_G;
+		if(!$_G['wechat']['setting']['wsq_allow'] || !in_array($_G['tid'], (array)$_G['wechat']['setting']['showactivity']['tids'])) {
+			return false;
+		}
+		if(!self::$init) {
+			$_G['setting']['allowpostcomment'] = array(0 => 1, 1 => 2);
+			$_G['setting']['commentnumber'] = 10;
+			$_G['setting']['commentpostself'] = 0;
+			$_G['setting']['commentfirstpost'] = 0;
+			$_G['setting']['fastpost'] = 0;
+			$_G['setting']['showimages'] = 1;
+			$_G['setting']['imagelistthumb'] = 1;
+			$_G['setting']['activitypp'] = 0;
+			$_G['setting']['disallowfloat'] .= '|reply';
+			$_G['setting']['guesttipsinthread']['flag'] = 0;
+			$_G['setting']['nofilteredpost'] = 0;
+			$_G['group']['allowgetimage'] = 1;
+			if($_G['basescript'].'::'.CURMODULE == 'forum::post' && $_GET['action'] == 'edit') {
+				$_G['group']['allowpostactivity'] = true;
+				$_G['forum']['allowpostspecial'] = 255;
+			}
+			$_GET['ordertype'] = empty($_GET['ordertype']) ? 1 : $_GET['ordertype'];
+			$_G['mobileimage_parse_in_post'] = 1;
+			self::$init = true;
+		}
+		return true;
+	}
+
+	function misc() {
+		global $_G;
+		if(!$_POST || $_GET['action'] != 'activityapplies' && $_GET['action'] != 'activityapplylist') {
+			return;
+		}
+		if(submitcheck('activitysubmit')) {
+			showmessage('wechat:show_please_reply');
+		} elseif(submitcheck('activitycancel')) {
+			showmessage('wechat:show_no_cancel');
+		} elseif(submitcheck('applylistsubmit') && $_GET['operation'] == 'replenish') {
+			showmessage('wechat:show_disabled');
+		}
+	}
+
+	function post() {
+		global $_G;
+		if($_GET['action'] != 'reply') {
+			return;
+		}
+		if(submitcheck('replysubmit')) {
+			$activity = C::t('forum_activity')->fetch($_G['tid']);
+			if($activity['starttimefrom'] > TIMESTAMP) {
+				showmessage('wechat:show_no_begin', NULL, array());
+			}
+			if($activity['expiration'] && $activity['expiration'] < TIMESTAMP) {
+				showmessage('activity_stop', NULL, array(), array('login' => 1));
+			}
+			if(empty($_GET['attachnew'])) {
+				showmessage('wechat:show_please_upload');
+			}
+			$data = array('tid' => $_G['tid'], 'username' => $_G['username'], 'uid' => $_G['uid'], 'message' => '', 'verified' => 1, 'dateline' => $_G['timestamp']);
+			C::t('forum_activityapply')->insert($data);
+			$applynumber = C::t('forum_activityapply')->fetch_count_for_thread($_G['tid']);
+			C::t('forum_activity')->update($_G['tid'], array('applynumber' => $applynumber));
+		}
+	}
+
+	function returnvoters($type) {
+		global $_G;
+		$return = array();
+		if($type == 1) {
+			$posts = DB::fetch_all("SELECT * FROM %t WHERE tid=%d", array('forum_debatepost', $_G['tid']), 'pid');
+			foreach($GLOBALS['postlist'] as $post) {
+				$posts[$post['pid']]['voters'] = intval($posts[$post['pid']]['voters']);
+				$return[] = !$post['first'] ? wechatshowactivity_tpl_voters($posts[$post['pid']]) : '';
+			}
+		} else {
+			foreach($GLOBALS['postlist'] as $post) {
+				$return[] = !$post['first'] ? wechatshowactivity_tpl_share($post) : '';
+			}
+		}
+		return $return;
 	}
 
 }

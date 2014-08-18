@@ -7,9 +7,21 @@
  *      $Id: forum.php 33828 2013-08-20 02:29:32Z nemohou $
  */
 
-
 define('APPTYPEID', 2);
 define('CURSCRIPT', 'forum');
+
+
+require_once dir(__FILE__).'vendor/autoload.php';
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('test.log',Logger::WARNING));
+
+//$log->addWarning('location');
+//$log->addError('bar');
+$postdata = file_get_contents("php://input");
+$log->addError('from forum.php '. $postdata);
 
 
 require './source/class/class_core.php';

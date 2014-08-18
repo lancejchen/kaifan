@@ -1,0 +1,46 @@
+[2014-08-17 22:28:56] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408285735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114716</Latitude>
+<Longitude>113.242424</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-17 22:30:20] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408285820</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[0530]]></Content>
+<MsgId>6048541540521049098</MsgId>
+</xml> [] []
+[2014-08-17 22:37:58] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408286277</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-17 22:38:50] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408286330</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-17 22:38:54] name.ERROR:  [] []
+[2014-08-17 22:38:54] name.ERROR:  [] []
+[2014-08-17 22:40:27] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408286369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-17 22:41:33] name.ERROR: <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408286369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []

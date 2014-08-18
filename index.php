@@ -7,6 +7,22 @@
  *      $Id: index.php 34524 2014-05-15 04:42:23Z nemohou $
  */
 
+
+require_once dir(__FILE__).'vendor/autoload.php';
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('test.log',Logger::WARNING));
+
+//$log->addWarning('location');
+//$log->addError('bar');
+$postdata = file_get_contents("php://input");
+$log->addError('from index.php '. $postdata);
+
+
+
+
 if(!empty($_SERVER['QUERY_STRING']) && is_numeric($_SERVER['QUERY_STRING'])) {
 	$_ENV['curapp'] = 'home';
 	$_GET = array('mod'=>'space', 'uid'=>$_SERVER['QUERY_STRING']);

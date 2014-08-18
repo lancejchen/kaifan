@@ -3,7 +3,7 @@ function wechat_tpl_login_bar() {
 global $_G;
 }
 <!--{block return}-->
-	<a {if $_G['wechat']['setting']['wechat_qrtype']}href="plugin.php?id=wechat:login"{else}href="javascript:;" onclick="showWindow('wechat_bind', 'plugin.php?id=wechat:bind')"{/if}><img src="source/plugin/wechat/image/wechat_login.png" class="vm" />
+<a {if $_G['wechat']['setting']['wechat_qrtype']}href="plugin.php?id=wechat:login"{else}href="javascript:;" onclick="showWindow('wechat_bind', 'plugin.php?id=wechat:bind')"{/if}><img src="source/plugin/wechat/image/wechat_login.png" class="vm" /></a>
 <!--{/block}-->
 <!--{eval return $return;}-->
 {eval
@@ -73,6 +73,8 @@ global $_G;
 }
 <!--{block return}-->
 	<a href="javascript:;" onclick="showWindow('wechat_share', 'plugin.php?id=wechat:qrcode&threadqr={$_G[tid]}&access=yes&share=yes')"><i><img src="source/plugin/wechat/image/share.png" alt="{lang wechat:wechat_share}" />{lang wechat:wechat_share}</i></a>
+
+
 <!--{/block}-->
 <!--{eval return $return;}-->
 {eval
@@ -83,6 +85,37 @@ global $_G;
 }
 <!--{block return}-->
 	<div class="rfm pbm">{lang wechat:wechat_register}</div>
+<!--{/block}-->
+<!--{eval return $return;}-->
+{eval
+}
+
+function wechatshowactivity_tpl_voters($post) {
+global $_G;
+}
+<!--{block return}-->
+	<span class="pipe">|</span> <img src="{STATICURL}image/common/agree.gif" class="vm"> {lang wechat:show_recommend_number}
+<!--{/block}-->
+<!--{eval return $return;}-->
+{eval
+}
+
+function wechatshowactivity_tpl_share($post) {
+global $_G;
+}
+<!--{block return}-->
+	<p class="xs3 quote"><img src="source/plugin/wechat/image/share.png"> <a href="javascript:;" onclick="showWindow('wechat_share', 'plugin.php?id=wechat:qrcode&threadqr={$post[tid]}&pid=$post[pid]&showactivity=yes&access=yes')">{lang wechat:show_scanqr}</a></p>
+	<br /><br />
+<!--{/block}-->
+<!--{eval return $return;}-->
+{eval
+}
+
+function wechat_tpl_resourcepush() {
+global $_G;
+}
+<!--{block return}-->
+	<a href="javascript:;" onclick="showWindow('wechat_resourcepush', 'plugin.php?id=wechat:resourcepush&tid={$_G[tid]}')">{lang wechat:resource_push}</a>
 <!--{/block}-->
 <!--{eval return $return;}-->
 {eval

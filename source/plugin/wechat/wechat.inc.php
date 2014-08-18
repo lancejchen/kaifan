@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: wechat.inc.php 34572 2014-06-03 08:18:44Z nemohou $
+ *      $Id: wechat.inc.php 34698 2014-07-10 07:46:45Z nemohou $
  */
 if (!defined('IN_DISCUZ')) {
 	exit('Access Denied');
@@ -54,7 +54,7 @@ if(!$_G['wechat']['setting']['wechat_qrtype'] && IN_WECHAT && !$openid) {
 } elseif($openid) {
 	dsetcookie('wechatopenid', authcode($openid, 'ENCODE', $_G['config']['security']['authkey']), 86400);
 }
-
+//tell wsq has a loginevent
 wsq::report('loginevent');
 
 require_once libfile('function/member');
@@ -153,7 +153,7 @@ if($ac == 'bind') {
 	if($_G['wechat']['setting']['wechat_mtype'] == 2) {
 		$defaultusername = WeChat::getnewname($openid);
 	} else {
-		$defaultusername = $_G['wechat']['setting']['wechat_qrtype'] ? $_GET['username'] : $_G['wechat']['setting']['wechat_user'].random(5);
+		$defaultusername = $_G['wechat']['setting']['wechat_qrtype'] ? $_GET['username'] : 'wx_'.random(5);
 	}
 	$defaultusername = htmlspecialchars($defaultusername);
 
