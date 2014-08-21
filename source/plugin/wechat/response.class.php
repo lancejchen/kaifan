@@ -127,8 +127,18 @@ class WSQResponse {
 		if($_G['wechat']['setting']['wsq_siteid'] && !defined('IN_MOBILE_API')) {
 			$in_wechat = $_G['wechat']['setting']['wsq_wapdefault'] ? true : strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') !== false;
 			$fromwap = $_G['wechat']['setting']['wsq_wapdefault'] && strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') === false;
-			$url = wsq::$WSQ_DOMAIN.'siteid='.$_G['wechat']['setting']['wsq_siteid'].($fromwap ? '&source=wap' : '').'&c=index&a=';
+            //lance domain
+            $url = wsq::$WSQ_DOMAIN;
+            //lance domain original
+			//$url = wsq::$WSQ_DOMAIN.'siteid='.$_G['wechat']['setting']['wsq_siteid'].($fromwap ? '&source=wap' : '')
+            //    .'&c=index&a=';
 			if($type) {
+                //lance domain added below
+                if($in_wechat){
+                    //dheader('location: ' . $url);
+                }
+                //lance domain original
+                /*
 				$modid = $_G['basescript'].'::'.CURMODULE;
 				if($in_wechat && ($modid == 'forum::viewthread' || $modid == 'group::viewthread') && !empty($_GET['tid'])) {
 					dheader('location: '.$url.'viewthread&tid='.$_GET['tid']);
@@ -137,13 +147,20 @@ class WSQResponse {
 				} elseif($in_wechat && $modid == 'forum::index') {
 					dheader('location: '.$url.'index');
 				}
+                */
 			} else {
 				if(isset($_GET['referer'])) {
 					return $_GET['referer'];
 				} elseif(isset($_GET['pluginid'])) {
 					return $url.'plugin&pluginid='.urlencode($_GET['pluginid']).'&param='.urlencode($_GET['param']);
 				} else {
-					return $url.'index';
+                    $_G['userInfoLogin'] = 0;
+                    if($_G['userInfoLogin']){
+                        //get user url
+
+                        require_once dir(__FILE__) . 'invokeLogin.php';
+                    }
+					return $url;
 				}
 			}
 		}

@@ -16,6 +16,9 @@ define('NOROBOT', TRUE);
 if(!in_array($_GET['action'], array('login', 'logout'))) {
 	showmessage('undefined_action');
 }
+//require_once libfile('class/memberwechat');
+//$wechatName = dirname(__FILE__) . '/../../class/class_memberwechat.php';
+//require_once $wechatName;
 
 $ctl_obj = new logging_ctl();
 $ctl_obj->setting = $_G['setting'];

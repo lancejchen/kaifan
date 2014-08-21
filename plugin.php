@@ -18,7 +18,7 @@ require_once dir(__FILE__).'vendor/autoload.php';
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-$log = new Logger('name');
+$log= new Logger('name');
 $log->pushHandler(new StreamHandler('test.log',Logger::WARNING));
 
 //$log->addWarning('location');

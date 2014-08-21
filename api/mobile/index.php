@@ -9,7 +9,7 @@
 require_once dir(__FILE__).'../../vendor/autoload.php';
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-
+global $log;
 $log = new Logger('name');
 $log->pushHandler(new StreamHandler(dir(__FILE__).'../../test.log',Logger::WARNING));
 

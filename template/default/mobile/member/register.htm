@@ -1,5 +1,7 @@
 <!--{template common/header}-->
 <div class="box"><a href="{if $forcefid}forum.php?mod=forumdisplay{$forcefid}{else}forum.php{/if}" title="{lang return_forum}">{lang return_forum}</a><span class="pipe">|</span><a href="javascript:history.back();" onclick="javascript:history.back();" title="{lang goback}" >{lang goback}</a></div>
+
+
 <form method="post" autocomplete="off" name="register" id="registerform" enctype="multipart/form-data" action="member.php?mod={$_G[setting][regname]}&mobile=yes">
 <input type="hidden" name="regsubmit" value="yes" />
 <input type="hidden" name="formhash" value="{FORMHASH}" />

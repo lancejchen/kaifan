@@ -12,9 +12,9 @@ if (!defined('IN_DISCUZ')) {
 }
 
 class wsq {
-
-	public static $WSQ_DOMAIN = 'http://wsq.discuz.qq.com/?';
-	public static $API_URL = 'http://wsq.discuz.qq.com/?';
+    //lance domain public static $WSQ_DOMAIN = 'http://wsq.discuz.qq.com/?';
+    public static $WSQ_DOMAIN = 'http://www.kaifanlou.com/';
+    public static $API_URL = 'http://wsq.discuz.qq.com/?';
 	public static $SETTING = array();
 
 	private static function _dfsockopen($get, $post = array()) {

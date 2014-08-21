@@ -1,380 +1,894 @@
-
-[2014-08-18 12:17:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 03:50:50] name.ERROR: from plugin.php   [] []
+[2014-08-21 11:50:50] name.ERROR: before include [] []
+[2014-08-21 11:50:51] name.ERROR: oriPwdvhd2102d1uend [] []
+[2014-08-21 11:50:51] name.ERROR: password1ddde9f9095564ef3f0823cefc692b95end [] []
+[2014-08-21 11:50:51] name.ERROR: username陈晶_aDViHend [] []
+[2014-08-21 11:50:51] name.ERROR: the authcode is from regi is\n1a01V9igHYB1J5pB2U3iYPHU3M3tma0/aVOhgzwmS2co0D3BYEFBiy8b\n [] []
+[2014-08-21 11:50:52] name.ERROR: from index.php  [] []
+[2014-08-21 11:50:52] name.ERROR: from forum the cookies are\nuvwK_2132_forum_lastvisit is D_2_1408592939<br>
+uvwK_2132_lastact is 1408592939	forum.php	forumdisplay<br>
+uvwK_2132_onlineusernum is 3<br>
+uvwK_2132_sid is L8BJjo<br>
+uvwK_2132_st_t is 0|1408592939|621d433d844dc3835784d6e924c56c1d<br>
+uvwK_2132_seccode is 7.7610bda4f08c46793a<br>
+uvwK_2132_st_p is 0|1408588257|2f9deece2ea4d0a19505ebff37d9eab6<br>
+uvwK_2132_viewid is tid_1<br>
+CK_EQ is 2<br>
+uvwK_2132_visitedfid is 2<br>
+uvwK_2132_lastvisit is 1408434978<br>
+uvwK_2132_saltkey is eHgJC166<br>
+ [] []
+[2014-08-21 11:50:53] name.ERROR: from forum the cookies are\nuvwK_2132_lastact is 1408593052	forum.php	<br>
+uvwK_2132_mobile is deleted<br>
+uvwK_2132_sid is lzgmh4<br>
+uvwK_2132_forum_lastvisit is D_2_1408592939<br>
+uvwK_2132_onlineusernum is 3<br>
+uvwK_2132_st_t is 0|1408592939|621d433d844dc3835784d6e924c56c1d<br>
+uvwK_2132_seccode is 7.7610bda4f08c46793a<br>
+uvwK_2132_st_p is 0|1408588257|2f9deece2ea4d0a19505ebff37d9eab6<br>
+uvwK_2132_viewid is tid_1<br>
+CK_EQ is 2<br>
+uvwK_2132_visitedfid is 2<br>
+uvwK_2132_lastvisit is 1408434978<br>
+uvwK_2132_saltkey is eHgJC166<br>
+ [] []
+[2014-08-21 11:51:13] name.ERROR: from forum the cookies are\nuvwK_2132_forum_lastvisit is D_2_1408593053<br>
+uvwK_2132_lastact is 1408593053	forum.php	forumdisplay<br>
+uvwK_2132_sid is GNXcuX<br>
+uvwK_2132_st_t is 0|1408593053|84720abf89ba1aaf2b4e060451db30bd<br>
+uvwK_2132_onlineusernum is 3<br>
+uvwK_2132_seccode is 7.7610bda4f08c46793a<br>
+uvwK_2132_st_p is 0|1408588257|2f9deece2ea4d0a19505ebff37d9eab6<br>
+uvwK_2132_viewid is tid_1<br>
+CK_EQ is 2<br>
+uvwK_2132_visitedfid is 2<br>
+uvwK_2132_lastvisit is 1408434978<br>
+uvwK_2132_saltkey is eHgJC166<br>
+ [] []
+[2014-08-21 11:56:22] name.ERROR: from index.php  [] []
+[2014-08-21 03:56:23] name.ERROR: from plugin.php   [] []
+[2014-08-21 11:56:23] name.ERROR: before include [] []
+[2014-08-21 03:58:01] name.ERROR: from plugin.php   [] []
+[2014-08-21 11:58:01] name.ERROR: before include [] []
+[2014-08-21 03:58:02] name.ERROR: from plugin.php   [] []
+[2014-08-21 11:58:02] name.ERROR: before include [] []
+[2014-08-21 03:58:51] name.ERROR: from plugin.php   [] []
+[2014-08-21 11:58:51] name.ERROR: before include [] []
+[2014-08-21 12:00:18] name.ERROR: from index.php  [] []
+[2014-08-21 12:00:37] name.ERROR: from index.php  [] []
+[2014-08-21 04:00:52] name.ERROR: from plugin.php   [] []
+[2014-08-21 12:00:52] name.ERROR: before include [] []
+[2014-08-21 12:14:52] name.ERROR: from index.php  [] []
+[2014-08-21 04:14:53] name.ERROR: from plugin.php   [] []
+[2014-08-21 12:14:53] name.ERROR: before include [] []
+[2014-08-21 05:08:52] name.ERROR: from plugin.php   [] []
+[2014-08-21 13:08:52] name.ERROR: before include [] []
+[2014-08-21 06:17:24] name.ERROR: from plugin.php   [] []
+[2014-08-21 14:17:24] name.ERROR: before include [] []
+[2014-08-21 06:20:13] name.ERROR: from plugin.php   [] []
+[2014-08-21 14:20:13] name.ERROR: before include [] []
+[2014-08-21 06:21:07] name.ERROR: from plugin.php   [] []
+[2014-08-21 14:21:07] name.ERROR: before include [] []
+[2014-08-21 06:34:40] name.ERROR: from plugin.php   [] []
+[2014-08-21 14:34:40] name.ERROR: before include [] []
+[2014-08-21 06:40:02] name.ERROR: from plugin.php   [] []
+[2014-08-21 14:40:02] name.ERROR: before include [] []
+[2014-08-21 14:42:06] name.ERROR: from index.php  [] []
+[2014-08-21 15:03:37] name.ERROR: from index.php  [] []
+[2014-08-21 15:03:37] name.ERROR: from index.php  [] []
+[2014-08-21 15:03:38] name.ERROR: from index.php  [] []
+[2014-08-21 15:07:36] name.ERROR: from index.php  [] []
+[2014-08-21 15:07:36] name.ERROR: from index.php  [] []
+[2014-08-21 15:07:37] name.ERROR: from index.php  [] []
+[2014-08-21 07:08:31] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:08:31] name.ERROR: before include [] []
+[2014-08-21 07:08:39] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:08:39] name.ERROR: before include [] []
+[2014-08-21 15:09:08] name.ERROR: from index.php  [] []
+[2014-08-21 15:09:09] name.ERROR: from index.php  [] []
+[2014-08-21 07:14:43] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:14:43] name.ERROR: before include [] []
+[2014-08-21 07:14:44] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:14:44] name.ERROR: before include [] []
+[2014-08-21 15:14:45] name.ERROR: oriPwdNU245dF9d4end [] []
+[2014-08-21 15:14:45] name.ERROR: passworda9181af53cb66ac283e6b461302c8abdend [] []
+[2014-08-21 15:14:45] name.ERROR: username陈晶_U3C60end [] []
+[2014-08-21 15:15:12] name.ERROR: from index.php  [] []
+[2014-08-21 15:15:12] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408335460</CreateTime>
+<CreateTime>1408605311</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 07:16:16] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:16:16] name.ERROR: before include [] []
+[2014-08-21 07:16:16] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:16:16] name.ERROR: before include [] []
+[2014-08-21 15:16:17] name.ERROR: oriPwdxN7L9IKNk7end [] []
+[2014-08-21 15:16:17] name.ERROR: password546aba119d669d148b28d16d0c9c346cend [] []
+[2014-08-21 15:16:17] name.ERROR: username陈晶_t6Xr9end [] []
+[2014-08-21 15:16:17] name.ERROR: from plugin.php end  [] []
+[2014-08-21 15:16:26] name.ERROR: from index.php  [] []
+[2014-08-21 15:16:28] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408605386</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 07:16:35] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:16:35] name.ERROR: before include [] []
+[2014-08-21 15:16:35] name.ERROR: oriPwdvPIaAf11iIend [] []
+[2014-08-21 15:16:35] name.ERROR: passwordc8306145f8dfe48be299ef8e7814d18cend [] []
+[2014-08-21 15:16:35] name.ERROR: username陈晶_ePLCvend [] []
+[2014-08-21 07:21:57] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:21:57] name.ERROR: before include [] []
+[2014-08-21 15:21:57] name.ERROR: oriPwdK3irNdmWeNend [] []
+[2014-08-21 15:21:57] name.ERROR: password940ef01b22122a51ab342e5d0d2576c6end [] []
+[2014-08-21 15:21:57] name.ERROR: username陈晶_qkag5end [] []
+[2014-08-21 15:22:00] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408605720</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:22:01] name.ERROR: from index.php  [] []
+[2014-08-21 15:27:04] name.ERROR: from index.php  [] []
+[2014-08-21 15:27:09] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408606024</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:27:10] name.ERROR: from index.php  [] []
+[2014-08-21 15:27:10] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408606029</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:44:43] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607083</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:44:46] name.ERROR: from index.php  [] []
+[2014-08-21 15:45:59] name.ERROR: from index.php  [] []
+[2014-08-21 07:47:11] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:47:11] name.ERROR: before include [] []
+[2014-08-21 15:47:11] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607230</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114706</Latitude>
+<Longitude>113.242378</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 07:47:12] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:47:12] name.ERROR: before include [] []
+[2014-08-21 15:47:12] name.ERROR: oriPwdDaQiTa2lIXend [] []
+[2014-08-21 15:47:12] name.ERROR: password89df158c176a9f4483452c63e0b5376aend [] []
+[2014-08-21 15:47:12] name.ERROR: username陈晶_Jp7Taend [] []
+[2014-08-21 15:47:17] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607236</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:47:17] name.ERROR: from index.php  [] []
+[2014-08-21 07:48:23] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:48:23] name.ERROR: before include [] []
+[2014-08-21 15:48:23] name.ERROR: oriPwdbcIy7oIbIbend [] []
+[2014-08-21 15:48:23] name.ERROR: password90866b156b92a0b9b0bab8a69788f8f5end [] []
+[2014-08-21 15:48:23] name.ERROR: username陈晶_IDDZaend [] []
+[2014-08-21 15:48:26] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607305</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:48:26] name.ERROR: from index.php  [] []
+[2014-08-21 15:49:06] name.ERROR: from index.php  [] []
+[2014-08-21 15:49:06] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607346</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:49:10] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607350</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
 <EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
 </xml> [] []
-[2014-08-18 04:17:40] name.ERROR: from plugin.php   [] []
-[2014-08-18 12:17:40] name.ERROR: before include [] []
-[2014-08-18 12:19:33] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 07:49:11] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:49:11] name.ERROR: before include [] []
+[2014-08-21 07:49:11] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:49:11] name.ERROR: before include [] []
+[2014-08-21 15:49:16] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408335552</CreateTime>
+<CreateTime>1408607356</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:49:16] name.ERROR: from index.php  [] []
+[2014-08-21 07:49:24] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:49:24] name.ERROR: before include [] []
+[2014-08-21 15:49:25] name.ERROR: oriPwdbG7PEq4v7iend [] []
+[2014-08-21 15:49:25] name.ERROR: password6ec7f49819d032d48e4b82858a39fa69end [] []
+[2014-08-21 15:49:25] name.ERROR: username陈晶_cHo7Uend [] []
+[2014-08-21 07:49:59] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:49:59] name.ERROR: before include [] []
+[2014-08-21 15:49:59] name.ERROR: oriPwdodOi953589end [] []
+[2014-08-21 15:49:59] name.ERROR: password86d28e68f5e8503579999a9269394467end [] []
+[2014-08-21 15:49:59] name.ERROR: username陈晶_jyRU6end [] []
+[2014-08-21 15:50:02] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607402</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:50:02] name.ERROR: from index.php  [] []
+[2014-08-21 15:51:53] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607513</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 15:51:54] name.ERROR: from index.php  [] []
+[2014-08-21 15:55:36] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408607736</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
 <EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
 </xml> [] []
-[2014-08-18 04:21:40] name.ERROR: from plugin.php   [] []
-[2014-08-18 12:25:09] name.ERROR: before include [] []
-[2014-08-18 12:31:43] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 07:55:36] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:55:36] name.ERROR: before include [] []
+[2014-08-21 07:55:37] name.ERROR: from plugin.php   [] []
+[2014-08-21 15:55:37] name.ERROR: before include [] []
+[2014-08-21 15:55:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408335552</CreateTime>
+<CreateTime>1408607740</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 12:32:11] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 15:55:41] name.ERROR: from index.php  [] []
+[2014-08-21 16:04:00] name.ERROR: from index.php  [] []
+[2014-08-21 08:43:01] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:43:01] name.ERROR: before include [] []
+[2014-08-21 16:43:07] name.ERROR: oriPwdjWr0zjzMo7end [] []
+[2014-08-21 16:43:07] name.ERROR: password90068a9084395db896b89a7987e970adend [] []
+[2014-08-21 16:43:07] name.ERROR: username陈晶_pmdsfend [] []
+[2014-08-21 16:46:20] name.ERROR: from index.php  [] []
+[2014-08-21 16:46:45] name.ERROR: from index.php  [] []
+[2014-08-21 08:46:47] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:46:47] name.ERROR: before include [] []
+[2014-08-21 08:47:35] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:47:35] name.ERROR: before include [] []
+[2014-08-21 16:47:36] name.ERROR: oriPwdWzi8hS9xCEend [] []
+[2014-08-21 16:47:36] name.ERROR: passwordc7ea0b936f670300cd0b751e3b4a90ebend [] []
+[2014-08-21 16:47:36] name.ERROR: username陈晶_R14DOend [] []
+[2014-08-21 08:48:39] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:48:39] name.ERROR: before include [] []
+[2014-08-21 16:48:39] name.ERROR: oriPwdONR2PW6wcCend [] []
+[2014-08-21 16:48:39] name.ERROR: password1115ac9e94e5cb1b8e1567fd63862d91end [] []
+[2014-08-21 16:48:39] name.ERROR: username陈晶_Y9uvXend [] []
+[2014-08-21 08:48:44] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:48:44] name.ERROR: before include [] []
+[2014-08-21 16:48:44] name.ERROR: oriPwdSGR9F6YdMMend [] []
+[2014-08-21 16:48:44] name.ERROR: password3ff57c6a758d273076f2ffa98b608bc9end [] []
+[2014-08-21 16:48:44] name.ERROR: username陈晶_R2B0Qend [] []
+[2014-08-21 08:49:17] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:49:17] name.ERROR: before include [] []
+[2014-08-21 16:49:18] name.ERROR: oriPwdy7L6XJDTe5end [] []
+[2014-08-21 16:49:18] name.ERROR: password8f12fb2e0494c0c080256be907a48342end [] []
+[2014-08-21 16:49:18] name.ERROR: username陈晶_Q6c28end [] []
+[2014-08-21 08:49:26] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:49:26] name.ERROR: before include [] []
+[2014-08-21 16:49:26] name.ERROR: oriPwdDPHMiCtV0tend [] []
+[2014-08-21 16:49:26] name.ERROR: password362f9dd389c5e48881c89ebac3565205end [] []
+[2014-08-21 16:49:26] name.ERROR: username陈晶_X33oBend [] []
+[2014-08-21 08:49:40] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:49:40] name.ERROR: before include [] []
+[2014-08-21 16:49:40] name.ERROR: oriPwds50k0p0jkhend [] []
+[2014-08-21 16:49:40] name.ERROR: passwordb4aa9165f20daa3309edd8fdafba1357end [] []
+[2014-08-21 16:49:40] name.ERROR: username陈晶_OsT1Cend [] []
+[2014-08-21 08:50:02] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:50:02] name.ERROR: before include [] []
+[2014-08-21 16:50:02] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408335552</CreateTime>
+<CreateTime>1408611001</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114704</Latitude>
+<Longitude>113.242355</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 16:50:02] name.ERROR: oriPwdM3WqgWaXY6end [] []
+[2014-08-21 16:50:02] name.ERROR: password7638268954c358d3e1328e075669b421end [] []
+[2014-08-21 16:50:02] name.ERROR: username陈晶_CG43Gend [] []
+[2014-08-21 16:50:13] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611012</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 05:19:39] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:19:39] name.ERROR: before include [] []
-[2014-08-18 13:19:39] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 16:50:13] name.ERROR: from index.php  [] []
+[2014-08-21 16:51:23] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339178</CreateTime>
+<CreateTime>1408611082</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114702</Latitude>
+<Longitude>113.242371</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 08:51:23] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:51:23] name.ERROR: before include [] []
+[2014-08-21 08:51:23] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:51:23] name.ERROR: before include [] []
+[2014-08-21 16:51:24] name.ERROR: oriPwddK9i3A9Jn5end [] []
+[2014-08-21 16:51:24] name.ERROR: password924c035ea0f3ab1ebe6060ecba649d98end [] []
+[2014-08-21 16:51:24] name.ERROR: username陈晶_G5DVyend [] []
+[2014-08-21 16:51:24] name.ERROR: from plugin.php end  [] []
+[2014-08-21 08:51:36] name.ERROR: from plugin.php  formhash=672e0448&wxopenid=&submit=yes&username=%E9%99%88%E6%99%B6_TfvFw [] []
+[2014-08-21 08:51:39] name.ERROR: from plugin.php  formhash=672e0448&wxopenid=&submit=yes&username=%E9%99%88%E6%99%B6_TfvFw [] []
+[2014-08-21 08:51:40] name.ERROR: from plugin.php  formhash=672e0448&wxopenid=&submit=yes&username=%E9%99%88%E6%99%B6_TfvFw [] []
+[2014-08-21 16:51:43] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611103</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 13:20:00] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 16:51:44] name.ERROR: from index.php  [] []
+[2014-08-21 08:51:48] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:51:48] name.ERROR: before include [] []
+[2014-08-21 16:51:48] name.ERROR: oriPwdZ52D8VifB7end [] []
+[2014-08-21 16:51:48] name.ERROR: passwordc29a4981a5f2a7ffab81db1c919686d0end [] []
+[2014-08-21 16:51:48] name.ERROR: username陈晶_xrr36end [] []
+[2014-08-21 08:51:52] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:51:52] name.ERROR: before include [] []
+[2014-08-21 16:51:53] name.ERROR: oriPwdFFJszC787tend [] []
+[2014-08-21 16:51:53] name.ERROR: passwordfd66ea89d1068fec93a9fe40c137031cend [] []
+[2014-08-21 16:51:53] name.ERROR: username陈晶_n23O1end [] []
+[2014-08-21 16:52:12] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339189</CreateTime>
+<CreateTime>1408611132</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114685</Latitude>
+<Longitude>113.242355</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 08:52:13] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:52:13] name.ERROR: before include [] []
+[2014-08-21 16:52:13] name.ERROR: oriPwduoWT0y9O1Iend [] []
+[2014-08-21 16:52:13] name.ERROR: password749f992aff06a666f2fe4ad9b46f129aend [] []
+[2014-08-21 16:52:13] name.ERROR: username陈晶_ICCn7end [] []
+[2014-08-21 08:52:36] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:52:36] name.ERROR: before include [] []
+[2014-08-21 16:52:37] name.ERROR: oriPwdR71apwK7EEend [] []
+[2014-08-21 16:52:37] name.ERROR: password82034a740733e122268ba62763ac8e5cend [] []
+[2014-08-21 16:52:37] name.ERROR: username陈晶_Q7D1uend [] []
+[2014-08-21 08:53:52] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:53:52] name.ERROR: before include [] []
+[2014-08-21 16:53:52] name.ERROR: oriPwdAZvMEoclZdend [] []
+[2014-08-21 16:53:52] name.ERROR: password101083fe876e2fc3fd8aefe31373489aend [] []
+[2014-08-21 16:53:52] name.ERROR: username陈晶_k4jMXend [] []
+[2014-08-21 16:54:16] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611256</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114693</Latitude>
+<Longitude>113.242386</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 08:54:17] name.ERROR: from plugin.php   [] []
+[2014-08-21 16:54:17] name.ERROR: before include [] []
+[2014-08-21 16:54:17] name.ERROR: oriPwdl12d2Dw1J5end [] []
+[2014-08-21 16:54:17] name.ERROR: password6004ce0a157060b87a70efea7c7ca4c5end [] []
+[2014-08-21 16:54:17] name.ERROR: username陈晶_iRRqRend [] []
+[2014-08-21 16:54:23] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611263</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 13:25:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 16:54:24] name.ERROR: from index.php  [] []
+[2014-08-21 17:00:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339189</CreateTime>
+<CreateTime>1408611640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114712</Latitude>
+<Longitude>113.242409</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 09:00:41] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:00:41] name.ERROR: before include [] []
+[2014-08-21 09:00:42] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:00:42] name.ERROR: before include [] []
+[2014-08-21 17:00:42] name.ERROR: oriPwdM5jwjJuMmzend [] []
+[2014-08-21 17:00:42] name.ERROR: password95138f7ab812be0482b24f62322505f7end [] []
+[2014-08-21 17:00:42] name.ERROR: username陈晶_FBoZqend [] []
+[2014-08-21 17:01:13] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611673</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114702</Latitude>
+<Longitude>113.242378</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 09:01:14] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:01:14] name.ERROR: before include [] []
+[2014-08-21 17:01:15] name.ERROR: oriPwdj3363KXLLSend [] []
+[2014-08-21 17:01:15] name.ERROR: passwordf0a5522c40ae9f6249764b19fd9a1373end [] []
+[2014-08-21 17:01:15] name.ERROR: username陈晶_xYVL1end [] []
+[2014-08-21 17:01:19] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408611678</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 13:25:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 17:01:19] name.ERROR: from index.php  [] []
+[2014-08-21 09:03:21] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:03:24] name.ERROR: before include [] []
+[2014-08-21 17:03:50] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339189</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:25:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339263</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:25:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339263</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:25:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339263</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 05:25:08] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:25:08] name.ERROR: before include [] []
-[2014-08-18 13:25:09] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339495</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:25:09] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339495</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:25:09] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339495</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 05:25:09] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:25:09] name.ERROR: before include [] []
-[2014-08-18 13:26:32] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339519</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:26:32] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339519</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:26:32] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339519</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 05:26:32] name.ERROR: from plugin.php   [] []
-[2014-08-18 05:26:32] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:26:32] name.ERROR: before include [] []
-[2014-08-18 13:26:32] name.ERROR: before include [] []
-[2014-08-18 05:26:34] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:26:34] name.ERROR: before include [] []
-[2014-08-18 05:27:30] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:27:30] name.ERROR: before include [] []
-[2014-08-18 13:27:32] name.ERROR: from mobile index  [] []
-[2014-08-18 13:27:32] name.ERROR: from mobile index  [] []
-[2014-08-18 13:27:32] name.ERROR: from forum.php  [] []
-[2014-08-18 05:28:03] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:29:28] name.ERROR: before include [] []
-[2014-08-18 13:32:58] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339952</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 05:33:07] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:33:41] name.ERROR: before include [] []
-[2014-08-18 13:35:26] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339952</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:35:29] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408339952</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 13:36:16] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408340150</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[unsubscribe]]></Event>
-<EventKey><![CDATA[]]></EventKey>
-</xml> [] []
-[2014-08-18 13:36:16] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408340150</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[unsubscribe]]></Event>
-<EventKey><![CDATA[]]></EventKey>
-</xml> [] []
-[2014-08-18 13:36:19] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408340179</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[subscribe]]></Event>
-<EventKey><![CDATA[]]></EventKey>
-</xml> [] []
-[2014-08-18 13:36:27] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408340187</CreateTime>
+<CreateTime>1408611786</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
 <Latitude>23.114698</Latitude>
 <Longitude>113.242371</Longitude>
 <Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 13:36:41] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 09:03:50] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:03:50] name.ERROR: before include [] []
+[2014-08-21 17:03:51] name.ERROR: oriPwdDCdIipDLQoend [] []
+[2014-08-21 17:03:51] name.ERROR: password2b433363c59d20a5ac195c5f7f31eeebend [] []
+[2014-08-21 17:03:51] name.ERROR: username陈晶_uu8Ssend [] []
+[2014-08-21 09:03:59] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:03:59] name.ERROR: before include [] []
+[2014-08-21 09:03:59] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:03:59] name.ERROR: before include [] []
+[2014-08-21 17:04:06] name.ERROR: oriPwdp9pV3vWPvrend [] []
+[2014-08-21 17:04:06] name.ERROR: password74f4f18915efe75022d0d56c1c54883fend [] []
+[2014-08-21 17:04:06] name.ERROR: username陈晶_T3T4qend [] []
+[2014-08-21 17:04:16] name.ERROR: from plugin.php end  [] []
+[2014-08-21 09:05:07] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:05:14] name.ERROR: before include [] []
+[2014-08-21 17:06:11] name.ERROR: oriPwdmYWN5MaiYrend [] []
+[2014-08-21 17:06:11] name.ERROR: password1a4d00a0d2585495ba722fc06567a9b8end [] []
+[2014-08-21 17:06:11] name.ERROR: username陈晶_K6auIend [] []
+[2014-08-21 17:07:22] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408340195</CreateTime>
+<CreateTime>1408611889</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114689</Latitude>
+<Longitude>113.242355</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 05:36:48] name.ERROR: from plugin.php   [] []
-[2014-08-18 13:36:59] name.ERROR: before include [] []
-[2014-08-18 07:08:56] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:08:57] name.ERROR: before include [] []
-[2014-08-18 15:08:58] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+[2014-08-21 09:07:54] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:07:54] name.ERROR: before include [] []
+[2014-08-21 17:07:55] name.ERROR: oriPwdN6A6Uttitzend [] []
+[2014-08-21 17:07:55] name.ERROR: password69741a8d4a8c56c23dc192ba5a82a1a6end [] []
+[2014-08-21 17:07:55] name.ERROR: username陈晶_jc6S1end [] []
+[2014-08-21 17:08:04] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
 <FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
-<CreateTime>1408345736</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 15:08:59] name.ERROR: from mobile index  [] []
-[2014-08-18 15:08:59] name.ERROR: from mobile index  [] []
-[2014-08-18 15:08:59] name.ERROR: from forum.php  [] []
-[2014-08-18 15:09:33] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345773</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 07:09:36] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:09:36] name.ERROR: before include [] []
-[2014-08-18 15:09:45] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345785</CreateTime>
+<CreateTime>1408612083</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242500</Longitude>
-<Precision>60.000000</Precision>
+<Latitude>23.114697</Latitude>
+<Longitude>113.242363</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 15:09:46] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345786</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 07:09:46] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:09:46] name.ERROR: before include [] []
-[2014-08-18 15:10:13] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345812</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 07:10:14] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:10:14] name.ERROR: before include [] []
-[2014-08-18 15:10:17] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345817</CreateTime>
+[2014-08-21 17:08:06] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612085</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242500</Longitude>
-<Precision>60.000000</Precision>
+<Latitude>23.114679</Latitude>
+<Longitude>113.242355</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 07:10:18] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:10:18] name.ERROR: before include [] []
-[2014-08-18 15:10:22] name.ERROR: from mobile index  [] []
-[2014-08-18 15:10:22] name.ERROR: from mobile index  [] []
-[2014-08-18 15:10:22] name.ERROR: from forum.php  [] []
-[2014-08-18 15:10:25] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345825</CreateTime>
+[2014-08-21 09:08:06] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:08:06] name.ERROR: before include [] []
+[2014-08-21 17:09:10] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612149</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242500</Longitude>
-<Precision>60.000000</Precision>
+<Latitude>23.114698</Latitude>
+<Longitude>113.242371</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 15:10:25] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345825</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
-</xml> [] []
-[2014-08-18 07:10:26] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:10:26] name.ERROR: before include [] []
-[2014-08-18 15:10:27] name.ERROR: from mobile index  [] []
-[2014-08-18 15:10:27] name.ERROR: from forum.php  [] []
-[2014-08-18 15:13:21] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345969</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242493</Longitude>
-<Precision>40.000000</Precision>
-</xml> [] []
-[2014-08-18 15:13:35] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345969</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242493</Longitude>
-<Precision>40.000000</Precision>
-</xml> [] []
-[2014-08-18 15:13:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408345969</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242493</Longitude>
-<Precision>40.000000</Precision>
-</xml> [] []
-[2014-08-18 15:14:48] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346061</CreateTime>
+[2014-08-21 09:09:11] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:09:11] name.ERROR: before include [] []
+[2014-08-21 17:09:51] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612191</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
 <Latitude>23.114693</Latitude>
-<Longitude>113.242554</Longitude>
-<Precision>60.000000</Precision>
+<Longitude>113.242386</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 15:15:02] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346061</CreateTime>
+[2014-08-21 09:09:52] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:09:52] name.ERROR: before include [] []
+[2014-08-21 09:09:53] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:09:53] name.ERROR: before include [] []
+[2014-08-21 17:09:53] name.ERROR: oriPwdN3usMtf2wsend [] []
+[2014-08-21 17:09:53] name.ERROR: password47cc136d18ff07e68acf0a949e05d6a8end [] []
+[2014-08-21 17:09:53] name.ERROR: username陈晶_l7OD2end [] []
+[2014-08-21 17:11:23] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612283</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114693</Latitude>
-<Longitude>113.242554</Longitude>
-<Precision>60.000000</Precision>
+<Latitude>23.114689</Latitude>
+<Longitude>113.242371</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 15:15:21] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346061</CreateTime>
+[2014-08-21 09:11:24] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:11:24] name.ERROR: before include [] []
+[2014-08-21 17:11:25] name.ERROR: oriPwdu5qQM3dGzRend [] []
+[2014-08-21 17:11:25] name.ERROR: password80753f9de38d6a41df16fc6c9cdc6e28end [] []
+[2014-08-21 17:11:25] name.ERROR: username陈晶_Ikoryend [] []
+[2014-08-21 09:12:12] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:12:12] name.ERROR: before include [] []
+[2014-08-21 17:12:13] name.ERROR: oriPwdifaB56y6z2end [] []
+[2014-08-21 17:12:13] name.ERROR: password38221b4b28562043391139d7976d6652end [] []
+[2014-08-21 17:12:13] name.ERROR: username陈晶_FwY4yend [] []
+[2014-08-21 17:12:21] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612340</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114693</Latitude>
-<Longitude>113.242554</Longitude>
-<Precision>60.000000</Precision>
+<Latitude>23.114697</Latitude>
+<Longitude>113.242363</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 07:18:06] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:18:14] name.ERROR: before include [] []
-[2014-08-18 15:19:50] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346374</CreateTime>
+[2014-08-21 09:12:21] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:12:21] name.ERROR: before include [] []
+[2014-08-21 17:13:08] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612388</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242508</Longitude>
-<Precision>40.000000</Precision>
+<Latitude>23.114702</Latitude>
+<Longitude>113.242409</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 15:19:54] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346377</CreateTime>
+[2014-08-21 17:13:09] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612389</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[VIEW]]></Event>
-<EventKey><![CDATA[http://kaifanlou.com/plugin.php?id=wechat:access]]></EventKey>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
 </xml> [] []
-[2014-08-18 15:19:58] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408346374</CreateTime>
+[2014-08-21 17:13:09] name.ERROR: from index.php  [] []
+[2014-08-21 09:13:32] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:13:32] name.ERROR: before include [] []
+[2014-08-21 17:13:33] name.ERROR: oriPwdJT0RRUguoOend [] []
+[2014-08-21 17:13:33] name.ERROR: password7896886bad3f3e56494b7b8e15453819end [] []
+[2014-08-21 17:13:33] name.ERROR: username陈晶_O3KdKend [] []
+[2014-08-21 17:13:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612420</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 17:13:40] name.ERROR: from index.php  [] []
+[2014-08-21 17:14:17] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612457</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
-<Latitude>23.114687</Latitude>
-<Longitude>113.242508</Longitude>
-<Precision>40.000000</Precision>
+<Latitude>23.114723</Latitude>
+<Longitude>113.242386</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
-[2014-08-18 07:21:09] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:21:18] name.ERROR: before include [] []
-[2014-08-18 07:27:39] name.ERROR: from plugin.php   [] []
-[2014-08-18 15:30:54] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
-<FromUserName><![CDATA[oUQ8YtxPtxy2bTnHD7pqMld4PjdI]]></FromUserName>
-<CreateTime>1408347054</CreateTime>
+[2014-08-21 09:14:19] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:14:19] name.ERROR: before include [] []
+[2014-08-21 17:14:19] name.ERROR: oriPwdf6VQ4O6qIwend [] []
+[2014-08-21 17:14:19] name.ERROR: password30779e9864fcf7a3ccd8a58725be3f8fend [] []
+[2014-08-21 17:14:19] name.ERROR: username陈晶_f9771end [] []
+[2014-08-21 17:14:52] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612492</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 17:14:52] name.ERROR: from index.php  [] []
+[2014-08-21 17:16:30] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408612590</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 17:16:31] name.ERROR: from index.php  [] []
+[2014-08-21 09:17:07] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:17:10] name.ERROR: before include [] []
+[2014-08-21 17:17:52] name.ERROR: oriPwdfSGv1ShqSvend [] []
+[2014-08-21 17:18:54] name.ERROR: passwordd8aa8ce5ec3eb12b3240f1e7634bbf1eend [] []
+[2014-08-21 17:18:55] name.ERROR: username陈晶_Hwkd5end [] []
+[2014-08-21 17:25:19] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408613119</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
 <Event><![CDATA[LOCATION]]></Event>
 <Latitude>23.114683</Latitude>
-<Longitude>113.242477</Longitude>
-<Precision>40.000000</Precision>
+<Longitude>113.242447</Longitude>
+<Precision>65.000000</Precision>
 </xml> [] []
+[2014-08-21 09:25:21] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:25:21] name.ERROR: before include [] []
+[2014-08-21 17:25:22] name.ERROR: oriPwdPO0CpY0LLhend [] []
+[2014-08-21 17:25:22] name.ERROR: passworddea2d63ab3f7403afdc383e73db05664end [] []
+[2014-08-21 17:25:22] name.ERROR: username陈晶_Rsncwend [] []
+[2014-08-21 17:25:23] name.ERROR: from index.php  [] []
+[2014-08-21 17:25:31] name.ERROR: from index.php  [] []
+[2014-08-21 17:25:31] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408613130</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 09:25:55] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:25:55] name.ERROR: before include [] []
+[2014-08-21 17:25:55] name.ERROR: from index.php  [] []
+[2014-08-21 17:26:05] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408613165</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 17:26:05] name.ERROR: from index.php  [] []
+[2014-08-21 17:26:29] name.ERROR: from index.php  [] []
+[2014-08-21 17:27:20] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408613188</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 17:27:20] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408613188</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 09:28:22] name.ERROR: from plugin.php   [] []
+[2014-08-21 17:28:25] name.ERROR: before include [] []
+[2014-08-21 17:59:05] name.ERROR: from index.php  [] []
+[2014-08-21 17:59:39] name.ERROR: from index.php  [] []
+[2014-08-21 10:13:49] name.ERROR: from plugin.php   [] []
+[2014-08-21 18:13:49] name.ERROR: before include [] []
+[2014-08-21 18:13:50] name.ERROR: from index.php  [] []
+[2014-08-21 18:14:01] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408616041</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 18:14:01] name.ERROR: from index.php  [] []
+[2014-08-21 18:17:28] name.ERROR: from index.php  [] []
+[2014-08-21 18:17:29] name.ERROR: from index.php  [] []
+[2014-08-21 18:19:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:21:20] name.ERROR: from index.php  [] []
+[2014-08-21 18:21:21] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:27] name.ERROR: from index.php  [] []
+[2014-08-21 18:28:28] name.ERROR: from index.php  [] []
+[2014-08-21 19:32:24] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408620743</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114656</Latitude>
+<Longitude>113.242378</Longitude>
+<Precision>65.000000</Precision>
+</xml> [] []
+[2014-08-21 11:32:26] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:32:26] name.ERROR: before include [] []
+[2014-08-21 11:32:27] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:32:27] name.ERROR: before include [] []
+[2014-08-21 19:32:28] name.ERROR: oriPwdsziV4v2m83end [] []
+[2014-08-21 19:32:28] name.ERROR: password8633db974d5277ac9618a75c0cf83dcfend [] []
+[2014-08-21 19:32:28] name.ERROR: username陈晶_JTQ7cend [] []
+[2014-08-21 19:32:29] name.ERROR: from index.php  [] []
+[2014-08-21 19:32:40] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt-pR6YaPvdUoy359gLOjip0]]></FromUserName>
+<CreateTime>1408620760</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:32:41] name.ERROR: from index.php  [] []
+[2014-08-21 19:34:01] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408620840</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> [] []
+[2014-08-21 19:34:18] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408620857</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> [] []
+[2014-08-21 19:34:34] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408620874</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:34:34] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408620873</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 11:34:46] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:34:46] name.ERROR: before include [] []
+[2014-08-21 19:34:46] name.ERROR: oriPwdzE9Zd3PzXsend [] []
+[2014-08-21 19:34:46] name.ERROR: password4e943fcda46ae55ca2d4732054a62f87end [] []
+[2014-08-21 19:34:46] name.ERROR: usernameWALKERend [] []
+[2014-08-21 19:34:47] name.ERROR: from index.php  [] []
+[2014-08-21 11:36:14] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:36:14] name.ERROR: before include [] []
+[2014-08-21 19:36:15] name.ERROR: oriPwdI6xjOVvkZFend [] []
+[2014-08-21 19:36:15] name.ERROR: password17548d275227cb99e35677d4d3022319end [] []
+[2014-08-21 19:36:15] name.ERROR: usernameWALKERend [] []
+[2014-08-21 19:36:16] name.ERROR: from index.php  [] []
+[2014-08-21 19:36:32] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408620991</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114664</Latitude>
+<Longitude>113.242348</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 11:36:33] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:36:33] name.ERROR: before include [] []
+[2014-08-21 19:36:34] name.ERROR: from index.php  [] []
+[2014-08-21 19:36:42] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621002</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114664</Latitude>
+<Longitude>113.242348</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 19:36:45] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621005</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:36:45] name.ERROR: from index.php  [] []
+[2014-08-21 19:40:54] name.ERROR: from index.php  [] []
+[2014-08-21 11:40:56] name.ERROR: from plugin.php   [] []
+[2014-08-21 19:40:56] name.ERROR: before include [] []
+[2014-08-21 19:41:01] name.ERROR: from index.php  [] []
+[2014-08-21 19:41:15] name.ERROR: from index.php  [] []
+[2014-08-21 19:43:28] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:43:28] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 19:43:28] name.ERROR: from index.php  [] []
+[2014-08-21 19:43:48] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 19:43:50] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621429</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:43:50] name.ERROR: from index.php  [] []
+[2014-08-21 19:43:57] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621436</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 19:43:57] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:43:58] name.ERROR: from index.php  [] []
+[2014-08-21 19:44:10] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621450</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 19:44:11] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621451</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://kaifanlou.com]]></EventKey>
+</xml> [] []
+[2014-08-21 19:44:11] name.ERROR: from index.php  [] []
+[2014-08-21 19:44:24] name.ERROR: from mobile index <xml><ToUserName><![CDATA[gh_11050c463f2f]]></ToUserName>
+<FromUserName><![CDATA[oUQ8Yt1okAReJ1vgkfPK_PjX9Ox4]]></FromUserName>
+<CreateTime>1408621464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.114668</Latitude>
+<Longitude>113.242340</Longitude>
+<Precision>90.000000</Precision>
+</xml> [] []
+[2014-08-21 21:17:28] name.ERROR: from index.php  [] []

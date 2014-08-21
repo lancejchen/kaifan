@@ -6,6 +6,7 @@
  *
  *      $Id: wechat.lib.class.php 34815 2014-08-07 02:04:50Z nemohou $
  */
+
 if (!defined('IN_DISCUZ')) {
 	exit('Access Denied');
 }

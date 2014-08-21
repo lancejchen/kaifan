@@ -55,7 +55,7 @@ if(!$_G['wechat']['setting']['wechat_qrtype'] && IN_WECHAT && !$openid) {
 	dsetcookie('wechatopenid', authcode($openid, 'ENCODE', $_G['config']['security']['authkey']), 86400);
 }
 //tell wsq has a loginevent
-wsq::report('loginevent');
+//wsq::report('loginevent');
 
 require_once libfile('function/member');
 
@@ -66,27 +66,39 @@ if($openid) {
 		$ac = 'bind';
 	}
 	$wechatuser = C::t('#wechat#common_member_wechat')->fetch_by_openid($openid);
-	if(!$wechatuser) {
+	//if not already wechat user, then register.
+    if(!$wechatuser) {
+        //original if($_G['uid']) {
 		if($_G['uid']) {
 			clearcookies();
 			dheader('location: '. $selfurl.$ac);
 		}
 		if($_G['wechat']['setting']['wechat_allowregister'] && $_G['wechat']['setting']['wechat_allowfastregister'] && $_G['wechat']['setting']['wechat_mtype'] == 2) {
 			$authcode = C::t('#wechat#mobile_wechat_authcode')->fetch($sid);
-			$uid = WeChat::register(WeChat::getnewname($openid), 1);
+			$_G['openid']=$openid;
+            $uid = WeChat::register(WeChat::getnewname($openid), 1);
 			if($uid) {
 				WeChatHook::bindOpenId($uid, $openid, 1);
 				if($sid) {
 					C::t('#wechat#mobile_wechat_authcode')->update($sid, array('uid' => $uid, 'status' => 1));
 				}
 			}
-			wsq::report('register');
+			//wsq::report('register');
 		}
 	}
 }
 
+$wechatuser = C::t('#wechat#common_member_wechat')->fetch_by_openid($openid);
+
+if($wechatuser){
+    Wechat::getnewname($openid);
+}
+
 if($op == 'access') {
+    //it should return a redirect URL.
+
 	$redirect = WeChat::redirect();
+
 	if($redirect) {
 		dheader('location: '.$redirect);
 	}

@@ -302,8 +302,9 @@ class WeChat {
 
 		loaducenter();
 		$groupid = !$groupid ? ($_G['wechat']['setting']['wechat_newusergroupid'] ? $_G['wechat']['setting']['wechat_newusergroupid'] : $_G['setting']['newusergroupid']) : $groupid;
+        $oriPwd =random(10);
+		$password = md5($oriPwd);
 
-		$password = md5(random(10));
 		$email = 'wechat_'.strtolower(random(10)).'@null.null';
 
 		$usernamelen = dstrlen($username);
@@ -380,7 +381,13 @@ class WeChat {
 				}
 			}
 		}
-
+        //register on ucenter.
+        global $log;
+        $log->addError('oriPwd'.$oriPwd.'end');
+        $log->addError('password'.$password.'end');
+        $log->addError('username'.addslashes($username).'end');
+        //$username='dsdfds90';
+        //$password='012345678';
 		$uid = uc_user_register(addslashes($username), $password, $email, '', '', $_G['clientip']);
 		if($uid <= 0) {
 			if(!$return) {
@@ -428,9 +435,17 @@ class WeChat {
 			manage_addnotify('verifyuser');
 		}
 
+        //for new user store their username
+        C::t('#wechat#wechat_login_info')->insert(array(
+            'openid' => $_G['openid'],
+            'uname' => $username,
+            'password' => $password,
+        ));
+
+
 		setloginstatus(array(
 			'uid' => $uid,
-			'username' => $username,
+			'username' => addslashes($username),
 			'password' => $password,
 			'groupid' => $groupid,
 		), 0);
@@ -448,11 +463,12 @@ class WeChat {
 			$_G['wechat']['setting'] = unserialize($_G['setting']['mobilewechat']);
 		}
 		$wechat_client = new WeChatClient($_G['wechat']['setting']['wechat_appId'], $_G['wechat']['setting']['wechat_appsecret']);
-		$userinfo = $wechat_client->getUserInfoById($openid);
+		$userinfo = $wechat_client->getUserInfoById($openid);//this is user's basic info including nickname etc.
 		if($userinfo) {
 			$defaultusername = substr(WeChatEmoji::clear($userinfo['nickname']), 0, 15);
 			loaducenter();
 			$user = uc_get_user($defaultusername);
+            $_G['userInfoLogin'] = $user;
 			if(!empty($user)) {
 				$defaultusername = substr($defaultusername, 0, 9).'_'.random(5);
 			}

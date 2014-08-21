@@ -83,6 +83,11 @@ function setloginstatus($member, $cookietime) {
 	dsetcookie('activationauth');
 	dsetcookie('pmnum');
 
+    /*
+    $_GET['lancelog']->addError('the authcode is from regi is\n'.authcode
+        ("{$member['password']}\t{$member['uid']}",
+            'ENCODE').'\n');
+*/
 	include_once libfile('function/stat');
 	updatestat('login', 1);
 	if(defined('IN_MOBILE')) {
