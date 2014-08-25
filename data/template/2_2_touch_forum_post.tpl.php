@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('post');
 0
-|| checktplrefresh('./template/webshow_mtb0115/touch/forum/post.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408620613, '2', './data/template/2_2_touch_forum_post.tpl.php', './template/webshow_mtb0115', 'touch/forum/post')
+|| checktplrefresh('./template/webshow_mtb0115/touch/forum/post.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408677174, '2', './data/template/2_2_touch_forum_post.tpl.php', './template/webshow_mtb0115', 'touch/forum/post')
 ;?><?php include template('common/header'); if($isfirstpost && $sortid) { ?>
 <script type="text/javascript">
     var forum_optionlist = <?php if($forum_optionlist) { ?>'<?php echo $forum_optionlist;?>'<?php } else { ?>''<?php } ?>;

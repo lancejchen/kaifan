@@ -29,81 +29,60 @@ if($_GET['fromapp'] == 'index') {
 
 $selfurl = $_G['siteurl'].'plugin.php?id=wechat&mobile=2&key='.$keyenc.($_GET['referer'] ? '&referer='.urlencode($_GET['referer']) : '').($_GET['username'] ? '&username='.urlencode($_GET['username']) : '').'&ac=';
 
-if(!$_G['wechat']['setting']['wechat_qrtype'] && IN_WECHAT && !$openid) {
-	if($_G['wechat']['setting']['wechat_mtype'] != 2) {
-		if(!empty($_G['cookie']['wechatopenid'])) {
-			$openid = authcode($_G['cookie']['wechatopenid'], 'DECODE', $_G['config']['security']['authkey']);
-		}
-		if(!$openid) {
-			showmessage('wechat:wechat_undefined');
-		}
-	} else {
-		$wechat_client = new WeChatClient($_G['wechat']['setting']['wechat_appId'], $_G['wechat']['setting']['wechat_appsecret']);
-		$openid = !empty($_G['cookie']['wechatopenid']) ? authcode($_G['cookie']['wechatopenid'], 'DECODE', $_G['config']['security']['authkey']) : '';
-		if(!$openid) {
-			if(empty($_GET['oauth'])) {
-				$redirect_uri = $wechat_client->getOauthConnectUri($selfurl.$ac.'&oauth=yes');
-				dheader('location: '.$redirect_uri);
-			} else {
-				$tockeninfo = $wechat_client->getAccessTokenByCode($_GET['code']);
-				$openid = $tockeninfo['openid'];
-				dsetcookie('wechatopenid', authcode($openid, 'ENCODE', $_G['config']['security']['authkey']), 86400);
-			}
-		}
-	}
-} elseif($openid) {
-	dsetcookie('wechatopenid', authcode($openid, 'ENCODE', $_G['config']['security']['authkey']), 86400);
+
+/*
+ *
+ */
+if(IN_WECHAT && !$openid){
+    $wechat_client = new WeChatClient($_G['wechat']['setting']['wechat_appId'], $_G['wechat']['setting']['wechat_appsecret']);
+    //$openid = !empty($_G['cookie']['wechatopenid']) ? authcode($_G['cookie']['wechatopenid'], 'DECODE',
+    //    $_G['config']['security']['authkey']) : '';
+    if(!$openid) {
+            $tockeninfo = $wechat_client->getAccessTokenByCode($_GET['code']);
+            $openid = $tockeninfo['openid'];
+            dsetcookie('wechatopenid', authcode($openid, 'ENCODE', $_G['config']['security']['authkey']), 86400);
+        }
 }
+
 //tell wsq has a loginevent
 //wsq::report('loginevent');
-
-require_once libfile('function/member');
-
-if($openid) {
-	if($ac == 'qqbind') {
-		WeChatHook::bindOpenId($_G['uid'], $openid);
-		wsq::report('bind');
-		$ac = 'bind';
-	}
-	$wechatuser = C::t('#wechat#common_member_wechat')->fetch_by_openid($openid);
-	//if not already wechat user, then register.
-    if(!$wechatuser) {
-        //original if($_G['uid']) {
-		if($_G['uid']) {
-			clearcookies();
-			dheader('location: '. $selfurl.$ac);
-		}
-		if($_G['wechat']['setting']['wechat_allowregister'] && $_G['wechat']['setting']['wechat_allowfastregister'] && $_G['wechat']['setting']['wechat_mtype'] == 2) {
-			$authcode = C::t('#wechat#mobile_wechat_authcode')->fetch($sid);
-			$_G['openid']=$openid;
-            $uid = WeChat::register(WeChat::getnewname($openid), 1);
-			if($uid) {
-				WeChatHook::bindOpenId($uid, $openid, 1);
-				if($sid) {
-					C::t('#wechat#mobile_wechat_authcode')->update($sid, array('uid' => $uid, 'status' => 1));
-				}
-			}
-			//wsq::report('register');
-		}
-	}
+if(empty($openid)){
+    dheader('location:http://kaifanlou.com');
 }
 
+require_once libfile('function/member');
 $wechatuser = C::t('#wechat#common_member_wechat')->fetch_by_openid($openid);
 
-if($wechatuser){
-    Wechat::getnewname($openid);
+//if not already wechat user, then register.
+if(!empty($wechatuser)){
+    $userInfo=getuserbyuid($wechatuser['uid'],1);
+    setloginstatus($userInfo, 2592000);
+    wechat_setloginstatus($wechatuser['uid'], true);
+}
+else {
+    //original if($_G['uid']) {
+    if($_G['uid']) {
+        clearcookies();
+        dheader('location:http://kaifanlou.com');
+    }
+    if($_G['wechat']['setting']['wechat_allowregister'] && $_G['wechat']['setting']['wechat_allowfastregister'] && $_G['wechat']['setting']['wechat_mtype'] == 2) {
+        $_G['openid']=$openid;
+        $uid = WeChat::register(WeChat::getnewname($openid), 1);
+        if($uid) {
+            WeChatHook::bindOpenId($uid, $openid, 1);
+        }
+    }
 }
 
 if($op == 'access') {
     //it should return a redirect URL.
-
+    //$redirectUrl='http://www.kaifanlou.com';
 	$redirect = WeChat::redirect();
-
 	if($redirect) {
 		dheader('location: '.$redirect);
 	}
 }
-
+/*
 if($sid) {
 	$authcode = C::t('#wechat#mobile_wechat_authcode')->fetch($sid);
 
@@ -265,6 +244,8 @@ if($ac == 'bind') {
 } else {
 	showmessage('undefined_action');
 }
+
+*/
 
 function wechat_setloginstatus($uid, $login) {
 	C::t('#wechat#common_member_wechat')->update($uid, array('status' => $login ? 2 : 1));

@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('login');
 0
-|| checktplrefresh('./template/webshow_mtb0115/touch/member/login.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408620895, '2', './data/template/2_2_touch_member_login.tpl.php', './template/webshow_mtb0115', 'touch/member/login')
+|| checktplrefresh('./template/webshow_mtb0115/touch/member/login.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408875802, '2', './data/template/2_2_touch_member_login.tpl.php', './template/webshow_mtb0115', 'touch/member/login')
 ;?><?php include template('common/header'); if(!$_GET['infloat']) { } $loginhash = 'L'.random(4);?><!-- userinfo start -->
 <div class="loginbox <?php if($_GET['infloat']) { ?>login_pop<?php } ?>">
 <?php if($_GET['infloat']) { ?>

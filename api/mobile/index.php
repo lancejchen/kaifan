@@ -9,14 +9,14 @@
 require_once dir(__FILE__).'../../vendor/autoload.php';
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-global $log;
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler(dir(__FILE__).'../../test.log',Logger::WARNING));
+
+$_GET['log'] = new Logger('name');
+$_GET['log']->pushHandler(new StreamHandler(dir(__FILE__).'../../test.log',Logger::WARNING));
 
 //$log->addWarning('location');
-//$log->addError('bar');
+$_GET['log']->addError('bar');
 $postdata = file_get_contents("php://input");
-$log->addError('from mobile index ' . $postdata);
+$_GET['log']->addError('from mobile index ' . $postdata);
 if(!empty($_SERVER['QUERY_STRING'])) {
 	$plugin = !empty($_GET['oem']) ? 'mobileoem' : 'mobile';
 	$dir = '../../source/plugin/'.$plugin.'/';

@@ -18,6 +18,45 @@ class WSQResponse {
 	private static $expire = 1296000;
 	public static $keyword = 'LOGIN_WSQ';
 
+
+    public static function view($param){
+        //list($data) = $param;
+        //self::_init();
+        //global $_G;
+        /*
+         * setlogin status and send cookies back
+         * 1) if cookie exists end
+         * 2) if the openid already exists in pre_member_wechat but no cookies set cookies to them set log in status
+         * 3) register user if first in and setloginstatus
+         */
+        //$data['content']= diconv($data['content'], 'UTF-8');
+        //$cookiesExist = self::cookieExist($param);
+        exit;
+
+    }
+
+    //save
+    public static function location($param){
+        list($data) = $param;
+        self::_init();
+        global $_G;
+        $data['from']=diconv($data['from'],'UTF-8');
+        $data['time']=diconv($data['time'],'UTF-8');
+        $data['la']=diconv($data['la'],'UTF-8');
+        $data['lo']=diconv($data['lo'],'UTF-8');
+        $data['p']=diconv($data['p'],'UTF-8');
+        //$oldWechatLocation=C::t('#wechat#wechat_location')->fetch_by_code($data['from']);
+        //insert in discuz_database.php has replace function if the primary key exists
+        C::t('#wechat#wechat_location')->insert($data);
+        /*
+        if(empty($oldWechatLocation)){
+            C::t('#wechat#wechat_location')->insert($data);
+        }else{
+            C::t('#wechat#wechat_location')->update($data);
+        }
+        */
+    }
+
 	public static function text($param) {
 		list($data) = $param;
 		self::_init();
@@ -33,7 +72,7 @@ class WSQResponse {
 				wsq::report('loginclick');
 				self::_show('access', $data['from']);
 			}
-//			echo WeChatServer::getXml4Txt(lang('plugin/wechat', 'wechat_response_text_codeerror'));
+			echo WeChatServer::getXml4Txt(lang('plugin/wechat', 'wechat_response_text_codeerror'));
 		} else {
 			wsq::report('sendnum');
 			self::_show('sendnum', $data['from']."\t".$authcode['sid'], 60);
@@ -135,6 +174,7 @@ class WSQResponse {
 			if($type) {
                 //lance domain added below
                 if($in_wechat){
+                    //return $type;
                     //dheader('location: ' . $url);
                 }
                 //lance domain original
@@ -154,12 +194,6 @@ class WSQResponse {
 				} elseif(isset($_GET['pluginid'])) {
 					return $url.'plugin&pluginid='.urlencode($_GET['pluginid']).'&param='.urlencode($_GET['param']);
 				} else {
-                    $_G['userInfoLogin'] = 0;
-                    if($_G['userInfoLogin']){
-                        //get user url
-
-                        require_once dir(__FILE__) . 'invokeLogin.php';
-                    }
 					return $url;
 				}
 			}

@@ -386,6 +386,7 @@ class WeChat {
         $log->addError('oriPwd'.$oriPwd.'end');
         $log->addError('password'.$password.'end');
         $log->addError('username'.addslashes($username).'end');
+        $username=diconv($username, CHARSET, 'UTF-8');
         //$username='dsdfds90';
         //$password='012345678';
 		$uid = uc_user_register(addslashes($username), $password, $email, '', '', $_G['clientip']);
@@ -435,13 +436,13 @@ class WeChat {
 			manage_addnotify('verifyuser');
 		}
 
-        //for new user store their username
+        /*for new user store their username
         C::t('#wechat#wechat_login_info')->insert(array(
             'openid' => $_G['openid'],
             'uname' => $username,
             'password' => $password,
         ));
-
+        */
 
 		setloginstatus(array(
 			'uid' => $uid,

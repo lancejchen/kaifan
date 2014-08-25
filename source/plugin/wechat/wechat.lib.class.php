@@ -147,6 +147,9 @@ class WeChatServer {
 				$result['event'] = strtolower((string) $postObj->Event);    // 事件类型，subscribe(订阅)、unsubscribe(取消订阅)、CLICK(自定义菜单点击事???
 				switch ($result['event']) {
 
+                    case 'view':
+                        $result['viewPage']=(string) $postObj->EventKey;
+                        break;
 					// case 'unsubscribe': // 取消订阅
 					case 'subscribe': // 订阅
 					case 'scan': // 扫描二维码
@@ -207,6 +210,8 @@ class WeChatServer {
 			} else {
 				$hookName = 'receiveMsg::' . $postObj['type'];
 			}
+
+            $_GET['log']->addError('from testing');
 			$this->_activeHook($hookName, $postObj);
 
 			$this->_activeHook('receiveAllEnd', $postObj);
@@ -238,6 +243,7 @@ class WeChatServer {
 	}
 
 	public static function getXml4Txt($txt) {
+        $_GET['log']->addError('I am executing ' . $txt);
 		$xml = '<MsgType><![CDATA[text]]></MsgType>'
 			. '<Content><![CDATA[%s]]></Content>';
 		return self::_format2xml(
@@ -1021,9 +1027,17 @@ class WeChatHook {
 			}
 			$settings = array('wechatresponseExts' => serialize($wechatresponseExts));
 		}
+        $_GET['log']->addError('after implement setting');
 		C::t('common_setting')->update_batch($settings);
-		updatecache('setting');
-		return $response;
+
+        $_GET['log']->addError('after implement setting II');
+        //lance original has updatecache function, but commented
+		//updatecache('setting');
+
+
+        $_GET['log']->addError('after implement setting 3');
+
+        return $response;
 	}
 
 	public static function getResponse($extId = '') {
@@ -1034,6 +1048,8 @@ class WeChatHook {
 			$wechatresponseExts = unserialize($_G['setting']['wechatresponseExts']);
 			return $wechatresponseExts[$extId];
 		}
+
+
 	}
 
 	public static function updateRedirect($value) {

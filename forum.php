@@ -82,6 +82,18 @@ runhooks();
 
 $navtitle = str_replace('{bbname}', $_G['setting']['bbname'], $_G['setting']['seotitle']['forum']);
 $_G['setting']['threadhidethreshold'] = 1;
+
+/*set login status
+
+
+$member = getuserbyuid(61, 1);
+if($member) {
+    require_once libfile('function/member');
+    setloginstatus($member, 1296000);
+}
+
+*/
+
 require DISCUZ_ROOT.'./source/module/forum/forum_'.$mod.'.php';
 
 ?>

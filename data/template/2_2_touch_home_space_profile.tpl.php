@@ -1,7 +1,7 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_profile');
 0
-|| checktplrefresh('./template/webshow_mtb0115/touch/home/space_profile.htm', './template/webshow_mtb0115/touch/home/space_profile_body.htm', 1408625385, '2', './data/template/2_2_touch_home_space_profile.tpl.php', './template/webshow_mtb0115', 'touch/home/space_profile')
-|| checktplrefresh('./template/webshow_mtb0115/touch/home/space_profile.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408625385, '2', './data/template/2_2_touch_home_space_profile.tpl.php', './template/webshow_mtb0115', 'touch/home/space_profile')
+|| checktplrefresh('./template/webshow_mtb0115/touch/home/space_profile.htm', './template/webshow_mtb0115/touch/home/space_profile_body.htm', 1408677188, '2', './data/template/2_2_touch_home_space_profile.tpl.php', './template/webshow_mtb0115', 'touch/home/space_profile')
+|| checktplrefresh('./template/webshow_mtb0115/touch/home/space_profile.htm', './template/webshow_mtb0115/touch/common/seccheck.htm', 1408677188, '2', './data/template/2_2_touch_home_space_profile.tpl.php', './template/webshow_mtb0115', 'touch/home/space_profile')
 ;?>
 <?php if($_GET['mycenter'] && !$_G['uid']) { dheader('Location:member.php?mod=logging&action=login');exit;?><?php } include template('common/header'); if(!$_GET['mycenter']) { ?>
     <script type="text/javascript">
