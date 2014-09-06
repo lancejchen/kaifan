@@ -5,12 +5,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="PHP">
+      <library name="PHARS">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../server/php/lib/php" />
+          <root url="phar://$MODULE_DIR$/composer.phar" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../server/php/lib/php" />
+          <root url="phar://$MODULE_DIR$/composer.phar" />
         </SOURCES>
       </library>
     </orderEntry>

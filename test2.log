@@ -3539,3 +3539,48 @@ uvwK_2132_creditbase is 0D0D0D0D0D0D0D0D0<br>
 uvwK_2132_creditnotice is 0D0D2D0D0D0D0D0D0D62<br>
 uvwK_2132_creditrule is 每天登录<br>
  [] []
+[2014-08-25 16:02:43] name.ERROR: from forum the cookies are\n8bxu_2132_saltkey is nlcoETCm<br>
+8bxu_2132_lastvisit is 1408688890<br>
+8bxu_2132_forum_lastvisit is D_2_1408692533<br>
+8bxu_2132_visitedfid is 2<br>
+debug_session_id is 34018798<br>
+debug_start_session is 1<br>
+ZDEDebuggerPresent is php,phtml,php3<br>
+ZendDebuggerCookie is 127.0.0.1:10137:0||004|77742D65|34018798<br>
+ [] []
+[2014-08-25 16:55:18] name.ERROR: from forum the cookies are\n8bxu_2132_saltkey is nlcoETCm<br>
+8bxu_2132_lastvisit is 1408688890<br>
+8bxu_2132_forum_lastvisit is D_2_1408692533<br>
+8bxu_2132_visitedfid is 2<br>
+debug_session_id is 34018798<br>
+debug_start_session is 1<br>
+uvwK_2132_saltkey is s8zDB9I9<br>
+ZDEDebuggerPresent is php,phtml,php3<br>
+ZendDebuggerCookie is 127.0.0.1:10137:0||004|77742D65|34018798<br>
+ [] []
+[2014-08-25 16:59:46] name.ERROR: from forum the cookies are\n8bxu_2132_saltkey is nlcoETCm<br>
+8bxu_2132_lastvisit is 1408688890<br>
+8bxu_2132_forum_lastvisit is D_2_1408692533<br>
+8bxu_2132_visitedfid is 2<br>
+debug_session_id is 34018798<br>
+debug_start_session is 1<br>
+uvwK_2132_saltkey is s8zDB9I9<br>
+ZendDebuggerCookie is 127.0.0.1:10137:0||004|77742D65|34018798<br>
+ZDEDebuggerPresent is php,phtml,php3<br>
+uvwK_2132_lastvisit is 1408953318<br>
+uvwK_2132_sid is xno2Lc<br>
+uvwK_2132_lastact is 1408956918	forum.php	<br>
+ [] []
+[2014-08-25 16:59:50] name.ERROR: from forum the cookies are\n8bxu_2132_saltkey is nlcoETCm<br>
+8bxu_2132_lastvisit is 1408688890<br>
+8bxu_2132_forum_lastvisit is D_2_1408692533<br>
+8bxu_2132_visitedfid is 2<br>
+debug_session_id is 34018798<br>
+debug_start_session is 1<br>
+uvwK_2132_saltkey is s8zDB9I9<br>
+ZendDebuggerCookie is 127.0.0.1:10137:0||004|77742D65|34018798<br>
+uvwK_2132_lastvisit is 1408953318<br>
+ZDEDebuggerPresent is php,phtml,php3<br>
+uvwK_2132_sid is bv6nnQ<br>
+uvwK_2132_lastact is 1408957186	forum.php	<br>
+ [] []
