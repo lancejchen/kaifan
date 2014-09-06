@@ -1,6 +1,35 @@
 .ui-checkbox input, .ui-radio input{
     top:30%;
 }
-#float-news {
-    text-shadow: 0px 0px !important;
+
+#nav-panel{
+    background-color: #535252;
+    color: #FFFFFF;
 }
+
+#nav-panel ul li .sameLine{
+    width:49%;
+    text-align:center;
+    display:inline-block;
+}
+
+#nav-panel ul li .nav_line{
+    height: 40px;
+    text-shadow: 0px 0px #FF0000;
+}
+
+#nav-panel .nav_block{
+    background-color: #504f4f;
+}
+
+#nav-panel a,#nav-panel em{
+    color: #ffffff;
+}
+
+
+#nav-panel h2{
+    text-shadow: 0px 0px #FFFFFF;
+    color: #ffffff;
+    font-weight: bold;
+}
+

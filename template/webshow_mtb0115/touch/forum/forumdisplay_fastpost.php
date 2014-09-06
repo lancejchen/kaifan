@@ -1,12 +1,12 @@
 <?php exit;?>
 <div id="post_new"></div>
+
 <div id="btoolbar" class="btoolbar btoolbarv">
-    <div class="btool btoolmv cl{if $secqaacheck || $seccodecheck} btoolmv_sec{/if}">
+    <div class="btool btoolmv cl{if $secqaacheck || $seccodecheck} btoolmv_sec{/if}" style="height:180px;">
 	<form method="post" name="fastpostform" autocomplete="off" id="fastpostform" action="forum.php?mod=post&action=reply&fid=$_G[fid]&tid=$_G[tid]&extra=$_GET[extra]&replysubmit=yes&mobile=2">
 	<input type="hidden" name="formhash" value="{FORMHASH}" />
     <ul>
-        <li class="li1"><a href="forum.php?mod=post&action=reply&fid=$_G[fid]&tid=$_G[tid]&reppost=$_G[forum_firstpid]&page=$page"></a></li>
-		<li class="li2">
+		<li class="li2"><label for="fastpostmessage">评价：</label>
             <textarea value="{lang send_reply_fast_tip}" color="gray" name="message" id="fastpostmessage"></textarea>
         </li>
         <!--{if $secqaacheck || $seccodecheck}-->
@@ -14,11 +14,22 @@
             <!--{subtemplate common/seccheck}-->
         </li>
         <!--{/if}-->
-        <li class="li4"><input type="button" value="发送" name="replysubmit" id="fastpostsubmit"></li>
+        <li class="li4" style="display:inline;">
+            <input type="button" value="发送" name="replysubmit" id="fastpostsubmit" data-role="none">
+        </li>
+        <li>
+            <a id="backBtnA" data-rel="back" data-direction="reverse" class="ui-icon-back" data-icon="back">
+                返回
+            </a>
+        </li>
 	</ul>
     </form>
     </div>
 </div>
+
+
+
+
  
 <script type="text/javascript">
 $(document).ready(function(){

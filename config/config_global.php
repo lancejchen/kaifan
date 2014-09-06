@@ -97,7 +97,8 @@ $_config['remote']['cron'] = '0';
 // ---------------------------  CONFIG INPUT  --------------------------- //
 $_config['input']['compatible'] = 1;
 
-
+// ---------------------------  Aliyun settins --------------------------- //
+$_config['aliyun']['oss_pre']="http://kaifan.oss-cn-hangzhou.aliyuncs.com/";
 // -------------------  THE END  -------------------- //
 
 ?>

@@ -127,6 +127,8 @@ class table_forum_attachment_n extends discuz_table
 		}
 	}
 
+
+
 	public function fetch_by_aid_uid($tableid, $aid, $uid) {
 		$query = DB::query("SELECT * FROM %t WHERE aid=%d AND uid=%d", array($this->_get_table($tableid), $aid, $uid));
 		return DB::fetch($query);

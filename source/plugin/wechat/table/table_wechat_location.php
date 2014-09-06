@@ -20,7 +20,7 @@ class table_wechat_location extends discuz_table {
     }
 
     public function fetch_by_code($openid) {
-        return DB::fetch_first('SELECT * FROM %t WHERE openid=%t', array($this->_table, $openid));
+        return DB::fetch_first('SELECT * FROM %t WHERE openid=%s', array($this->_table, $openid));
     }
 /*
     public function update($data) {

@@ -52,6 +52,34 @@ if($_GET['operation'] == 'upload') {
 	}
 	$upload = new forum_upload();
 
+}
+elseif($_GET['operation']=='upload_oss'){
+/*
+ * lance: added upload to aliOSS
+ */
+
+    if(empty($_GET['simple'])) {
+        $_FILES['Filedata']['name'] = diconv(urldecode($_FILES['Filedata']['name']), 'UTF-8');
+        $_FILES['Filedata']['type'] = $_GET['filetype'];
+    }
+    $forumattachextensions = '';
+    $fid = intval($_GET['fid']);
+    if($fid) {
+        $forum = $fid != $_G['fid'] ? C::t('forum_forum')->fetch_info_by_fid($fid) : $_G['forum'];
+        if($forum['status'] == 3 && $forum['level']) {
+            $levelinfo = C::t('forum_grouplevel')->fetch($forum['level']);
+            if($postpolicy = $levelinfo['postpolicy']) {
+                $postpolicy = dunserialize($postpolicy);
+                $forumattachextensions = $postpolicy['attachextensions'];
+            }
+        } else {
+            $forumattachextensions = $forum['attachextensions'];
+        }
+        if($forumattachextensions) {
+            $_G['group']['attachextensions'] = $forumattachextensions;
+        }
+    }
+    $upload = new forum_upload_oss();
 } elseif($_GET['operation']=='uriUpload'){
  /*
   * lance: uri data upload image

@@ -25,4 +25,8 @@ class table_common_member_wechat extends discuz_table {
 		return DB::fetch_first('SELECT * FROM %t WHERE openid=%s', array($this->_table, $openid));
 	}
 
+    public function fetch_by_uid($uid) {
+        return DB::fetch_first('SELECT * FROM %t WHERE uid=%s', array($this->_table, $uid));
+    }
+
 }

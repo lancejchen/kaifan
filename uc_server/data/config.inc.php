@@ -16,3 +16,4 @@ define('UC_SITEID', 'jajao0U1ffFakfA9H135Gdja40d5U2SdP4x6M2ddWfG2I2V6P3j9q1NdVcW
 define('UC_MYKEY', 'aada90F1Gfeakfs9C1d51dba50U5d2gdF47602qdGfj2z2U6b3n9y1zdqcqfIcqb');
 define('UC_DEBUG', false);
 define('UC_PPP', 20);
+define($tplrefresh,1);
