@@ -23,6 +23,11 @@ class table_forum_post_location extends discuz_table
 		parent::__construct();
 	}
 
+    public function fetch_by_tid($tid){
+        $tid=intval($tid);
+        return DB::fetch_first('SELECT * FROM %t WHERE tid=%s', array($this->_table, $tid));
+    }
+
 	public function delete_by_uid($uid) {
 		return $uid ? DB::delete($this->_table, DB::field('uid', $uid)) : false;
 	}

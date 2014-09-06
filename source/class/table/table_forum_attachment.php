@@ -58,10 +58,16 @@ class table_forum_attachment extends discuz_table
 		return $tid ? DB::result_first("SELECT COUNT(*) FROM %t WHERE tid=%d", array($this->_table, $tid)) : 0;
 	}
 
+
 	public function fetch_by_aid_uid($aid, $uid) {
 		$query = DB::query("SELECT * FROM %t WHERE aid=%d AND uid=%d", array($this->_table, $aid, $uid));
 		return DB::fetch($query);
 	}
+
+    public function fetch_by_aid($aid) {
+        $query = DB::query("SELECT * FROM %t WHERE aid=%d", array($this->_table, $aid));
+        return DB::fetch($query);
+    }
 
 	public function fetch_all_unused_attachment($uid, $aids = null, $posttime = null) {
 		$parameter = array($this->_table);

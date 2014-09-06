@@ -1124,4 +1124,98 @@ function getreplybg($replybg = '') {
 	return $style;
 }
 
+
+/*
+ * input date range, and
+ */
+
+function getEndDate($createDateline,$expireDays){
+    $createDateline=intval($createDateline);
+    $expireDays=intval($expireDays);
+    return $createDateline+$expireDays*86400;
+}
+
+function availableNow($timeSlots, $start_date, $end_date){
+    date_default_timezone_set('Asia/Hong_Kong');
+    $current_time=time();
+    if(!empty($start_date)){
+        $start_date=$current_time;
+    }
+
+    $start_date=intval($start_date);
+    $end_date=intval($end_date);
+
+
+    if($start_date<=$current_time && $current_time<=$end_date){
+        $currentTime=DateTime::createFromFormat('H:i',date('H:i'));
+        foreach($timeSlots as $timeSlot){
+            $start_time=DateTime::createFromFormat('H:i:s',$timeSlot['start_time']);
+            $end_time=DateTime::createFromFormat('H:i:s',$timeSlot['end_time']);
+            if($currentTime<$end_time && $currentTime>$start_time){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+
+/*
+ * lance: hour:min:sec format to hour:min format
+ * if hour:min:sec return hour:min
+ * else if hour:min return hour:min
+ */
+function His2Hi($Hi){
+    $tmp=explode(':',$Hi);
+    if(sizeof($tmp)>1){
+        return $tmp[0].':'.$tmp[1];
+    }
+    return "wrong time format";
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                                                                         :*/
+/*::  This routine calculates the distance between two points (given the     :*/
+/*::  latitude/longitude of those points). It is being used to calculate     :*/
+/*::  the distance between two locations using GeoDataSource(TM) Products    :*/
+/*::                     													 :*/
+/*::  Definitions:                                                           :*/
+/*::    South latitudes are negative, east longitudes are positive           :*/
+/*::                                                                         :*/
+/*::  Passed to function:                                                    :*/
+/*::    lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :*/
+/*::    lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  :*/
+/*::    unit = the unit you desire for results                               :*/
+/*::           where: 'M' is statute miles                                   :*/
+/*::                  'K' is kilometers (default)                            :*/
+/*::                  'N' is nautical miles                                  :*/
+/*::  Worldwide cities and other features databases with latitude longitude  :*/
+/*::  are available at http://www.geodatasource.com                          :*/
+/*::                                                                         :*/
+/*::  For enquiries, please contact sales@geodatasource.com                  :*/
+/*::                                                                         :*/
+/*::  Official Web site: http://www.geodatasource.com                        :*/
+/*::                                                                         :*/
+/*::         GeoDataSource.com (C) All Rights Reserved 2014		   		     :*/
+/*::                                                                         :*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+function distance($lat1, $lon1, $lat2, $lon2, $unit) {
+
+    $theta = $lon1 - $lon2;
+    $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+    $dist = acos($dist);
+    $dist = rad2deg($dist);
+    $miles = $dist * 60 * 1.1515;
+    $unit = strtoupper($unit);
+
+    if ($unit == "K") {
+        return ($miles * 1.609344);
+    } else if ($unit == "N") {
+        return ($miles * 0.8684);
+    } else {
+        return $miles;
+    }
+}
+
 ?>

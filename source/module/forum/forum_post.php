@@ -358,6 +358,9 @@ if($_GET['action'] == 'newthread' || $_GET['action'] == 'newtrade') {
 } elseif($_GET['action']=='uploadImg'){
     loadcache('groupreadaccess');
     require_once libfile('post/uploadImg', 'include');
+}elseif($_GET['action']=='groupon'){
+    loadcache('groupreadaccess');
+    require_once libfile('post/groupon', 'include');
 }
 
 function check_allow_action($action = 'allowpost') {

@@ -30,7 +30,7 @@ if(empty($_GET['do']) || $_GET['do'] == 'tradeinfo') {
 
 	$tradesaids = $tradespids = array();
 	foreach($query as $trade) {
-		if($trade['expiration']) {
+		if($trade['expiration']) {//check expiration
 			$trade['expiration'] = ($trade['expiration'] - TIMESTAMP) / 86400;
 			if($trade['expiration'] > 0) {
 				$trade['expirationhour'] = floor(($trade['expiration'] - floor($trade['expiration'])) * 24);
@@ -62,7 +62,7 @@ if(empty($_GET['do']) || $_GET['do'] == 'tradeinfo') {
 			}
 		}
 	}
-
+    //not used in current project
 	if($_GET['do'] == 'tradeinfo') {
 		$trade = $trades[$_GET['pid']];
 		unset($trades);

@@ -360,7 +360,7 @@ $tpids = array();
 if($_G['forum_thread']['special'] == 2) {
 	if(!empty($_GET['do']) && $_GET['do'] == 'tradeinfo') {
 		require_once libfile('thread/trade', 'include');
-	}
+	}//fetch all thread goods
 	$query = C::t('forum_trade')->fetch_all_thread_goods($_G['tid']);
 	foreach($query as $trade) {
 		$tpids[] = $trade['pid'];
@@ -380,7 +380,7 @@ $maxposition = 0;
 if(empty($_GET['viewpid'])) {
 	$disablepos = !$rushreply && C::t('forum_threaddisablepos')->fetch($_G['tid']) ? 1 : 0;
 	if(!$disablepos && !in_array($_G['forum_thread']['special'], array(2,3,5))) {
-		if($_G['forum_thread']['maxposition']) {
+		if($_G['forum_thregead']['maxposition']) {
 			$maxposition = $_G['forum_thread']['maxposition'];
 		} else {
 			$maxposition = C::t('forum_post')->fetch_maxposition_by_tid($posttableid, $_G['tid']);
@@ -749,7 +749,7 @@ if($postusers) {
 	if($_G['setting']['threadblacklist'] && $_G['uid'] && $member_count[$_G['uid']]['blacklist']) {
 		$member_blackList = C::t('home_blacklist')->fetch_all_by_uid_buid($_G['uid'], $uids);
 	}
-
+    //user info
 	foreach(C::t('common_member')->fetch_all($uids) as $uid => $postuser) {
 		$member_field_home[$uid]['privacy'] = empty($member_field_home[$uid]['privacy']) ? array() : dunserialize($member_field_home[$uid]['privacy']);
 		$postuser['memberstatus'] = $postuser['status'];
@@ -969,6 +969,85 @@ if(getstatus($_G['forum_thread']['status'], 10)) {
 	$preview = C::t('forum_threadpreview')->fetch($_G['tid']);
 	$_G['forum_thread']['relay'] = $preview['relay'];
 }
+date_default_timezone_set('Asia/Hong_Kong');
+$current_time=time();
+//each trade lefts
+$itemLefts=array();
+foreach($tpids as $tradeId){
+    //each trade lefts
+    $itemLefts[$tradeId] = $trades[$tradeId]['amount']-$trades[$tradeId]['totalitems'];
+    $trades[$tradeId]['lefts']=$itemLefts[$tradeId];
+    //trade end date
+    $endday=$trades[$tradeId]['dateline']+$trades[$tradeId]['expiration']*86400;
+    if(date('y')===date('y',$endday)){
+        $trades[$tradeId]['end_date']=date('m-d',$endday);
+    }else{
+        $trades[$tradeId]['end_date']=date('y-m-d',$endday);
+    }
+    //trade start date
+    $startday=$trades[$tradeId]['start_date'];
+    if(date('y')===date('y',$startday)){
+        $trades[$tradeId]['start_date']=date('m-d',$startday);
+    }else{
+        $trades[$tradeId]['start_date']=date('y-m-d',$startday);
+    }
+    //时间段
+    $trade_time_slots=array();
+    $trade_time_slots = C::t('forum_trade_period')->fetch_by_pid($tradeId);
+    foreach($trade_time_slots as $keyValue=>$time_slot){
+        $starthm=explode(':',$time_slot['start_time']);
+        $endhm=explode(':',$time_slot['end_time']);
+        $trades[$tradeId]['time_slots'][$keyValue]['start']=$starthm[0].':'.$starthm[1];
+        $trades[$tradeId]['time_slots'][$keyValue]['end']=$endhm[0].':'.$endhm[1];
+
+        //instant available
+        if($startday<$current_time && $current_time<$endday){
+            $start_time=DateTime::createFromFormat('H:i:s',$time_slot['start_time']);
+            $end_time=DateTime::createFromFormat('H:i:s',$time_slot['end_time']);
+            $currentTime=DateTime::createFromFormat('H:i',date('H:i'));
+            if($currentTime<$end_time && $currentTime>$start_time){
+                $trades[$tradeId]['ava_now']=true;
+            }
+        }
+    }
+}
+
+
+/*if the trade is available now. date is already checked in the main page, for each trade page,
+* just check the time slot
+*/
+//users' latitude & longitude
+$user_loc=array();
+$user_loc=get_la_lo_byuid($_G['uid']);
+//shop's latitude & longitude
+$shop_loc=array();
+$shop_loc=get_la_lo_from_thread($_G['tid']);
+//distance string. if over 1km, show km or show m
+$dist=distance($user_loc['la'],$user_loc['lo'],$shop_loc['la'],$shop_loc['lo'],"K");
+$dist=floatval($dist);
+
+$first_post=array();
+$first_post=array_values($postarr)[0];
+$shop_address =$first_post['address'];
+$shop_map_url =$first_post['map_url'];
+$shop_tel = $first_post['tel'];
+$shop_comments=intval($_G['forum_thread']['replies']) + 1;
+$shop_need_to_know = $first_post['info'];
+
+$comments = $postlist;
+array_shift($comments);
+$commentcount=sizeof($comments);
+
+
+if($dist<1){
+    $dist=$dist*1000;
+    $thread['distance']=round($dist,0).' m';
+}else{
+    $thread['distance']=round($dist,1).' km';
+}
+
+//C::t('forum_trade_period')->fetch_timeslot_by_pid();
+
 
 if(empty($_GET['viewpid'])) {
 	$sufix = '';
@@ -1017,7 +1096,25 @@ if(empty($_GET['viewpid'])) {
 	include template('common/footer_ajax');
 }
 
+function get_la_lo_byuid($uid){
+    $user_info=C::t('#wechat#common_member_wechat')->fetch_by_uid($uid);
+    $openid=$user_info['openid'];
 
+    $user_location_info=C::t('#wechat#wechat_location')->fetch_by_code($openid);
+    $user_loc=array();
+    $user_loc['la']=$user_location_info['la'];
+    $user_loc['lo']=$user_location_info['lo'];
+    return $user_loc;
+}
+
+
+function get_la_lo_from_thread($tid){
+    $shop_loc=array();
+    $shop_loc_from_table=C::t('forum_post_location')->fetch_by_tid($tid);
+    $shop_loc['lo']=floatval($shop_loc_from_table['mapx']);
+    $shop_loc['la']=floatval($shop_loc_from_table['mapy']);
+    return $shop_loc;
+}
 
 function viewthread_updateviews($tableid) {
 	global $_G;

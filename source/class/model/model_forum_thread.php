@@ -126,7 +126,7 @@ class model_forum_thread extends discuz_model
 		$this->param['isgroup'] = $this->forum['status'] == 3 ? 1 : 0;
 
 		$this->param['publishdate'] = !$this->param['modnewthreads'] ? $this->param['publishdate'] : TIMESTAMP;
-
+        //the price inside does not mean actual price
 		$newthread = array(
 			'fid' => $this->forum['fid'],
 			'posttableid' => 0,
@@ -153,7 +153,7 @@ class model_forum_thread extends discuz_model
 
         //insert into pre_forum_thread. all new threads are inserted.
         $this->tid = C::t('forum_thread')->insert($newthread, true);
-
+        //ignored
         C::t('forum_newthread')->insert(array(
 		    'tid' => $this->tid,
 		    'fid' => $this->forum['fid'],
@@ -200,7 +200,10 @@ class model_forum_thread extends discuz_model
 		if($this->param['imgcontent']) {
 			stringtopic($this->param['message'], $this->tid, true, $this->param['imgcontentwidth']);
 		}
-
+        $this->param['address']=getgpc('shop_location');
+        $this->param['map_url']=getgpc('map_url');
+        $this->param['tel']=getgpc('telephone');
+        $this->param['info']=getgpc('info');
         $this->pid = insertpost(array(
 			'fid' => $this->forum['fid'],
 			'tid' => $this->tid,
@@ -222,7 +225,11 @@ class model_forum_thread extends discuz_model
 			'attachment' => '0',
 			'tags' => $this->param['tagstr'],
 			'replycredit' => 0,
-			'status' => $this->param['pstatus']
+			'status' => $this->param['pstatus'],
+            'address'=> $this->param['address'],
+            'map_url'=>$this->param['map_url'],
+            'info'=>$this->param['info'],
+            'tel'=>$this->param['tel']
 		));
 
 		$statarr = array(0 => 'thread', 1 => 'poll', 2 => 'trade', 3 => 'reward', 4 => 'activity', 5 => 'debate', 127 => 'thread');
@@ -230,8 +237,14 @@ class model_forum_thread extends discuz_model
 		updatestat($this->param['isgroup'] ? 'groupthread' : $statarr[$this->param['special']]);
 
 
-		if($this->param['geoloc'] && IN_MOBILE == 2) {
+		if(getgpc('map_lat')) {
 			list($mapx, $mapy, $location) = explode('|', $this->param['geoloc']);
+            //lance newly added.
+            if(empty($mapx)||empty($mapy)||empty($location)){
+                $mapx=getgpc('map_lat');
+                $mapy=getgpc('map_long');
+                $location=getgpc('shop_location');
+            }
 			if($mapx && $mapy && $location) {
 				C::t('forum_post_location')->insert(array(
 					'pid' => $this->pid,

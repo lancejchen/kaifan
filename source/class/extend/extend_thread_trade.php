@@ -82,8 +82,13 @@ class extend_thread_trade extends extend_thread_base {
 
 		($this->group['allowpostattach'] || $this->group['allowpostimage']) && ($_GET['attachnew'] || $_GET['tradeaid']) && updateattach($this->param['displayorder'] == -4 || $this->param['modnewthreads'], $this->tid, $pid, $_GET['attachnew']);
 		require_once libfile('function/trade');
-		$author = !$this->param['isanonymous'] ? $this->member['username'] : '';
-		trade_create(array(
+		$author = !$this->param['isanonymous'] ? $this->member['username'] : '';//trade create is for creating current good
+
+
+
+
+
+        trade_create(array(
 			'tid' => $this->tid,
 			'pid' => $pid,
 			'aid' => $_GET['tradeaid'],
@@ -105,7 +110,15 @@ class extend_thread_trade extends extend_thread_base {
 			'item_type' => $_GET['item_type'],
 			'item_costprice' => $_GET['item_costprice'],
 			'item_credit' => $_GET['item_credit'],
-			'item_costcredit' => $_GET['item_costcredit']
+			'item_costcredit' => $_GET['item_costcredit'],
+            'time1_start' => $_GET['time1_start'],
+            'time1_end'=> $_GET['time1_end'],
+            'time2_start'=>$_GET['time2_start'],
+            'time2_end'=>$_GET['time2_end'],
+            'time3_start'=>$_GET['time3_start'],
+            'time3_end'=>$_GET['time3_end'],
+            'start_date'=>$_GET['start_date'],
+            'diff_from_general'=> $_GET['diff_from_general']
 		));
 
 		if(!empty($_GET['tradeaid'])) {
@@ -206,7 +219,15 @@ class extend_thread_trade extends extend_thread_base {
 				'item_type' => $_GET['item_type'],
 				'item_costprice' => $_GET['item_costprice'],
 				'item_credit' => $_GET['item_credit'],
-				'item_costcredit' => $_GET['item_costcredit']
+				'item_costcredit' => $_GET['item_costcredit'],
+                'time1_start' => $_GET['time1_start'],
+                'time1_end'=> $_GET['time1_end'],
+                'time2_start'=>$_GET['time2_start'],
+                'time2_end'=>$_GET['time2_end'],
+                'time3_start'=>$_GET['time3_start'],
+                'time3_end'=>$_GET['time3_end'],
+                'start_date'=>$_GET['start_date'],
+                'diff_from_general'=> $_GET['diff_from_general']
 			));
 
 			if(!empty($_GET['tradeaid'])) {

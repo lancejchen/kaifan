@@ -75,6 +75,11 @@ function trade_create($trade) {
 	$item_type = intval($item_type);
 	$typeid = intval($typeid);
 	$item_costprice = floatval($item_costprice);
+    //lance new added
+    $start_date=$start_date?strtotime($start_date):0;
+    $diff_from_general=dhtmlspecialchars($diff_from_general);
+
+
 	if(!$item_price || $item_price <= 0) {
 		$item_price = $postage_mail = $postage_express = $postage_ems = '';
 	}
@@ -86,6 +91,22 @@ function trade_create($trade) {
 	if(!$item_price && $item_credit) {
 		$seller == '';
 	}
+
+    //lance new added Aug-28
+    for($i=1;$i<4;$i++){
+        $start = ${'time'.$i.'_start'};
+        $end = ${'time'.$i.'_end'};
+
+        if(!empty($start)){
+            C::t('forum_trade_period')->insert(array(
+                'tid' => $tid,
+                'pid' => $pid,
+                'start_time'=>dhtmlspecialchars($start),
+                'end_time'=>dhtmlspecialchars($end)
+            ));
+        }
+    }
+
 	C::t('forum_trade')->insert(array(
 		'tid' => $tid,
 		'pid' => $pid,
@@ -112,7 +133,9 @@ function trade_create($trade) {
 		'closed' => $closed,
 		'costprice'=>$item_costprice,
 		'aid'=>$aid,'credit'=>$item_credit,
-		'costcredit'=>$item_costcredit
+		'costcredit'=>$item_costcredit,
+        'start_date'=>$start_date,
+        'diff_from_general'=>$diff_from_general
 	));
 }
 

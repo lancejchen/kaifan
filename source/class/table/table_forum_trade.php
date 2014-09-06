@@ -24,6 +24,7 @@ class table_forum_trade extends discuz_table
 		$pidsql = $pid ? ' AND '.DB::field('pid', $pid) : '';
 		return DB::fetch_all("SELECT * FROM %t WHERE tid=%d $pidsql ORDER BY displayorder", array($this->_table, $tid));
 	}
+
 	public function fetch_counter_thread_goods($tid) {
 		return DB::result_first('SELECT COUNT(*) FROM %t WHERE tid=%d', array($this->_table, $tid));
 	}

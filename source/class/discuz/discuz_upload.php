@@ -57,6 +57,40 @@ Class discuz_upload{
 
 	}
 
+    function init_oss($attach, $type = 'temp', $extid = 0, $forcename = '') {
+    //change the attach-target.
+        if(!is_array($attach) || empty($attach) || !$this->is_upload_file($attach['tmp_name']) || trim($attach['name']) == '' || $attach['size'] == 0) {
+            $this->attach = array();
+            $this->errorcode = -1;
+            return false;
+        } else {
+
+            $this->type = $this->check_dir_type($type);
+            $this->extid = intval($extid);
+            $this->forcename = $forcename;
+
+            $attach['size'] = intval($attach['size']);
+            $attach['name'] =  trim($attach['name']);
+            $attach['thumb'] = '';
+            $attach['ext'] = $this->fileext($attach['name']);
+
+            $attach['name'] =  dhtmlspecialchars($attach['name'], ENT_QUOTES);
+            if(strlen($attach['name']) > 90) {
+                $attach['name'] = cutstr($attach['name'], 80, '').'.'.$attach['ext'];
+            }
+
+            $attach['isimage'] = $this->is_image_ext($attach['ext']);
+            $attach['extension'] = $this->get_target_extension($attach['ext']);
+            $attach['attachdir'] = $this->get_target_dir($this->type, $extid);
+            $attach['attachment'] = $attach['attachdir'].$this->get_target_filename($this->type, $this->extid, $this->forcename).'.'.$attach['extension'];
+            $attach['target'] = getglobal('setting/attachdir').'./'.$this->type.'/'.$attach['attachment'];
+            $attach['relative_path'] = $attach['attachment'];
+            $this->attach = & $attach;
+            $this->errorcode = 0;
+            return true;
+        }
+
+    }
     //$attach is uridata.
     function initUri($attach, $type = 'temp', $extid = 0, $forcename = '') {
         $attach1 = array();
@@ -100,15 +134,40 @@ Class discuz_upload{
             $this->errorcode = -101;
         } elseif(in_array($this->type, array('common')) && (!$this->attach['isimage'] && $this->attach['ext'] != 'ext')) {
             $this->errorcode = -102;
-        } elseif(!$this->save_to_aliOss($this->attach['attachment'],$this->attach['uridata'])) {
+        } elseif(!$this->save_to_aliOss($this->attach['attachment'],$this->attach['target'])) {
             $this->errorcode = -103;
-        }  else {
+        }else {
             $this->errorcode = 0;
             return true;
         }
 
         return false;
     }
+
+    //lance non-uri data to oss
+    function save_to_oss($ignore = 0) {
+        //change attach['target'] name.
+        if(empty($this->attach) || empty($this->attach['tmp_name']) || empty($this->attach['target'])) {
+            $this->errorcode = -101;
+        } elseif(in_array($this->type, array('group', 'album', 'category')) && !$this->attach['isimage']) {
+            $this->errorcode = -102;
+        } elseif(in_array($this->type, array('common')) && (!$this->attach['isimage'] && $this->attach['ext'] != 'ext')) {
+            $this->errorcode = -102;
+        } elseif(!$this->save_to_remote($this->attach['tmp_name'], $this->attach['target'],$this->attach['relative_path'])) {
+            $this->errorcode = -103;
+        } elseif(($this->attach['isimage'] || $this->attach['ext'] == 'swf') && (!$this->attach['imageinfo'] = $this->get_image_info($this->attach['target'], true))) {
+            $this->errorcode = -104;
+            @unlink($this->attach['target']);
+        } else {
+            $this->errorcode = 0;
+            return true;
+        }
+
+        return false;
+    }
+
+
+
 
 
 	function save($ignore = 0) {
@@ -242,6 +301,10 @@ Class discuz_upload{
 		return $res;
 	}
 
+
+
+
+
     //save to aliOss, return if success
     function save_to_aliOss($srcName,$srcContent){
         $curDir = dirname(__FILE__);
@@ -256,10 +319,60 @@ Class discuz_upload{
 
             $succeed = true;
         }
+        if($succeed)  {
             $this->errorcode = 0;
+            @unlink($srcName);
+        } else {
+            $this->errorcode = 0;
+        }
+
         return $succeed;
 
     }
+
+    //$source means img content, $target means file name in ali OSS
+    function save_to_remote($source, $local,$target) {
+
+        if(!discuz_upload::is_upload_file($source)) {
+            $this->errorcode = 0;
+            return $succeed = false;
+        }
+
+        //save to AliOss
+
+        $curDir = dirname(__FILE__);
+        require_once $curDir . "/../../aliOss/samples/ObjectSample.php";
+        //@copy($source,$source_after);
+        //config is already in object samples.
+        $uploadMsg = putResourceObject($client, $bucket, $target, fopen($source,'r'),filesize($source));
+        if($uploadMsg == "ossErr"){
+            $succeed = false;
+        }elseif($uploadMsg == "clientErr"){
+            $succeed = false;
+        }else{
+            @copy($source,$local);
+            $succeed = true;
+        }
+
+        if($succeed===false && function_exists('move_uploaded_file') && @move_uploaded_file($source, $local)) {
+            $succeed = true;
+        }elseif (@is_readable($source) && (@$fp_s = fopen($source, 'rb')) && (@$fp_t = fopen($local, 'wb'))) {
+            while (!feof($fp_s)) {
+                $s = @fread($fp_s, 1024 * 512);
+                @fwrite($fp_t, $s);
+            }
+            fclose($fp_s); fclose($fp_t);
+            $succeed = true;
+        }
+        if($succeed)  {
+            $this->errorcode = 0;
+            @unlink($source);
+        } else {
+            $this->errorcode = 0;
+        }
+        return $succeed;
+    }
+
 
 	function save_to_local($source, $target) {
 		if(!discuz_upload::is_upload_file($source)) {

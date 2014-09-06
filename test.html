@@ -1,9 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </head>
 <body>
- yes
+
+<div data-role="page" id="pageone">
+
+    <div data-role="main" class="ui-content">
+
+
+        <!--header for title, distance & reply numbers-->
+        <ul data-role="listview" data-inset="true" id="shop_info">
+            <li>
+                <h1 style="display:inline;">
+                   商店名
+
+            <span class="loc ui-icon-location ui-btn-icon-left" style="position:relative;
+            ">3m</span>
+                </h1>
+                <h2><span class="loc ui-icon-comment ui-btn-icon-left" style="position:relative;">
+
+            </span>
+                </h2>
+            </li>
+            <!--    shop location & tel-->
+            <li id="telLine">
+                <table style="width:100%;height:100%;">
+                    <tr id="address_tel">
+                        <td id="address"><a href="{$postarr[$pid]['map_url']}"></a></td>
+                        <td id="tel"><a href="tel:{$postarr[$pid]['tel']}">
+                        <span class="ui-icon-phone ui-btn-icon-left"
+                              style="position:relative;
+            ">拨打</span>
+                        </a></td>
+                    </tr>
+                </table>
+
+            </li>
+        </ul>
+
+<style>
+    .right_border{border-right:2px solid #ACACAC;}
+
+</style>
+
+        <ul data-role="listview" data-inset="true" class="items">
+            <li data-role="list-divider">shop name
+                <span class="loc ui-icon-location ui-btn-icon-left" style="position:relative; float:right;">3m</span>
+            </li>
+            <li>
+                <div>
+                    <a href="#">
+                        <img id="trade_thumb" src="static/image/common/nophotosmall.gif"  width="90" style="float:left;"height="90" alt="$trade[subject]" />
+                        <div style="display: inline-block;">
+                            <table id="price_list" >
+                                <tr>
+                                    <td>item1:10</td>
+                                    <td></td>
+                                    <td>can use</td>
+                                </tr>
+                                <tr>
+                                    <td>$: 10</td>
+                                    <td><del>$:20 hkd</del></td>
+                                    <td>only 2 lefts</td>
+                                </tr>
+                                <tr style="font-size:small;">
+                                    <td>10:00-12:00</td>
+                                    <td>14:00-16:00</td>
+                                    <td>etc</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img id="trade_thumb" src="static/image/common/nophotosmall.gif"  width="90" style="float:left;"height="90" alt="$trade[subject]" />
+                    <div style="display: inline-block;">
+                        <table id="price_list" >
+                            <tr>
+                                <td>item1:10</td>
+                                <td></td>
+                                <td>can use</td>
+                            </tr>
+                            <tr>
+                                <td>$: 10</td>
+                                <td><del>$:20 hkd</del></td>
+                                <td>only 2 lefts</td>
+                            </tr>
+                            <tr style="font-size:small;">
+                                <td>10:00-12:00</td>
+                                <td>14:00-16:00</td>
+                                <td>etc</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h2>3 lefts inside, click in</h2>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div data-role="footer">
+        <h1>Footer Text</h1>
+    </div>
+</div>
+
 </body>
 </html>

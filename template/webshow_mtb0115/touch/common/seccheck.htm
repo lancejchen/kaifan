@@ -16,11 +16,11 @@
         {lang secqaa}: 
         <span class="xg2">$secqaa</span>
 	<input name="secqaahash" type="hidden" value="$sechash" />
-        <input name="secanswer" id="secqaaverify_$sechash" type="text" class="txt" />
+        <input name="secanswer" id="secqaaverify_$sechash" type="text" class="txt"  style="width:100px!important;"/>
         </p>
 	<!--{/if}-->
 	<!--{if $seccodecheck}-->
-		<div class="sec_code vm">
+		<div class="sec_code vm" style="display: inline;">
 		<input name="seccodehash" type="hidden" value="$sechash" />
         <div style="display: inline-block;padding-right: 10px;">
 		<input type="text" class="txt px vm" style="ime-mode:disabled;width:60px;background:white;" autocomplete="off" value="" id="seccodeverify_$sechash" name="seccodeverify" placeholder="{lang seccode}" fwin="seccode">

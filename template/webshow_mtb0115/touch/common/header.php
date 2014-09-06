@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="{STATICURL}css/jquery.mobile-1.4.3.min.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="{STATICURL}css/jQueryUI/jquery-ui.min.css">
-
-
+<!--{if $_GET['mod']=='viewthread'}-->
+    <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/thread.css" type="text/css">
+<!--{/if}-->
 
     <link rel="stylesheet" href="{STATICURL}css/icon.css" type="text/css" media="all">
     <link rel="stylesheet" href="{STATICURL}image/mobile/style.css" type="text/css" media="all">
@@ -39,8 +40,10 @@
 
 <body class="bg">
 <!--{eval require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';}-->
+
 <div data-role="page">
-<div role="main" class="ui-content" style="padding:0px;">
-<div id="mwp">
-    <div id="mcontent">
-        <div class="t_blank cl"></div>
+    <div class="ui-panel-wrapper">
+        <div data-role="main" class="ui-content" style="padding:0px;">
+            <div id="mwp">
+                <div id="mcontent">
+<!--        <div class="t_blank cl"></div>-->
