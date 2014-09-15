@@ -2,602 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4e8e85-52ac-425f-948b-6751d240815b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/22/094629u0jlq0dvbzoli305.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/30/102235vk68y9dzxnyxnxtk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/103851g1i9u95bisk0s8ig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/104557lbvbhhzbdvv8hln0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/30/110115ok0klljx9hlggm0u.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/112006yluf8855kf5pfux9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/114835gaqpice5hqfhfa3f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/114854rogn0znv8g1gz0k8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/115002szv95y08pixi35v1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/07/201235lu1xz32jmeyuxtsk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/07/201245s2d02qzwufd7spff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/07/212705e4m18bmog5iox59m.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/213003wefe0vvp9vfl9di9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/213428a1ccaucaczfoaaco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/234015cp23nl1rxvz5cv2f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/234130gluinpk00l9od9s8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/234155hv5zgzsz6wvzg6nn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t5/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/create_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/create_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/create_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/create_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/flw_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/flw_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/flw_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/flw_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/hotspot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/hotspot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/hotspot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/hotspot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/map-marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/mood_input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/mood_input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/mood_input_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/mood_input_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/mood_input_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/mood_input_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t5/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/nv_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/nv_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/nv_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/nv_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t5/nv_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/pn_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/pn_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/pn_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/pn_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/pn_reply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/pn_reply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/pn_reply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/pn_reply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/pn_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/pn_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/pn_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/pn_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/polljoins.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/polljoins.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/polljoins.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/polljoins.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/preview_large.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/qmenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/titlebg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/titlebg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/titlebg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/titlebg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/titlebg_sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/titlebg_sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/titlebg_sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/titlebg_sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/vlineb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/vlineb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/vlineb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/vlineb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/log/201408_modslog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accessRight.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/activity_applist_more.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/activity_applylist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/activity_export.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_albumlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_attachlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_followpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_forumlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_imagelist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_quickreply.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_secondgroup.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/ajax_threadlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/album.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/album_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/announcement.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/attachpay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/attachpay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/attachpay_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/attachpay_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/block_forumtree.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/block_more_forum_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/block_more_group_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/block_more_portal_article.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/block_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/block_userinfo.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/blog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/blog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/blog_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/buyinvitecode.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/collection.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_add.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_all.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_commentpop.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_followers.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_invite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/collection_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_mycollection.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_recommend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_select.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/collection_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/comment_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/comment_more.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/css_diy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/css_sample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/css_space.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/darkroom.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/debate_umpire.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/discuz.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/discuz.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/discuz.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/discuz.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/discuz_style_default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/discuzcode.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/discuzcode.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/discuzcode.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/discuzcode.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/editor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/editor_image_menu.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/editor_menu.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/editor_menu_forum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/extcredits.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/extgroups.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/faq.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/follow_feed.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/follow_feed_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/follow_user_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/common/footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/footer_ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/footer_ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/forum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/forum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/search/forum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/forum_adv.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/forum_calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/forum_moderator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload_oss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/forumdisplay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/forumdisplay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/forumdisplay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_fastpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/forumdisplay_fastpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/forumdisplay_fastpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_leftside.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_passwd.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_pay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_sort.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/forumdisplay_subforum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/function/function_trades_in_thread.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/getatuser.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/member/getpasswd.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/group.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/group.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_attentiongroup.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_invite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/group_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_manage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_memberlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_my.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_recommend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/group_right.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/guide.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/guide.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/guide_list_row.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/guide_list_row.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/common/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/header_ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_common.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_diy.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_diynav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_qmenu.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/header_userstatus.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test/hello.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test/hello2.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/hiderecover.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/common/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/home/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/member/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/22/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201407/30/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/06/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/07/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/08/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/09/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/10/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/index_navbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/invite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/invite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/ipnotice.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/list_category_onerank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/list_category_tworanks.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/list_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/member/login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/member/login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/member/login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/member/login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/member/login_simple.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_call.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_detector.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_doodle.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_downdateline.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_gift.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/magic_visit.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/member.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/member_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/misc_ajax.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/misc_imgcropper.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/misc_inputpwd.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/misc_stat.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/misc_swfupload.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/modcp.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/modcp.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_announcement.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_forum.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_forumaccess.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_home.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_log.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/modcp_login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/modcp_login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_member.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/modcp_member.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/modcp_member.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_moderate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_moderate_float.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_recyclebin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_recyclebinpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_report.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/modcp_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/module.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/pay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/pay_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/picture.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/portal.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portal_attachment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portal_comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portal_diyhelp.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/diyxml/portal_index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/portal_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/diyxml/portal_topic_blue.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portal_topic_content.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/diyxml/portal_topic_green.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/diyxml/portal_topic_grey.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/diyxml/portal_topic_red.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_article.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_block.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_block_itemfields.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_block_setting.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_block_thumbsetting.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_category.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_diy.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_pageblock.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_plugin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_portalblock.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_related_article.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/portalcp_topic.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_attachlimit.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/post_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_editor_attribute.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_editor_body.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_editor_extra.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_forumselect.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_groupon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_groupon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_infloat.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/post_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/post_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_sortoption.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/post_sortoption_mobile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/post_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/postappend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/pubsearch.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/search/pubsearch.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/pubsearchform.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/ranklist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/rate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/rate_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/recommend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/member/register.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/member/register.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/member/register.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/member/register.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/relatekw.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/report.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/rss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/search_sortoption.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/seccheck.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/seccheck.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/seccheck.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/common/seccheck.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/seccheck_post.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/seditor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/sendmail.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/sendmail.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/showmessage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/common/showmessage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/common/showmessage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/common/showmessage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/side_left.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/sortoption.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_album_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_album_pic.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_album_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_blog_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_blog_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_card.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_click.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_comment_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_diy.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_doing.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_doing_form.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_doing_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_eccredit.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/space_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/space_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_feed_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_friend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_friend_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_header_personalnv.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_home.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_home_feed_app.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic_log.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic_mybox.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic_mybox_opreation.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic_shop.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_magic_shop_opreation.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_medal.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_medal_float.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_menu.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_notice.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_plugin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/space_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/space_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_pm_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/space_pm_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/space_pm_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_privacy.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_profile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/space_profile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/space_profile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/home/space_profile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_profile_body.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_prompt_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_share_form.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_share_li.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_share_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_share_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_status.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_task.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_task_detail.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_task_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_task_parter.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/space_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/space_thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_thread_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_userabout.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_videophoto.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/space_wall.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_album.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_avatar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_blog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_class.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_click.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_comment.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_common.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_credit_action.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_credit_base.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_credit_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_credit_log.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_doing.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_domain.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_ec_explain.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_ec_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_ec_rate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/spacecp_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/spacecp_favorite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_feed.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_follow.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_friend.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_header_name.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_invite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_magic.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_password.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_plugin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/home/spacecp_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/home/spacecp_pm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_poke.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_poke_type.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_privacy.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_profile.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_profile_nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_promotion.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_search.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_sendmail.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_share.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_space.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_upload.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_usergroup.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_usergroup_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/home/spacecp_videophoto.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/stat.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_main.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_memberlist.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_misc.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_misc_export.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_team.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/stat_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t1/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t2/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t3/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t4/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/style/t5/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_attachment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/class/table/table_forum_trade_period.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/tag.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/tag/tag.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/tag/tagitem.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/ranklist/thread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/search/thread_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/search/thread_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/topicadmin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/topicadmin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/topicadmin.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/topicadmin_action.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/topicadmin_action.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/topicadmin_action.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/topicadmin_getip.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/topicadmin_modlayer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/trade_displayorder.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/trade_info.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/trade_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/try.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/try2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/group/type.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/upload.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/upload.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/userabout.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/userapp/userapp_app.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/userapp/userapp_manage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/userapp/userapp_menu_list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/userapp/userapp_misc.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/usertag.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/portal/view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/wml/forum/viewthread.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread_activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_activity.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_album.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_album.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_debate.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_fastpost.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_from_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_mod.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_node_body.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_pay.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_poll.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_poll_voter.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_portal.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_preview_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_printable.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_profile_node.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_reward.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/viewthread_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/mobile/forum/viewthread_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/touch/forum/viewthread_trade.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/forum/warn_view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/widthauto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/groupon/common/wysiwyg.css" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/01_140_140.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/01_300_300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/00/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/attachment/image/000/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/1_1_common_footer.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/1_1_common_footer_ajax.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/1_1_common_header_ajax.tpl.php" afterPath="" />
@@ -635,22 +41,21 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_space.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_header_member_logging.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_header_misc_stat.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_index.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_header_userstatus.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_ipnotice.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_common_showmessage.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_forum_discuzcode.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_forum_forumdisplay_fastpost.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_forum_guide.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_forum_viewthread_activity.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_forum_viewthread_profile_node.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_home_space_list.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_home_space_menu.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_home_space_profile.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_member_login.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_member_login_simple.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_footer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_showmessage.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_discuzcode.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_guide.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_post.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_2_touch_forum_post_activity.tpl.php" afterPath="" />
@@ -661,160 +66,131 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_forum_viewthread.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_home_space_friend.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_home_space_notice.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_portal_index.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_touch_forum_discuz.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_touch_forum_forumdisplay.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_diy_touch_forum_viewthread.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_mobile_mobile.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_wechat_module.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/data/template/2_wechat_wechat_threadqr.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" afterPath="$PROJECT_DIR$/data/cache/mobile_siteqrcode.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/.gitignore" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/log/201408_cplog.php" afterPath="$PROJECT_DIR$/data/log/201408_cplog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.mdown" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.mdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Functional/Handler/FirePHPHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Functional/Handler/FirePHPHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/LICENSE" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/README.mdown" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/README.mdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uc_server/data/view/admin_cache.php" afterPath="$PROJECT_DIR$/uc_server/data/view/admin_cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uc_server/data/cache/badwords.php" afterPath="$PROJECT_DIR$/uc_server/data/cache/badwords.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/class_member_wechat.php" afterPath="$PROJECT_DIR$/source/class/class_member_wechat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/class_memberwechat.php" afterPath="$PROJECT_DIR$/source/class/class_memberwechat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/common_postimg.js" afterPath="$PROJECT_DIR$/data/cache/common_postimg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uc_server/data/config.inc.php" afterPath="$PROJECT_DIR$/uc_server/data/config.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config_global.php" afterPath="$PROJECT_DIR$/config/config_global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/mobile/discuz_plugin_mobile.xml" afterPath="$PROJECT_DIR$/source/plugin/mobile/discuz_plugin_mobile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/discuz_plugin_wechat.xml" afterPath="$PROJECT_DIR$/source/plugin/wechat/discuz_plugin_wechat.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" afterPath="$PROJECT_DIR$/source/class/discuz/discuz_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dummy.php" afterPath="$PROJECT_DIR$/dummy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/extend/extend_thread_trade.php" afterPath="$PROJECT_DIR$/source/class/extend/extend_thread_trade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/extending.md" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/extending.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/30/001810jhh2igyh6y4l52l2.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/30/001810jhh2igyh6y4l52l2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/30/002711mwd3eeqg6h8h26wc.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/30/002711mwd3eeqg6h8h26wc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/30/002813tdw7lqa5ta2wwyej.jpg" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/30/002813tdw7lqa5ta2wwyej.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/03/090656tbliy77sfx77kf1x.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/03/090656tbliy77sfx77kf1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/03/090921p8vn48tl8zi68vk5.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/03/090921p8vn48tl8zi68vk5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/10.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/02/104238ccebbgebcz3swisa.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/02/104238ccebbgebcz3swisa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/02/105318ffr2kbf2sa6nfbly.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/02/105318ffr2kbf2sa6nfbly.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/105503pv189s8l93lsextt.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/105503pv189s8l93lsextt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/105534zxiixnniziitiqin.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/105534zxiixnniziitiqin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/11.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tidpic/90x0x3/12.jpg" afterPath="$PROJECT_DIR$/data/tidpic/90x0x3/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tidpic/90x0x3/15.jpg" afterPath="$PROJECT_DIR$/data/tidpic/90x0x3/15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/26/155250atep8xxiwweg13ez.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/26/155250atep8xxiwweg13ez.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/26/155555veebhbcn5b6oicoe.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/26/155555veebhbcn5b6oicoe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tidpic/90x0x3/16.jpg" afterPath="$PROJECT_DIR$/data/tidpic/90x0x3/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/17.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/29/172835qfnbfl2ilbzulhhp.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/29/172835qfnbfl2ilbzulhhp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/29/172903gonj6f80ets0tz60.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/29/172903gonj6f80ets0tz60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/18.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/19.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/29/190048ly74cud7h7coox2p.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/29/190048ly74cud7h7coox2p.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/25/205306hzdgviggumzw2uv6.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/25/205306hzdgviggumzw2uv6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/21.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/211830oz10vyu5vttvzuur.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/211830oz10vyu5vttvzuur.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/212600ifv675uujfg226oq.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/212600ifv675uujfg226oq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/212951hgezhquo6aune76a.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/212951hgezhquo6aune76a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/214232tkbqw2jbbjvq0ni6.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/214232tkbqw2jbbjvq0ni6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/214846czag1qtt18a7d6g1.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/214846czag1qtt18a7d6g1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/215113ajgkkgb0rgv4sn4d.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/215113ajgkkgb0rgv4sn4d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/215121ysldvwhhvwvcvz3k.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/215121ysldvwhhvwvcvz3k.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/215436tevbe4bvwfyyl9gv.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/215436tevbe4bvwfyyl9gv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/215813mnqxqp4otx7nitkx.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/215813mnqxqp4otx7nitkx.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tidpic/90x0x3/22.jpg" afterPath="$PROJECT_DIR$/data/tidpic/90x0x3/22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/220423po0o80z16001rv3o.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/220423po0o80z16001rv3o.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/224425htsaazazirysly33.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/224425htsaazazirysly33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/224643aqoqkbzko2o0hgc2.png" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/224643aqoqkbzko2o0hgc2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/25.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/26.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tidpic/90x0x3/27.jpg" afterPath="$PROJECT_DIR$/data/tidpic/90x0x3/27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/7.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/8.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tiebapic/101x101x0/9.jpg" afterPath="$PROJECT_DIR$/data/tiebapic/101x101x0/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/map-marker.png" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/map-marker.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t14.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t15.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t16.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t2.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t25.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t26.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t27.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t3.jpg" afterPath="$PROJECT_DIR$/data/cache/qrcode/000/00/00/qr_t3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/log/201409_cplog.php" afterPath="$PROJECT_DIR$/data/log/201409_cplog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/log/201409_errorlog.php" afterPath="$PROJECT_DIR$/data/log/201409_errorlog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_footer.tpl.php" afterPath="$PROJECT_DIR$/data/template/2_2_touch_common_footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" afterPath="$PROJECT_DIR$/data/template/2_2_touch_common_header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/2_diy_touch_forum_forumdisplay.tpl.php" afterPath="$PROJECT_DIR$/data/template/2_diy_touch_forum_forumdisplay.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/template/2_diy_touch_forum_viewthread.tpl.php" afterPath="$PROJECT_DIR$/data/template/2_diy_touch_forum_viewthread.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/discuz/discuz_database.php" afterPath="$PROJECT_DIR$/source/class/discuz/discuz_database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum.php" afterPath="$PROJECT_DIR$/forum.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php" afterPath="$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/forum/forum_post.php" afterPath="$PROJECT_DIR$/source/module/forum/forum_post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/forum/forum_upload_oss.php" afterPath="$PROJECT_DIR$/source/class/forum/forum_upload_oss.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/forum/forum_viewthread.php" afterPath="$PROJECT_DIR$/source/module/forum/forum_viewthread.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay_fastpost.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay_fastpost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/function/function_forum.php" afterPath="$PROJECT_DIR$/source/function/function_forum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/function/function_trade.php" afterPath="$PROJECT_DIR$/source/function/function_trade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/function/function_trades_in_thread.php" afterPath="$PROJECT_DIR$/source/function/function_trades_in_thread.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/icon.css" afterPath="$PROJECT_DIR$/static/css/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/install.php" afterPath="$PROJECT_DIR$/source/plugin/wechat/install.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/invokeLogin.php" afterPath="$PROJECT_DIR$/source/plugin/wechat/invokeLogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/jqm_fixes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kaifan.iml" afterPath="$PROJECT_DIR$/.idea/kaifan.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" afterPath="$PROJECT_DIR$/source/module/misc/misc_swfupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" afterPath="$PROJECT_DIR$/source/class/model/model_forum_thread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/phpunit.xml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uc_server/data/cache/plugins.php" afterPath="$PROJECT_DIR$/uc_server/data/cache/plugins.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/default/forum/post_editor_extra.htm" afterPath="$PROJECT_DIR$/template/default/forum/post_editor_extra.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/include/post/post_newthread.php" afterPath="$PROJECT_DIR$/source/include/post/post_newthread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/default/forum/post_trade.htm" afterPath="$PROJECT_DIR$/template/default/forum/post_trade.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/member/register.htm.bak" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/member/register.htm.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/seccheck.htm" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/seccheck.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_common.css" afterPath="$PROJECT_DIR$/data/cache/style_1_common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_diy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_1_css_space.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_1_editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_forumdisplay.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_forumdisplay.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_index.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_moderator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_viewthread.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_viewthread.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_home_space.css" afterPath="$PROJECT_DIR$/data/cache/style_1_home_space.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_module.css" afterPath="$PROJECT_DIR$/data/cache/style_1_module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_1_widthauto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_1_wysiwyg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_common.css" afterPath="$PROJECT_DIR$/data/cache/style_2_common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_2_css_diy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_2_css_space.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_2_editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_guide.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_guide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_moderator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_forum_post.css" afterPath="$PROJECT_DIR$/data/cache/style_2_forum_post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_home_spacecp.css" afterPath="$PROJECT_DIR$/data/cache/style_2_home_spacecp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_misc_stat.css" afterPath="$PROJECT_DIR$/data/cache/style_2_misc_stat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_module.css" afterPath="$PROJECT_DIR$/data/cache/style_2_module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_2_widthauto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_2_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_2_wysiwyg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/table/table_common_member_wechat.php" afterPath="$PROJECT_DIR$/source/plugin/wechat/table/table_common_member_wechat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_forum_attachment.php" afterPath="$PROJECT_DIR$/source/class/table/table_forum_attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_forum_attachment_n.php" afterPath="$PROJECT_DIR$/source/class/table/table_forum_attachment_n.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_forum_post_location.php" afterPath="$PROJECT_DIR$/source/class/table/table_forum_post_location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_forum_trade.php" afterPath="$PROJECT_DIR$/source/class/table/table_forum_trade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_location.php" afterPath="$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_wechat_login_info.php" afterPath="$PROJECT_DIR$/source/class/table/table_wechat_login_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_login_info.php" afterPath="$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_login_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/25/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/26/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/28/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/29/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/29/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201408/30/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201408/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/01/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/02/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/attachment/forum/201409/03/index.html" afterPath="$PROJECT_DIR$/data/attachment/forum/201409/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/groupon/forum/post_groupon.php" afterPath="$PROJECT_DIR$/template/groupon/forum/post_groupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_groupon.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/post_groupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/sample.html" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/sample.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_forum_post.css" afterPath="$PROJECT_DIR$/data/cache/style_1_forum_post.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_1_home_spacecp.css" afterPath="$PROJECT_DIR$/data/cache/style_1_home_spacecp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_common.css" afterPath="$PROJECT_DIR$/data/cache/style_3_common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_3_css_diy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_3_css_space.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_3_editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_forum_calendar.css" afterPath="$PROJECT_DIR$/data/cache/style_3_forum_calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_3_forum_moderator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_home_spacecp.css" afterPath="$PROJECT_DIR$/data/cache/style_3_home_spacecp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_module.css" afterPath="$PROJECT_DIR$/data/cache/style_3_module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_rss.css" afterPath="$PROJECT_DIR$/data/cache/style_3_rss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_3_widthauto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_3_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_3_wysiwyg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_common.css" afterPath="$PROJECT_DIR$/data/cache/style_4_common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_4_css_diy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_4_css_space.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_4_editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_forum_calendar.css" afterPath="$PROJECT_DIR$/data/cache/style_4_forum_calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_4_forum_moderator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_module.css" afterPath="$PROJECT_DIR$/data/cache/style_4_module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_rss.css" afterPath="$PROJECT_DIR$/data/cache/style_4_rss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_4_widthauto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_4_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_4_wysiwyg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_common.css" afterPath="$PROJECT_DIR$/data/cache/style_5_common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_css_diy.css" afterPath="$PROJECT_DIR$/data/cache/style_5_css_diy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_css_space.css" afterPath="$PROJECT_DIR$/data/cache/style_5_css_space.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_editor.css" afterPath="$PROJECT_DIR$/data/cache/style_5_editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_forum_calendar.css" afterPath="$PROJECT_DIR$/data/cache/style_5_forum_calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_forum_moderator.css" afterPath="$PROJECT_DIR$/data/cache/style_5_forum_moderator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_forum_post.css" afterPath="$PROJECT_DIR$/data/cache/style_5_forum_post.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_home_spacecp.css" afterPath="$PROJECT_DIR$/data/cache/style_5_home_spacecp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_module.css" afterPath="$PROJECT_DIR$/data/cache/style_5_module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_rss.css" afterPath="$PROJECT_DIR$/data/cache/style_5_rss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_widthauto.css" afterPath="$PROJECT_DIR$/data/cache/style_5_widthauto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/style_5_wysiwyg.css" afterPath="$PROJECT_DIR$/data/cache/style_5_wysiwyg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/class/table/table_forum_trade_period.php" afterPath="$PROJECT_DIR$/source/class/table/table_forum_trade_period.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.log" afterPath="$PROJECT_DIR$/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/mobile/test.log" afterPath="$PROJECT_DIR$/api/mobile/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.log" afterPath="$PROJECT_DIR$/test2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.php" afterPath="$PROJECT_DIR$/test2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/thread.css" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/thread.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/include/thread/thread_trade.php" afterPath="$PROJECT_DIR$/source/include/thread/thread_trade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/default/forum/upload.htm" afterPath="$PROJECT_DIR$/template/default/forum/upload.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/usage.md" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/usage.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread.php" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread_trade.htm" afterPath="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread_trade.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechat.php" afterPath="$PROJECT_DIR$/wechat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test3.php" afterPath="$PROJECT_DIR$/test3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kaifan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -836,46 +212,10 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="forum.php" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="forum.php" pinned="false" current="true" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/forum.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="96" column="0" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-22.208334" vertical-offset="817" max-vertical-offset="1470">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="table_forum_trade_period.php" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_trade_period.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="26" column="79" selection-start="696" selection-end="696" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="465">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="test3.php" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/test3.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="15" column="2" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="ajaxpage.js" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="10" column="42" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1665">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/admin.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="990">
+                  <state line="81" column="54" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="1748">
                     <folding />
                   </state>
                 </provider>
@@ -884,7 +224,7 @@
             <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="44" column="34" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="825">
+                  <state line="43" column="30" selection-start="3369" selection-end="3369" vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="960">
                     <folding />
                   </state>
                 </provider>
@@ -893,17 +233,20 @@
             <file leaf-file-name="table_forum_trade.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_trade.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="25" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1575">
+                  <state line="25" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1575">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="forumdisplay.php" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="forumdisplay.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="59" column="71" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.29862174" vertical-offset="675" max-vertical-offset="2895">
+                  <state line="29" column="67" selection-start="1419" selection-end="1419" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="3120">
                     <folding>
+                      <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#tr#3;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -913,10 +256,46 @@
                 </provider>
               </entry>
             </file>
+            <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/admin.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1050">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
             <file leaf-file-name="forum_viewthread.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="985" column="5" selection-start="42196" selection-end="42368" vertical-scroll-proportion="2.5" vertical-offset="14760" max-vertical-offset="27075">
+                  <state line="1114" column="17" selection-start="46730" selection-end="46730" vertical-scroll-proportion="-1.875" vertical-offset="16590" max-vertical-offset="27900">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="table_common_member_wechat.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/plugin/wechat/table/table_common_member_wechat.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="table_wechat_location.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_location.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="function_trades_in_thread.php" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/source/function/function_trades_in_thread.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="15" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1485">
                     <folding />
                   </state>
                 </provider>
@@ -925,8 +304,10 @@
             <file leaf-file-name="forum_forumdisplay.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="970" column="0" selection-start="42507" selection-end="42507" vertical-scroll-proportion="5.2916665" vertical-offset="14602" max-vertical-offset="15255">
-                    <folding />
+                  <state line="979" column="0" selection-start="42794" selection-end="42794" vertical-scroll-proportion="-8.94" vertical-offset="14238" max-vertical-offset="15960">
+                    <folding>
+                      <element signature="e#7#199#0" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -942,37 +323,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="function_forum.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/function/function_forum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1150" column="41" selection-start="40357" selection-end="40357" vertical-scroll-proportion="11.875" vertical-offset="17460" max-vertical-offset="19185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="forumdisplay_list.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+            <state line="22" column="33" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewthread_trade.htm" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread_trade.htm">
+      <file leaf-file-name="post_newthread.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/include/post/post_newthread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="44" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.53763443" vertical-offset="0" max-vertical-offset="1635">
+            <state line="245" column="19" selection-start="9004" selection-end="9007" vertical-scroll-proportion="0.0" vertical-offset="3675" max-vertical-offset="4575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function_trades_in_thread.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/function/function_trades_in_thread.php">
+      <file leaf-file-name="thread_trade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/include/thread/thread_trade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="62" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-25.875" vertical-offset="189" max-vertical-offset="1305">
+            <state line="35" column="45" selection-start="950" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_forum_thread.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/model/model_forum_thread.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="252" column="32" selection-start="10602" selection-end="10602" vertical-scroll-proportion="0.0" vertical-offset="3780" max-vertical-offset="5625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forum_trade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/module/forum/forum_trade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="176" column="32" selection-start="6813" selection-end="6813" vertical-scroll-proportion="0.0" vertical-offset="2640" max-vertical-offset="5730">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_core.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/class_core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-4.25" vertical-offset="603" max-vertical-offset="3210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discuz_database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="341" column="33" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-45.0" vertical-offset="3960" max-vertical-offset="7215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajaxpage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="17" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table_forum_thread.php" pinned="false" current="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_thread.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="372" column="51" selection-start="14829" selection-end="14829" vertical-scroll-proportion="0.6355476" vertical-offset="5403" max-vertical-offset="22665">
               <folding />
             </state>
           </provider>
@@ -986,10 +412,15 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lanceturnbull" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dynamicThreads" />
       </map>
     </option>
   </component>
@@ -1001,22 +432,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay_fastpost.php" />
-        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/footer.php" />
-        <option value="$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php" />
-        <option value="$PROJECT_DIR$/source/class/table/table_forum_post_location.php" />
-        <option value="$PROJECT_DIR$/source/class/table/table_forum_trade.php" />
-        <option value="$PROJECT_DIR$/data/template/2_diy_touch_forum_forumdisplay.tpl.php" />
-        <option value="$PROJECT_DIR$/test2.php" />
         <option value="$PROJECT_DIR$/source/class/table/table_forum_attachment_n.php" />
         <option value="$PROJECT_DIR$/source/class/table/table_forum_attachment.php" />
         <option value="$PROJECT_DIR$/config/config_global.php" />
         <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css" />
-        <option value="$PROJECT_DIR$/source/function/function_trades_in_thread.php" />
         <option value="$PROJECT_DIR$/source/function/function_forum.php" />
+        <option value="$PROJECT_DIR$/source/class/discuz/discuz_database.php" />
+        <option value="$PROJECT_DIR$/source/function/function_trades_in_thread.php" />
+        <option value="$PROJECT_DIR$/source/module/forum/forum_viewthread.php" />
+        <option value="$PROJECT_DIR$/forum.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/jquery.cookie.js" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js" />
+        <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/test.js" />
+        <option value="$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php" />
         <option value="$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay.php" />
+        <option value="$PROJECT_DIR$/source/class/table/table_forum_thread.php" />
       </list>
     </option>
   </component>
@@ -1031,7 +462,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="aliSetting" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1345" />
-    <option name="y" value="24" />
+    <option name="y" value="41" />
     <option name="width" value="1015" />
     <option name="height" value="1896" />
   </component>
@@ -1061,7 +492,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1080,62 +510,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaifan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1202,6 +579,9 @@
           </mappings>
         </serverdata>
       </server>
+      <server id="aaf89223-0812-4f3b-a320-7ed9748359e7">
+        <serverdata />
+      </server>
       <server id="e19e4d87-7d55-4d46-b647-75f5db75eefd">
         <serverdata>
           <mappings>
@@ -1253,6 +633,8 @@
       <method />
     </configuration>
     <configuration default="false" name="localxdebug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="localxcdebug">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
     <list size="2">
@@ -1284,12 +666,18 @@
       <created>1408952426190</created>
       <updated>1408952426190</updated>
     </task>
+    <task id="LOCAL-00001" summary="now it can load new kaifan events by ajax normally. and hide load more if they are no more elements.">
+      <created>1410789287258</created>
+      <updated>1410789287258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1345" y="24" width="1015" height="1896" extended-state="6" />
-    <editor active="false" />
+    <frame x="1345" y="41" width="1015" height="1896" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1297,8 +685,8 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31606218" sideWeight="0.6732394" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32676056" sideWeight="0.49948186" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30569947" sideWeight="0.58778626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41221374" sideWeight="0.49948186" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42357725" sideWeight="0.3038168" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.50051814" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1306,7 +694,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32450703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32061067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1319,6 +707,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="now it can load new kaifan events by ajax normally. and hide load more if they are no more elements." />
+    <option name="LAST_COMMIT_MESSAGE" value="now it can load new kaifan events by ajax normally. and hide load more if they are no more elements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1345,7 +735,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/forum.php</url>
-          <line>96</line>
+          <line>95</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1495,131 +885,172 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
-          <line>656</line>
+          <line>665</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
-          <line>635</line>
+          <line>643</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
-          <line>817</line>
+          <line>826</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
-          <line>970</line>
+          <line>979</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
+          <line>639</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/table/table_forum_thread.php</url>
+          <line>673</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/table/table_forum_thread.php</url>
+          <line>701</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/class/table/table_forum_thread.php</url>
+          <line>700</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php</url>
+          <line>1025</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
+          <line>458</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
+          <line>452</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
+          <line>315</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php</url>
+          <line>636</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="104" />
+      <option name="time" value="127" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="34" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="825">
+        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/js/ajaxpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="17" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_trade.php">
+    <entry file="file://$PROJECT_DIR$/source/plugin/wechat/table/table_common_member_wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1575">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_global.php">
+    <entry file="file://$PROJECT_DIR$/source/plugin/wechat/table/table_wechat_location.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="47" selection-start="4380" selection-end="4380" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_global_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/db/db_driver_mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="3510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="985" column="5" selection-start="42196" selection-end="42368" vertical-scroll-proportion="2.5" vertical-offset="14760" max-vertical-offset="27075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-22.208334" vertical-offset="817" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_forum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1150" column="41" selection-start="40357" selection-end="40357" vertical-scroll-proportion="11.875" vertical-offset="17460" max-vertical-offset="19185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_trade_period.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="79" selection-start="696" selection-end="696" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="465">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/function/function_trades_in_thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="62" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-25.875" vertical-offset="189" max-vertical-offset="1305">
+        <state line="15" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="341" column="33" selection-start="8491" selection-end="8491" vertical-scroll-proportion="-45.0" vertical-offset="3960" max-vertical-offset="7215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/img/css/forumdisplay_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="33" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_trade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="30" selection-start="3369" selection-end="3369" vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/module/forum/forum_viewthread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1114" column="17" selection-start="46730" selection-end="46730" vertical-scroll-proportion="-1.875" vertical-offset="16590" max-vertical-offset="27900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/class_core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-4.25" vertical-offset="603" max-vertical-offset="3210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/module/forum/forum_forumdisplay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="970" column="0" selection-start="42507" selection-end="42507" vertical-scroll-proportion="5.2916665" vertical-offset="14602" max-vertical-offset="15255">
+        <state line="979" column="0" selection-start="42794" selection-end="42794" vertical-scroll-proportion="-8.94" vertical-offset="14238" max-vertical-offset="15960">
+          <folding>
+            <element signature="e#7#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/forumdisplay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="71" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.29862174" vertical-offset="675" max-vertical-offset="2895">
+        <state line="29" column="67" selection-start="1419" selection-end="1419" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="3120">
           <folding>
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#3;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1628,9 +1059,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/webshow_mtb0115/touch/forum/viewthread_trade.htm">
+    <entry file="file://$PROJECT_DIR$/source/class/table/table_forum_thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.53763443" vertical-offset="0" max-vertical-offset="1635">
+        <state line="372" column="51" selection-start="14829" selection-end="14829" vertical-scroll-proportion="0.6355476" vertical-offset="5403" max-vertical-offset="22665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="54" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="1748">
           <folding />
         </state>
       </provider>

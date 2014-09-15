@@ -444,12 +444,17 @@ class discuz_database_safecheck {
 			}
 		}
 
-		if (is_array(self::$config['daction'])) {
-			foreach (self::$config['daction'] as $action) {
-				if (strpos($clean, $action) !== false)
-					return '-3';
-			}
-		}
+        /*lance: originally cannot do '(select',
+        *after add constant variable to dynamic,if constant variable is dynamic         *then skip
+         */
+        if(DYNAMIC!=='dynamic'){
+            if (is_array(self::$config['daction'])) {
+                foreach (self::$config['daction'] as $action) {
+                        if (strpos($clean, $action) !== false)
+                            return '-3';
+                }
+            }
+        }
 
 		if (self::$config['dlikehex'] && strpos($clean, 'like0x')) {
 			return '-2';

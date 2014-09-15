@@ -18,7 +18,8 @@
 
         <ul data-role="listview" data-inset="true" class="items">
             <li data-role="list-divider">{$thread['subject']}
-                <span class="loc ui-icon-location ui-btn-icon-left" style="position:relative; float:right;">距离</span>
+                <span class="loc ui-icon-location ui-btn-icon-left" style="position:relative; float:right;
+                ">{$thread['distance']}</span>
             </li>
             <!--{eval $trades_count=0;}-->
             <!--{if $thread['trades']}-->
@@ -26,7 +27,7 @@
                 <!--{if $trades_count<2}-->
                     <li>
                         <div>
-                            <a href="{$link}">
+                            <a href="{$link}" data-transition="flip">
                                 <!--{if $trade['thumb']}-->
                                     <!--{eval $imgSrc=$aliOss.$trade['thumb']}-->
                                 <!--{else}-->
@@ -105,15 +106,21 @@
         <!--{/loop}-->
 
         <!--{if $_G['forum_threadcount'] > $_G['tpp']}-->
+        <!--add a count function, if display is less than 10, then no refresh -->
+        <!--{eval $threadCount=sizeof($_G['forum_threadcount'])}-->
+        <!--{if $threadCount>=10}-->
         <div id="ajaxshow"></div>
         <div id="a_pg">
             <div id="ajaxld"></div>
             <div id="ajnt"><a href="forum.php?mod=forumdisplay&fid={$_G[fid]}&filter={$filter}&orderby={$_GET[orderby]}{$forumdisplayadd[page]}&{$multipage_archive}" onclick="return ajaxpage(this.href);">点击加载下一页</a></div>
         </div>
+
+
 		<script src="template/webshow_mtb0115/touch/img/js/ajaxpage.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		var pages=$_G['page'];
 		var allpage={echo $thispage = ceil($_G['forum_threadcount'] / $_G['tpp']);};
+
 		function ajaxpage(url){
 						jq("ajaxld").style.display='block';
 						jq("ajnt").style.display='none';
@@ -125,16 +132,21 @@
 							s = s.substring(s.indexOf("<div id=\"alist\""), s.indexOf("<div id=\"ajaxshow\"></div>"));//alert(s);
 							jq('ajaxshow').innerHTML+=s;
 							jq("ajaxld").style.display='none';
+//                                $("#real").page();
+                            $('#ajaxshow ul').listview().listview('refresh');
 						if(pages==allpage){
 							jq("a_pg").style.display='none';
 						}else{
 							jq("ajnt").style.display='block';
 						}
 						});
+
 						return false;
 		}
 		</script>
+        <script src="template/webshow_mtb0115/touch/img/js/test.js" type="text/javascript"></script>
 		<!--{/if}-->
+        <!--{/if}-->
     <!--{else}-->
 		<li class="mforum_no">{lang forum_nothreads}</li>
 	</div>

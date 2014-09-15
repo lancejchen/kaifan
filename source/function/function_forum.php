@@ -1125,6 +1125,16 @@ function getreplybg($replybg = '') {
 }
 
 
+function get_wechat_user_loc($uid){
+    //get openid by uid pre_common_member_wechat
+    $openid=C::t('#wechat#common_member_wechat')->fetch_by_uid($uid);
+    //get user_location
+    if(!empty($openid)){
+        $location=C::t('#wechat#wechat_location')->fetch_by_code($openid['openid']);
+    }
+    return $location;
+}
+
 /*
  * input date range, and
  */

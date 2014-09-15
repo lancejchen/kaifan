@@ -15,6 +15,18 @@ if(!empty($threadids)){
         //get its location
         $thread_location[$t_id]=C::t('forum_post_location')->fetch_by_tid($t_id);
 
+        //beauty distance, if over 1km, then display km or display m
+        $distance = intval($_G['forum_threadlist'][$num]['distance']);
+        if($distance<1){
+            $distance= round($distance*1000).'米';
+        }elseif($distance<10){
+            $distance= round($distance,1).'公里';
+        }else{
+            $distance=round($distance).'公里';
+        }
+
+        $_G['forum_threadlist'][$num]['distance'] = $distance;
+
 
         $_G['forum_threadlist'][$num]['location']=C::t('forum_post_location')->fetch_by_tid($t_id);
 

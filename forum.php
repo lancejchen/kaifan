@@ -11,27 +11,26 @@ define('APPTYPEID', 2);
 define('CURSCRIPT', 'forum');
 
 
-require_once dir(__FILE__).'vendor/autoload.php';
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-
-global $log;
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler('test2.log',Logger::WARNING));
-
-//$log->addWarning('location');
-//$log->addError('bar');
-//$postdata = file_get_contents("php://input");
-//$log->addError('from forum.php '. $postdata);
-$cookieLog = '';
-foreach ($_COOKIE as $key=>$val)
-{
-    $cookieLog.= $key.' is '.$val."<br>\n";
-}
-$log->addError('from forum the cookies are\n'.$cookieLog);
+//require_once dir(__FILE__).'vendor/autoload.php';
+//use Monolog\Logger;
+//use Monolog\Handler\StreamHandler;
+//
+//global $log;
+//$log = new Logger('name');
+//$log->pushHandler(new StreamHandler('test2.log',Logger::WARNING));
+//
+////$log->addWarning('location');
+////$log->addError('bar');
+////$postdata = file_get_contents("php://input");
+////$log->addError('from forum.php '. $postdata);
+//$cookieLog = '';
+//foreach ($_COOKIE as $key=>$val)
+//{
+//    $cookieLog.= $key.' is '.$val."<br>\n";
+//}
+//$log->addError('from forum the cookies are\n'.$cookieLog);
 
 require './source/class/class_core.php';
-
 
 require './source/function/function_forum.php';
 

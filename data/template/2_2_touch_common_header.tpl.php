@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="<?php echo STATICURL;?>css/jquery.mobile-1.4.3.min.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="<?php echo STATICURL;?>css/jQueryUI/jquery-ui.min.css">
-
-
+<?php if($_GET['mod']=='viewthread') { ?>
+    <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/thread.css" type="text/css">
+<?php } ?>
 
     <link rel="stylesheet" href="<?php echo STATICURL;?>css/icon.css" type="text/css" media="all">
     <link rel="stylesheet" href="<?php echo STATICURL;?>image/mobile/style.css" type="text/css" media="all">
@@ -37,8 +38,9 @@
     <link rel="stylesheet" href="template/webshow_mtb0115/touch/img/css/jqm_fixes.css?<?php echo VERHASH;?>">
 </head>
 
-<body class="bg"><?php require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';?><div data-role="page">
-<div role="main" class="ui-content" style="padding:0px;">
-<div id="mwp">
-    <div id="mcontent">
-        <div class="t_blank cl"></div>
+<body class="bg"><?php require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';?><div data-role="page" id="real">
+    <div class="ui-panel-wrapper">
+        <div data-role="main" class="ui-content" style="padding:0px;">
+            <div id="mwp">
+                <div id="mcontent">
+<!--        <div class="t_blank cl"></div>-->

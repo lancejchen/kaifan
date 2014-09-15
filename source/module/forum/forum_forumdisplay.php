@@ -633,8 +633,17 @@ if($filter !== 'hot') {
 		$threadlist = C::t('forum_thread')->fetch_all_search($filterarr1, $tableid, $start_limit, $_G['tpp'], $_order, '');
 		unset($filterarr1);
 	}
-	$threadlist = array_merge($threadlist, C::t('forum_thread')->fetch_all_search($filterarr, $tableid, $start_limit, $_G['tpp'], $_order, '', $indexadd));
-	unset($_order);
+    if(!empty($_G['uid'])){
+        $user_loc=get_wechat_user_loc($_G['uid']);
+    }
+    if(IN_MOBILE && !empty($user_loc)){
+        $threadlist=array_merge($threadlist, C::t('forum_thread')->dynamic_fetch($_G['page'],$user_loc['la'],
+        $user_loc['lo']));
+
+    }else{
+	    $threadlist = array_merge($threadlist, C::t('forum_thread')->fetch_all_search($filterarr, $tableid, $start_limit, $_G['tpp'], $_order, '', $indexadd));
+    }
+    unset($_order);
 
 	if(empty($threadlist) && $page <= ceil($_G['forum_threadcount'] / $_G['tpp'])) {
 		require_once libfile('function/post');

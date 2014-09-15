@@ -41,7 +41,7 @@
 <body class="bg">
 <!--{eval require DISCUZ_ROOT.'template/webshow_mtb0115/touch/img/plus/wap_config.php';}-->
 
-<div data-role="page">
+<div data-role="page" id="real">
     <div class="ui-panel-wrapper">
         <div data-role="main" class="ui-content" style="padding:0px;">
             <div id="mwp">

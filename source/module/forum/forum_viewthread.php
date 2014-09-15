@@ -1111,8 +1111,8 @@ function get_la_lo_byuid($uid){
 function get_la_lo_from_thread($tid){
     $shop_loc=array();
     $shop_loc_from_table=C::t('forum_post_location')->fetch_by_tid($tid);
-    $shop_loc['lo']=floatval($shop_loc_from_table['mapx']);
-    $shop_loc['la']=floatval($shop_loc_from_table['mapy']);
+    $shop_loc['la']=floatval($shop_loc_from_table['mapx']);
+    $shop_loc['lo']=floatval($shop_loc_from_table['mapy']);
     return $shop_loc;
 }
 
