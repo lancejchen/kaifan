@@ -479,7 +479,36 @@ class table_forum_thread extends discuz_table
 		return DB::fetch_all('SELECT * FROM %t WHERE posttableid=%d AND displayorder>=%d ORDER BY lastpost'.DB::limit(1000), array($this->get_table_name($tableid), $posttableid, $displayorder), $this->_pk);
 	}
 
-	public function fetch_all_search($conditions, $tableid = 0, $start = 0, $limit = 0, $order = '', $sort = 'DESC', $forceindex='') {
+
+
+    public function dynamic_fetch_bak($user_lat, $user_lng) {
+        define('DYNAMIC','dynamic');
+        $sql="select t1.*, (1.609344*t2.distance) as distance from pre_forum_thread as t1,
+(SELECT tid, ( 3959 * acos( cos( radians(". $user_lat .") ) * cos( radians( mapx ) ) * cos( radians( mapy ) - radians(".$user_lng.") )+ sin( radians(".$user_lat.") ) * sin( radians( mapx ) ) ) ) AS distance
+FROM pre_forum_post_location ORDER BY distance LIMIT 0 , 10
+) as t2
+ where t1.tid = t2.tid";
+        $data = DB::fetch_all($sql);
+        return $data;
+    }
+
+
+
+    public function dynamic_fetch($page, $user_lat, $user_lng) {
+        define('DYNAMIC','dynamic');
+        $offset = ($page-1)*10;
+        $endPoint = $offset+10;
+        $sql="select t1.*, (1.609344*t2.distance) as distance from pre_forum_thread as t1,
+(SELECT tid, ( 3959 * acos( cos( radians(". $user_lat .") ) * cos( radians( mapx ) ) * cos( radians( mapy ) - radians(".$user_lng.") )+ sin( radians(".$user_lat.") ) * sin( radians( mapx ) ) ) ) AS distance
+FROM pre_forum_post_location ORDER BY distance LIMIT ".$offset." , ". $endPoint ."
+) as t2
+ where t1.tid = t2.tid";
+        $data = DB::fetch_all($sql);
+        return $data;
+    }
+
+
+    public function fetch_all_search($conditions, $tableid = 0, $start = 0, $limit = 0, $order = '', $sort = 'DESC', $forceindex='') {
 		$ordersql = '';
 		if(!empty($order)) {
 			$ordersql =  " ORDER BY $order $sort ";
